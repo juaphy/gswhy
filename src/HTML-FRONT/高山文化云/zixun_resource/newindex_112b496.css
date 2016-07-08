@@ -1,24 +1,2117 @@
 /*!/pagelet/channels/channels.less*/
-#pagelet-channels,.fixed-channels{position:relative}#pagelet-channels.sticky,.fixed-channels.sticky{position:fixed;top:78px;-webkit-transform:translate3d(0px,0,0);transform:translate3d(0px,0,0);z-index:10}#pagelet-channels .channel-box,.fixed-channels .channel-box{width:90px}#pagelet-channels .channel-item,.fixed-channels .channel-item{position:relative;width:100%;height:36px;line-height:36px;text-align:center;font-size:16px;margin-bottom:10px}#pagelet-channels .channel-item .item,.fixed-channels .channel-item .item{display:block;color:#444;border-radius:18px}#pagelet-channels .channel-item .item:hover,.fixed-channels .channel-item .item:hover,#pagelet-channels .channel-item .selected,.fixed-channels .channel-item .selected{background:#f1f2f3 url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/channel_bg_selected_a70aa18.png?__sprite) center no-repeat;color:#000}#pagelet-channels .channel-tag,.fixed-channels .channel-tag{display:inline-block;line-height:26px;vertical-align:middle;padding-left:34px;background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/recommand_channel_791858a.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/recommand_channel_cb0189a.svg),none;background-position:left center;background-repeat:no-repeat}#pagelet-channels .news_hot,.fixed-channels .news_hot{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/hot_channel_f6f2f4d.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/hot_channel_47bfa83.svg),none}#pagelet-channels .news_society,.fixed-channels .news_society{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/social_channel_e80bfc4.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/social_channel_1a2697a.svg),none}#pagelet-channels .news_entertainment,.fixed-channels .news_entertainment{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/entertainment_channel_b299340.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/entertainment_channel_1c98fe6.svg),none}#pagelet-channels .news_tech,.fixed-channels .news_tech{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/technology_channel_5052cb0.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/technology_channel_c97aa7b.svg),none}#pagelet-channels .news_car,.fixed-channels .news_car{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/car_channel_e744368.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/car_channel_b05f164.svg),none}#pagelet-channels .news_sports,.fixed-channels .news_sports{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/sports_channel_37971c3.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/sports_channel_ab5b212.svg),none}#pagelet-channels .news_funny,.fixed-channels .news_funny{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/funny_channel_9159d5b.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/funny_channel_ca5636a.svg),none}#pagelet-channels .news_finance,.fixed-channels .news_finance{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/finance_channel_e9f048f.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/finance_channel_d05b4fe.svg),none}#pagelet-channels .news_video,.fixed-channels .news_video{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/video_channel_8535c68.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/video_channel_5444f9f.svg),none}#pagelet-channels .news_video:after,.fixed-channels .news_video:after{content:"";display:inline-block;width:25px;height:11px;background-repeat:no-repeat;background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/hotpng_8c7d195.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/hot_f94cedc.svg),none;position:absolute;top:10px;left:83px}#pagelet-channels .news_image,.fixed-channels .news_image{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/image_channel_d0f52bc.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/image_channel_30da635.svg),none}#pagelet-channels .news_image:after,.fixed-channels .news_image:after{content:"";display:inline-block;width:25px;height:11px;background-repeat:no-repeat;background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/newpng_7ed93af.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/newlabel_4d2e134.svg),none;position:absolute;top:10px;left:83px}#pagelet-channels .news_military,.fixed-channels .news_military{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/military_channel_62ad031.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/military_channel_3e3f9ce.svg),none}#pagelet-channels .news_world,.fixed-channels .news_world{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/international_channel_3728b7a.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/international_channel_bfae134.svg),none}#pagelet-channels .more,.fixed-channels .more{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/more_channel_7cae78b.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/more_channel_991fae7.svg),none}#pagelet-channels .fold,.fixed-channels .fold{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/up_more_8e3e0de.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/up_more_36da0e4.svg),none}#pagelet-channels .news_fashion,.fixed-channels .news_fashion{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/fashion_channel_20f0a4d.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/fashion_channel_05cc64a.svg),none}#pagelet-channels .news_travel,.fixed-channels .news_travel{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/travel_channel_fdce4de.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/travel_channel_6cd4f02.svg),none}#pagelet-channels .news_discovery,.fixed-channels .news_discovery{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/explore_channel_184058a.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/explore_channel_3bcd109.svg),none}#pagelet-channels .news_baby,.fixed-channels .news_baby{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/childcare_channel_33acdbb.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/childcare_channel_f5cce6b.svg),none}#pagelet-channels .news_regimen,.fixed-channels .news_regimen{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/health_channel_82f1791.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/health_channel_0f0020d.svg),none}#pagelet-channels .news_story,.fixed-channels .news_story{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/story_channel_a8715f0.png);background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/story_channel_9e58ce3.svg),none}#pagelet-channels .news_essay,.fixed-channels .news_essay{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/article_channel_309c31a.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/article_channel_3e2c8f3.svg),none}#pagelet-channels .news_game,.fixed-channels .news_game{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/game_channel_eecbe14.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/game_channel_2355207.svg),none}#pagelet-channels .news_history,.fixed-channels .news_history{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/history_channel_6d53556.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/history_channel_918fdd6.svg),none}#pagelet-channels .news_food,.fixed-channels .news_food{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/food_channel_3712e57.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/food_channel_56d2cdd.svg),none}#pagelet-channels .news_medicine,.fixed-channels .news_medicine{background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/medicine_channel_ad79934.png);background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/medicine_channel_3fbecaf.svg),none}#pagelet-channels .show-channel,.fixed-channels .show-channel{display:block}#pagelet-channels.channel-effect-1,.fixed-channels.channel-effect-1{position:fixed;bottom:-200px;width:1000px;left:50%;margin-left:-500px;padding-bottom:5px;background:rgba(0,0,0,.5);z-index:12;-webkit-transition:bottom .3s ease-in-out;transition:bottom .3s ease-in-out}#pagelet-channels.channel-effect-1 .channel-box,.fixed-channels.channel-effect-1 .channel-box{width:auto}#pagelet-channels.channel-effect-1 .channel-item,.fixed-channels.channel-effect-1 .channel-item{float:left;display:block!important;width:90px;margin:5px 5px 0}#pagelet-channels.channel-effect-1 .channel-item.magic-btn,.fixed-channels.channel-effect-1 .channel-item.magic-btn{display:none!important}#pagelet-channels.channel-effect-1 .channel-item .item,.fixed-channels.channel-effect-1 .channel-item .item{color:#fff}#pagelet-channels.channel-effect-1 .channel-item .item.selected,.fixed-channels.channel-effect-1 .channel-item .item.selected,#pagelet-channels.channel-effect-1 .channel-item .item:hover,.fixed-channels.channel-effect-1 .channel-item .item:hover{color:#000}#pagelet-channels.channel-effect-1.show,.fixed-channels.channel-effect-1.show{bottom:3px}#pagelet-channels .moreBox,.fixed-channels .moreBox{position:relative;width:90px;height:36px;line-height:36px;text-align:center;font-size:16px}#pagelet-channels .moreBox .moreBtn,.fixed-channels .moreBox .moreBtn{display:block;color:#444}#pagelet-channels .moreBox .moreBtn:hover,.fixed-channels .moreBox .moreBtn:hover{color:#000}#pagelet-channels .moreBox.show-layer>.more-channels,.fixed-channels .moreBox.show-layer>.more-channels{display:block}#pagelet-channels .moreBox .more-channels,.fixed-channels .moreBox .more-channels{display:none;position:absolute;bottom:0;left:90px;width:200px;background:#fff;z-index:10;border:1px solid #f5f6f7;box-shadow:0 1px 4px 0 rgba(0,0,0,.12);padding:5px}#pagelet-channels .moreBox .more-channels .channel-item,.fixed-channels .moreBox .more-channels .channel-item{float:left;width:90px;margin:5px}
+#pagelet-channels, .fixed-channels {
+    position: relative
+}
+
+#pagelet-channels.sticky, .fixed-channels.sticky {
+    position: fixed;
+    top: 78px;
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    z-index: 10
+}
+
+#pagelet-channels .channel-box, .fixed-channels .channel-box {
+    width: 100px
+}
+
+#pagelet-channels .channel-item, .fixed-channels .channel-item {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px
+}
+
+#pagelet-channels .channel-item .item, .fixed-channels .channel-item .item
+    {
+    display: block;
+    color: #444;
+    border-radius: 18px
+}
+
+#pagelet-channels .channel-item .item:hover, .fixed-channels .channel-item .item:hover,
+    #pagelet-channels .channel-item .selected, .fixed-channels .channel-item .selected
+    {
+    background: #f1f2f3
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/channel_bg_selected_a70aa18.png?__sprite)
+        center no-repeat;
+    color: #000
+}
+
+#pagelet-channels .channel-tag, .fixed-channels .channel-tag {
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: middle;
+    padding-left: 34px;
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/recommand_channel_791858a.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/recommand_channel_cb0189a.svg),
+        none;
+    background-position: left center;
+    background-repeat: no-repeat
+}
+
+#pagelet-channels .news_hot, .fixed-channels .news_hot {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/hot_channel_f6f2f4d.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/hot_channel_47bfa83.svg),
+        none
+}
+
+#pagelet-channels .news_society, .fixed-channels .news_society {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/social_channel_e80bfc4.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/social_channel_1a2697a.svg),
+        none
+}
+
+#pagelet-channels .news_entertainment, .fixed-channels .news_entertainment
+    {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/entertainment_channel_b299340.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/entertainment_channel_1c98fe6.svg),
+        none
+}
+
+#pagelet-channels .news_tech, .fixed-channels .news_tech {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/technology_channel_5052cb0.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/technology_channel_c97aa7b.svg),
+        none
+}
+
+#pagelet-channels .news_car, .fixed-channels .news_car {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/car_channel_e744368.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/car_channel_b05f164.svg),
+        none
+}
+
+#pagelet-channels .news_sports, .fixed-channels .news_sports {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/sports_channel_37971c3.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/sports_channel_ab5b212.svg),
+        none
+}
+
+#pagelet-channels .news_funny, .fixed-channels .news_funny {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/funny_channel_9159d5b.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/funny_channel_ca5636a.svg),
+        none
+}
+
+#pagelet-channels .news_finance, .fixed-channels .news_finance {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/finance_channel_e9f048f.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/finance_channel_d05b4fe.svg),
+        none
+}
+
+#pagelet-channels .news_video, .fixed-channels .news_video {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/video_channel_8535c68.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/video_channel_5444f9f.svg),
+        none
+}
+
+#pagelet-channels .news_video:after, .fixed-channels .news_video:after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/hotpng_8c7d195.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/hot_f94cedc.svg),
+        none;
+    position: absolute;
+    top: 10px;
+    left: 83px
+}
+
+#pagelet-channels .news_image, .fixed-channels .news_image {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/image_channel_d0f52bc.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/image_channel_30da635.svg),
+        none
+}
+
+#pagelet-channels .news_image:after, .fixed-channels .news_image:after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/newpng_7ed93af.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/newlabel_4d2e134.svg),
+        none;
+    position: absolute;
+    top: 10px;
+    left: 83px
+}
+
+#pagelet-channels .news_military, .fixed-channels .news_military {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/military_channel_62ad031.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/military_channel_3e3f9ce.svg),
+        none
+}
+
+#pagelet-channels .news_world, .fixed-channels .news_world {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/international_channel_3728b7a.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/international_channel_bfae134.svg),
+        none
+}
+
+#pagelet-channels .more, .fixed-channels .more {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/more_channel_7cae78b.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/more_channel_991fae7.svg),
+        none
+}
+
+#pagelet-channels .fold, .fixed-channels .fold {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/up_more_8e3e0de.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/up_more_36da0e4.svg),
+        none
+}
+
+#pagelet-channels .news_fashion, .fixed-channels .news_fashion {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/fashion_channel_20f0a4d.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/fashion_channel_05cc64a.svg),
+        none
+}
+
+#pagelet-channels .news_travel, .fixed-channels .news_travel {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/travel_channel_fdce4de.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/travel_channel_6cd4f02.svg),
+        none
+}
+
+#pagelet-channels .news_discovery, .fixed-channels .news_discovery {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/explore_channel_184058a.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/explore_channel_3bcd109.svg),
+        none
+}
+
+#pagelet-channels .news_baby, .fixed-channels .news_baby {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/childcare_channel_33acdbb.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/childcare_channel_f5cce6b.svg),
+        none
+}
+
+#pagelet-channels .news_regimen, .fixed-channels .news_regimen {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/health_channel_82f1791.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/health_channel_0f0020d.svg),
+        none
+}
+
+#pagelet-channels .news_story, .fixed-channels .news_story {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/story_channel_a8715f0.png);
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/story_channel_9e58ce3.svg),
+        none
+}
+
+#pagelet-channels .news_essay, .fixed-channels .news_essay {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/article_channel_309c31a.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/article_channel_3e2c8f3.svg),
+        none
+}
+
+#pagelet-channels .news_game, .fixed-channels .news_game {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/game_channel_eecbe14.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/game_channel_2355207.svg),
+        none
+}
+
+#pagelet-channels .news_history, .fixed-channels .news_history {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/history_channel_6d53556.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/history_channel_918fdd6.svg),
+        none
+}
+
+#pagelet-channels .news_food, .fixed-channels .news_food {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/food_channel_3712e57.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/food_channel_56d2cdd.svg),
+        none
+}
+
+#pagelet-channels .news_medicine, .fixed-channels .news_medicine {
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/medicine_channel_ad79934.png);
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/medicine_channel_3fbecaf.svg),
+        none
+}
+
+#pagelet-channels .show-channel, .fixed-channels .show-channel {
+    display: block
+}
+
+#pagelet-channels.channel-effect-1, .fixed-channels.channel-effect-1 {
+    position: fixed;
+    bottom: -200px;
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    padding-bottom: 5px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 12;
+    -webkit-transition: bottom .3s ease-in-out;
+    transition: bottom .3s ease-in-out
+}
+
+#pagelet-channels.channel-effect-1 .channel-box, .fixed-channels.channel-effect-1 .channel-box
+    {
+    width: auto
+}
+
+#pagelet-channels.channel-effect-1 .channel-item, .fixed-channels.channel-effect-1 .channel-item
+    {
+    float: left;
+    display: block !important;
+    width: 90px;
+    margin: 5px 5px 0
+}
+
+#pagelet-channels.channel-effect-1 .channel-item.magic-btn,
+    .fixed-channels.channel-effect-1 .channel-item.magic-btn {
+    display: none !important
+}
+
+#pagelet-channels.channel-effect-1 .channel-item .item, .fixed-channels.channel-effect-1 .channel-item .item
+    {
+    color: #fff
+}
+
+#pagelet-channels.channel-effect-1 .channel-item .item.selected,
+    .fixed-channels.channel-effect-1 .channel-item .item.selected,
+    #pagelet-channels.channel-effect-1 .channel-item .item:hover,
+    .fixed-channels.channel-effect-1 .channel-item .item:hover {
+    color: #000
+}
+
+#pagelet-channels.channel-effect-1.show, .fixed-channels.channel-effect-1.show
+    {
+    bottom: 3px
+}
+
+#pagelet-channels .moreBox, .fixed-channels .moreBox {
+    position: relative;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px
+}
+
+#pagelet-channels .moreBox .moreBtn, .fixed-channels .moreBox .moreBtn {
+    display: block;
+    color: #444
+}
+
+#pagelet-channels .moreBox .moreBtn:hover, .fixed-channels .moreBox .moreBtn:hover
+    {
+    color: #000
+}
+
+#pagelet-channels .moreBox.show-layer>.more-channels, .fixed-channels .moreBox.show-layer>.more-channels
+    {
+    display: block
+}
+
+#pagelet-channels .moreBox .more-channels, .fixed-channels .moreBox .more-channels
+    {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    width: 200px;
+    background: #fff;
+    z-index: 10;
+    border: 1px solid #f5f6f7;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .12);
+    padding: 5px
+}
+
+#pagelet-channels .moreBox .more-channels .channel-item, .fixed-channels .moreBox .more-channels .channel-item
+    {
+    float: left;
+    width: 90px;
+    margin: 5px
+}
 /*!/pagelet/nfeedlistx/nfeedlistx.less*/
-#pagelet-nfeedlistx{}#pagelet-nfeedlistx .feedcomm{display:none;position:relative;height:74px;border:1px solid #e8e8e8;background:#e8e8e8;margin-top:16px}#pagelet-nfeedlistx .feedcomm .comm-close{position:absolute;width:16px;height:16px;right:0;top:0;z-index:10;cursor:pointer;background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/close16x16_4ad61a3.png);background-color:#000;background-color:rgba(0,0,0,.3)}#pagelet-nfeedlistx .feedcomm .comm-close:hover{background-color:rgba(0,0,0,.5)}#pagelet-nfeedlistx .feedcomm img{width:100%;height:100%;opacity:0;-webkit-transition-duration:.4s;transition-duration:.4s;-webkit-transition-property:opacity;transition-property:opacity}#pagelet-nfeedlistx .alert-msg{width:100%;text-align:center;font-size:14px;height:32px;line-height:32px;color:#899ec5;margin-top:16px}#pagelet-nfeedlistx .alert-msg img{height:14px;vertical-align:-3px}#pagelet-nfeedlistx .unread{display:none;width:250px;height:32px;line-height:32px;margin:0 auto;text-align:center;color:#fff;font-size:14px;border-radius:16px;cursor:pointer;margin-top:16px;background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_tag_bg_5f6b3b7.png?__sprite) #f66 no-repeat center}#pagelet-nfeedlistx .loadmore{display:none;height:30px;line-height:30px;font-size:12px;color:#999;text-align:center;background:#f1f2f3;margin:16px 0;cursor:pointer}#pagelet-nfeedlistx .loadmore.noloadmore{cursor:default}#pagelet-nfeedlistx .loadmore:hover{background:#f5f6f7}#pagelet-nfeedlistx .item{position:relative}#pagelet-nfeedlistx .item-inner{position:relative;padding:16px 0;border-bottom:1px solid #f5f6f7}#pagelet-nfeedlistx .link{color:#4f5157}#pagelet-nfeedlistx .link:visited{color:#999}#pagelet-nfeedlistx .link:visited:hover{color:#999!important}#pagelet-nfeedlistx .link.visited{color:#999!important}#pagelet-nfeedlistx .link.title:hover{color:#406599}#pagelet-nfeedlistx .title-box{display:block;font-size:18px;color:#000042;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1.15;margin-bottom:4px;font-weight:700}#pagelet-nfeedlistx .title-box a{color:#222}#pagelet-nfeedlistx .img-list{position:relative;margin-top:10px;margin-bottom:10px}#pagelet-nfeedlistx .img-list .img-wrap{width:194px;height:108px;float:left;margin-right:6px;background:#e8e8e8;border:1px solid #e8e8e8}#pagelet-nfeedlistx .img-list .img-wrap img{width:100%;height:100%}#pagelet-nfeedlistx .img-list .img-num{position:absolute;right:10px;bottom:10px;padding:0 6px;height:20px;background:#000;background:rgba(0,0,0,.5);border-radius:10px;color:#fafafa;font-size:14px;text-align:center;line-height:20px}#pagelet-nfeedlistx .no-abstract .title{white-space:normal}#pagelet-nfeedlistx .abstract{font-size:12px;color:#444;line-height:20px;margin-bottom:8px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;max-height:3em}#pagelet-nfeedlistx .lbox{position:relative;width:126px;height:82px;border:1px solid #e8e8e8;background:#e8e8e8}#pagelet-nfeedlistx .lbox .feedimg{width:100%;height:100%;opacity:0;-webkit-transition-duration:.4s;transition-duration:.4s;-webkit-transition-property:opacity;transition-property:opacity}#pagelet-nfeedlistx .lbox .ftype{position:absolute;right:4px;bottom:4px;height:22px;min-width:6px;line-height:22px;font-size:12px;color:#fff;background:#000;background:rgba(0,0,0,.5);padding:0 8px;border-radius:11px}#pagelet-nfeedlistx .lbox .ftype.video span{padding-left:8px}#pagelet-nfeedlistx .lbox .ftype.video:before{content:'';position:absolute;background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/video_icon_bf43446.png?__sprite) left center no-repeat;width:6px;height:8px;top:50%;margin-top:-4px}#pagelet-nfeedlistx .rbox{position:relative;height:84px;margin-left:144px;font-size:0}#pagelet-nfeedlistx .rbox:before{content:'';width:0;font-size:0;height:100%;visibility:hidden;display:inline-block;vertical-align:middle}#pagelet-nfeedlistx .rbox .rbox-inner{display:inline-block;width:100%;vertical-align:middle}#pagelet-nfeedlistx .footer{font-size:12px;color:#999;height:14px;line-height:14px}#pagelet-nfeedlistx .rfooter{margin-top:1px;position:relative}#pagelet-nfeedlistx .lbtn{display:inline-block}#pagelet-nfeedlistx .lbtn.source{color:#999}#pagelet-nfeedlistx .lbtn.comment{color:#999}#pagelet-nfeedlistx .lbtn.hover-color:hover{color:#406599}#pagelet-nfeedlistx .tag{width:16px;height:16px;text-align:center}#pagelet-nfeedlistx .tag.tag-hot{background:#ed4040;color:#fff}#pagelet-nfeedlistx .rbtn{float:right;width:18px;height:12px;cursor:pointer}#pagelet-nfeedlistx .dislike{background-position:center center;background-repeat:no-repeat;background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/dislike_normal_6e79811.png)}#pagelet-nfeedlistx .dislike:hover{background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/dislike_hover_d0a6efb.png)}
+#pagelet-nfeedlistx {
+    
+}
+
+#pagelet-nfeedlistx .feedcomm {
+    display: none;
+    position: relative;
+    height: 74px;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8;
+    margin-top: 16px
+}
+
+#pagelet-nfeedlistx .feedcomm .comm-close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/close16x16_4ad61a3.png);
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .3)
+}
+
+#pagelet-nfeedlistx .feedcomm .comm-close:hover {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+#pagelet-nfeedlistx .feedcomm img {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity
+}
+
+#pagelet-nfeedlistx .alert-msg {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    color: #899ec5;
+    margin-top: 16px
+}
+
+#pagelet-nfeedlistx .alert-msg img {
+    height: 14px;
+    vertical-align: -3px
+}
+
+#pagelet-nfeedlistx .unread {
+    display: none;
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_tag_bg_5f6b3b7.png?__sprite)
+        #f66 no-repeat center
+}
+
+#pagelet-nfeedlistx .loadmore {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    background: #f1f2f3;
+    margin: 16px 0;
+    cursor: pointer
+}
+
+#pagelet-nfeedlistx .loadmore.noloadmore {
+    cursor: default
+}
+
+#pagelet-nfeedlistx .loadmore:hover {
+    background: #f5f6f7
+}
+
+#pagelet-nfeedlistx .item {
+    position: relative
+}
+
+#pagelet-nfeedlistx .item-inner {
+    position: relative;
+    padding: 16px 0;
+    border-bottom: 1px solid #f5f6f7
+}
+
+#pagelet-nfeedlistx .link {
+    color: #4f5157
+}
+
+#pagelet-nfeedlistx .link:visited {
+    color: #999
+}
+
+#pagelet-nfeedlistx .link:visited:hover {
+    color: #999 !important
+}
+
+#pagelet-nfeedlistx .link.visited {
+    color: #999 !important
+}
+
+#pagelet-nfeedlistx .link.title:hover {
+    color: #406599
+}
+
+#pagelet-nfeedlistx .title-box {
+    display: block;
+    font-size: 18px;
+    color: #000042;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.15;
+    margin-bottom: 4px;
+    font-weight: 700
+}
+
+#pagelet-nfeedlistx .title-box a {
+    color: #222
+}
+
+#pagelet-nfeedlistx .img-list {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#pagelet-nfeedlistx .img-list .img-wrap {
+    width: 194px;
+    height: 108px;
+    float: left;
+    margin-right: 6px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8
+}
+
+#pagelet-nfeedlistx .img-list .img-wrap img {
+    width: 100%;
+    height: 100%
+}
+
+#pagelet-nfeedlistx .img-list .img-num {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 0 6px;
+    height: 20px;
+    background: #000;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    color: #fafafa;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px
+}
+
+#pagelet-nfeedlistx .no-abstract .title {
+    white-space: normal
+}
+
+#pagelet-nfeedlistx .abstract {
+    font-size: 12px;
+    color: #444;
+    line-height: 20px;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em
+}
+
+#pagelet-nfeedlistx .lbox {
+    position: relative;
+    width: 126px;
+    height: 82px;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8
+}
+
+#pagelet-nfeedlistx .lbox .feedimg {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity
+}
+
+#pagelet-nfeedlistx .lbox .ftype {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    height: 22px;
+    min-width: 6px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #fff;
+    background: #000;
+    background: rgba(0, 0, 0, .5);
+    padding: 0 8px;
+    border-radius: 11px
+}
+
+#pagelet-nfeedlistx .lbox .ftype.video span {
+    padding-left: 8px
+}
+
+#pagelet-nfeedlistx .lbox .ftype.video:before {
+    content: '';
+    position: absolute;
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/video_icon_bf43446.png?__sprite)
+        left center no-repeat;
+    width: 6px;
+    height: 8px;
+    top: 50%;
+    margin-top: -4px
+}
+
+#pagelet-nfeedlistx .rbox {
+    position: relative;
+    height: 84px;
+    margin-left: 144px;
+    font-size: 0
+}
+
+#pagelet-nfeedlistx .rbox:before {
+    content: '';
+    width: 0;
+    font-size: 0;
+    height: 100%;
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#pagelet-nfeedlistx .rbox .rbox-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle
+}
+
+#pagelet-nfeedlistx .footer {
+    font-size: 12px;
+    color: #999;
+    height: 14px;
+    line-height: 14px
+}
+
+#pagelet-nfeedlistx .rfooter {
+    margin-top: 1px;
+    position: relative
+}
+
+#pagelet-nfeedlistx .lbtn {
+    display: inline-block
+}
+
+#pagelet-nfeedlistx .lbtn.source {
+    color: #999
+}
+
+#pagelet-nfeedlistx .lbtn.comment {
+    color: #999
+}
+
+#pagelet-nfeedlistx .lbtn.hover-color:hover {
+    color: #406599
+}
+
+#pagelet-nfeedlistx .tag {
+    width: 16px;
+    height: 16px;
+    text-align: center
+}
+
+#pagelet-nfeedlistx .tag.tag-hot {
+    background: #ed4040;
+    color: #fff
+}
+
+#pagelet-nfeedlistx .rbtn {
+    float: right;
+    width: 18px;
+    height: 12px;
+    cursor: pointer
+}
+
+#pagelet-nfeedlistx .dislike {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/dislike_normal_6e79811.png)
+}
+
+#pagelet-nfeedlistx .dislike:hover {
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/dislike_hover_d0a6efb.png)
+}
 /*!/pagelet/btestnnav/btestnnav.less*/
-#pagelet-nnav{position:fixed;top:0;left:0;width:100%;z-index:15;background:#fff;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}#pagelet-nnav #instantclick{position:fixed;top:0;left:0;width:100%;pointer-events:none;z-index:2;-webkit-transition:opacity 2s;transition:opacity 2s}#pagelet-nnav #instantclick-bar{background:#fff;width:100%;margin-left:-100%;height:2px;-webkit-transition:all .3s;transition:all .3s}#pagelet-nnav.scroll{margin-top:-20px}#pagelet-nnav .layer{position:absolute;border:1px solid #d9d9d9;background:#fff;z-index:200;font-size:14px;right:0;width:130px;border-radius:4px;padding-top:10px;display:none}#pagelet-nnav .layer:before,#pagelet-nnav .nav-layer:before{content:'';position:absolute;background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/arrow_more_0e56a80.png?__sprite) no-repeat center;width:12px;height:8px;top:-8px;left:50%;margin-left:-6px}#pagelet-nnav .layer-item{cursor:pointer;display:block;width:auto;height:42px;line-height:42px;color:#999;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-align:center}#pagelet-nnav .layer-item:hover{background-color:#f2f2f5}#pagelet-nnav .show-layer .layer,#pagelet-nnav .show-layer .nav-layer,#pagelet-nnav .show-layer #pagelet-btestweather{display:block}#pagelet-nnav .nav-layer{position:absolute;border:1px solid #d9d9d9;background:#fff;z-index:200;font-size:14px;left:50%;margin-left:-41px;width:80px;border-radius:4px;padding-top:10px;display:none}#pagelet-nnav .topbarWrapper{position:relative;height:24px;line-height:24px;background:#ed4040;color:#fff;font-size:13px}#pagelet-nnav .topbarWrapper .tb-item{position:relative;float:left}#pagelet-nnav .topbarWrapper .tb-item:first-child>.tb-link{border:0}#pagelet-nnav .topbarWrapper .tb-link{padding:0 16px;border-left:1px dotted #fff;border-color:rgba(255,255,255,.4);color:#fff}#pagelet-nnav .topbarWrapper .tb-link:hover{color:rgba(255,255,255,.7)}#pagelet-nnav .topbarWrapper .layer:before{right:18px;left:auto}#pagelet-nnav .topbarWrapper .add-favorite{display:none}#pagelet-nnav .topbarWrapper .topNav .tb-link{border:0}#pagelet-nnav .topbarWrapper .topNav .moreNav{position:relative;cursor:default}#pagelet-nnav .topbarWrapper .topNav .moreNav:before{content:'';position:absolute;width:8px;height:4px;right:0;top:50%;margin-top:-2px;background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/nav_arrow_down_1908aa1.png?__sprite) no-repeat center}#pagelet-nnav .topbarWrapper .topNav .show-layer .moreNav:before{-webkit-transform:rotate(180deg);transform:rotate(180deg)}#pagelet-nnav .midbarWrapper{position:relative;height:58px;box-shadow:0 1px 4px 0 rgba(0,0,0,.12)}#pagelet-nnav .midbarWrapper .midbar-inner{width:1060px;margin:0 auto}#pagelet-nnav .midbarWrapper .logo-box{float:left;width:128px}#pagelet-nnav .midbarWrapper .logo-box .logo-link{display:block;line-height:58px}#pagelet-nnav .midbarWrapper .logo-box .logo{vertical-align:middle}#pagelet-nnav .midbarWrapper .search-box{position:relative;float:left;width:600px}#pagelet-nnav .midbarWrapper .search-box .input-group{position:relative;margin-top:12px;border:1px solid #e8e8e8;padding:0 4px 0 16px;background-color:#f5f6f7}#pagelet-nnav .midbarWrapper .search-box input{border:0;float:left;color:#444;font-size:14px;line-height:20px;height:18px;width:530px;padding:0;outline:0;padding:7px 10px 7px 0;background:#f5f6f7}#pagelet-nnav .midbarWrapper .search-box input::-webkit-input-placeholder{color:#dfdfdf}#pagelet-nnav .midbarWrapper .search-box input:-moz-placeholder{color:#dfdfdf}#pagelet-nnav .midbarWrapper .search-box input::-moz-placeholder{color:#dfdfdf}#pagelet-nnav .midbarWrapper .search-box input:-ms-input-placeholder{color:#dfdfdf}#pagelet-nnav .midbarWrapper .search-box .btn-submit{float:right;display:block;border-left:0}#pagelet-nnav .midbarWrapper .search-box .btn-submit button{background:transparent;outline:0;border:0;height:32px;line-height:1px;width:32px;cursor:pointer}#pagelet-nnav .midbarWrapper .search-box .btn-submit button>.icon-search{width:17px;height:16px;line-height:16px;background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/search_ic_home_ce3b2c9.png?__sprite) center no-repeat}#pagelet-nnav .midbarWrapper .search-box .slayer{display:none;position:absolute;left:0;right:0;width:100%;background:#fff;font-size:14px;border-radius:4px;z-index:200}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con{border:1px solid #d9d9d9;border-top:0;font-size:14px;color:#444}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-tip{font-size:12px;color:#999;padding:16px 0 0 16px}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item>a{display:block;height:40px;line-height:40px;padding-right:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#444}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item>a:hover{background:#f4f5f6}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no{display:inline-block;font-size:16px;font-weight:700;color:#999;width:28px;margin-right:10px;text-align:right}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-1{color:#f85959}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-2{color:#ff7800}#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-3{color:#ffba00}#pagelet-nnav .midbarWrapper .search-box.show-layer .slayer{display:block}#pagelet-nnav .midbarWrapper .user-box{position:relative;float:right;width:240px;font-size:14px}#pagelet-nnav .midbarWrapper .user-box .username-box{position:relative;float:right;text-align:right;line-height:58px;font-size:14px;color:#444;width:150px}#pagelet-nnav .midbarWrapper .user-box .username-box span{color:#444}#pagelet-nnav .midbarWrapper .user-box .nav-login{float:right}#pagelet-nnav .midbarWrapper .user-box .user-item:hover span{color:#6b6b6b}#pagelet-nnav .midbarWrapper .user-info{position:relative;text-align:right}#pagelet-nnav .midbarWrapper .user-head{display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;vertical-align:top}#pagelet-nnav .midbarWrapper .user-head .user-image{display:inline-block;width:30px;height:30px;border-radius:15px;vertical-align:middle;margin-right:6px;background-image:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/default_2114d52.png)}#pagelet-nnav .midbarWrapper .user-head img{display:block;width:30px;height:30px;border-radius:15px;vertical-align:middle;margin-right:6px;opacity:0}#pagelet-nnav .midbarWrapper .new-article{margin-left:25px;width:58px;height:30px;line-height:30px;margin-top:14px;text-align:center;border-radius:4px;background:#ed4040;color:#fff}#pagelet-nnav .midbarWrapper .new-article:hover{background:#ff6d71}#pagelet-nnav.nohome .topbarWrapper .tb-link{padding:0 13px}#pagelet-nnav.nohome .midbarWrapper .logo-box{width:130px}#pagelet-nnav.nohome .midbarWrapper .search-box{width:530px}#pagelet-nnav.nohome .midbarWrapper .search-box input{width:460px}#pagelet-nnav .weather{display:none}#pagelet-nnav .bottom-layer{opacity:0;position:absolute;width:242px;height:361px;top:158px;z-index:20;filter:alpha(opacity=0);background-color:navy}#pagelet-nnav .hide{display:none}#pagelet-nnav .description{position:relative}#pagelet-nnav .description .city_name,#pagelet-nnav .description .city_condition{margin-right:10px}#pagelet-nnav .description img{margin-right:6px;vertical-align:text-top}#pagelet-nnav .description .city_temperature em{position:relative}
+#pagelet-nnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    background: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#pagelet-nnav #instantclick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 2;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s
+}
+
+#pagelet-nnav #instantclick-bar {
+    background: #fff;
+    width: 100%;
+    margin-left: -100%;
+    height: 2px;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+#pagelet-nnav.scroll {
+    margin-top: -20px
+}
+
+#pagelet-nnav .layer {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    z-index: 200;
+    font-size: 14px;
+    right: 0;
+    width: 130px;
+    border-radius: 4px;
+    padding-top: 10px;
+    display: none
+}
+
+#pagelet-nnav .layer:before, #pagelet-nnav .nav-layer:before {
+    content: '';
+    position: absolute;
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/arrow_more_0e56a80.png?__sprite)
+        no-repeat center;
+    width: 12px;
+    height: 8px;
+    top: -8px;
+    left: 50%;
+    margin-left: -6px
+}
+
+#pagelet-nnav .layer-item {
+    cursor: pointer;
+    display: block;
+    width: auto;
+    height: 42px;
+    line-height: 42px;
+    color: #999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center
+}
+
+#pagelet-nnav .layer-item:hover {
+    background-color: #f2f2f5
+}
+
+#pagelet-nnav .show-layer .layer, #pagelet-nnav .show-layer .nav-layer,
+    #pagelet-nnav .show-layer #pagelet-btestweather {
+    display: block
+}
+
+#pagelet-nnav .nav-layer {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    z-index: 200;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -41px;
+    width: 80px;
+    border-radius: 4px;
+    padding-top: 10px;
+    display: none
+}
+
+#pagelet-nnav .topbarWrapper {
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    background: #ed4040;
+    color: #fff;
+    font-size: 13px
+}
+
+#pagelet-nnav .topbarWrapper .tb-item {
+    position: relative;
+    float: left
+}
+
+#pagelet-nnav .topbarWrapper .tb-item:first-child>.tb-link {
+    border: 0
+}
+
+#pagelet-nnav .topbarWrapper .tb-link {
+    padding: 0 16px;
+    border-left: 1px dotted #fff;
+    border-color: rgba(255, 255, 255, .4);
+    color: #fff
+}
+
+#pagelet-nnav .topbarWrapper .tb-link:hover {
+    color: rgba(255, 255, 255, .7)
+}
+
+#pagelet-nnav .topbarWrapper .layer:before {
+    right: 18px;
+    left: auto
+}
+
+#pagelet-nnav .topbarWrapper .add-favorite {
+    display: none
+}
+
+#pagelet-nnav .topbarWrapper .topNav .tb-link {
+    border: 0
+}
+
+#pagelet-nnav .topbarWrapper .topNav .moreNav {
+    position: relative;
+    cursor: default
+}
+
+#pagelet-nnav .topbarWrapper .topNav .moreNav:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    right: 0;
+    top: 50%;
+    margin-top: -2px;
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/nav_arrow_down_1908aa1.png?__sprite)
+        no-repeat center
+}
+
+#pagelet-nnav .topbarWrapper .topNav .show-layer .moreNav:before {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+#pagelet-nnav .midbarWrapper {
+    position: relative;
+    height: 58px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .12)
+}
+
+#pagelet-nnav .midbarWrapper .midbar-inner {
+    width: 1060px;
+    margin: 0 auto
+}
+
+#pagelet-nnav .midbarWrapper .logo-box {
+    float: left;
+    width: 128px
+}
+
+#pagelet-nnav .midbarWrapper .logo-box .logo-link {
+    display: block;
+    line-height: 58px
+}
+
+#pagelet-nnav .midbarWrapper .logo-box .logo {
+    vertical-align: middle
+}
+
+#pagelet-nnav .midbarWrapper .search-box {
+    position: relative;
+    float: left;
+    width: 600px
+}
+
+#pagelet-nnav .midbarWrapper .search-box .input-group {
+    position: relative;
+    margin-top: 12px;
+    border: 1px solid #e8e8e8;
+    padding: 0 4px 0 16px;
+    background-color: #f5f6f7
+}
+
+#pagelet-nnav .midbarWrapper .search-box input {
+    border: 0;
+    float: left;
+    color: #444;
+    font-size: 14px;
+    line-height: 20px;
+    height: 18px;
+    width: 530px;
+    padding: 0;
+    outline: 0;
+    padding: 7px 10px 7px 0;
+    background: #f5f6f7
+}
+
+#pagelet-nnav .midbarWrapper .search-box input::-webkit-input-placeholder
+    {
+    color: #dfdfdf
+}
+
+#pagelet-nnav .midbarWrapper .search-box input:-moz-placeholder {
+    color: #dfdfdf
+}
+
+#pagelet-nnav .midbarWrapper .search-box input::-moz-placeholder {
+    color: #dfdfdf
+}
+
+#pagelet-nnav .midbarWrapper .search-box input:-ms-input-placeholder {
+    color: #dfdfdf
+}
+
+#pagelet-nnav .midbarWrapper .search-box .btn-submit {
+    float: right;
+    display: block;
+    border-left: 0
+}
+
+#pagelet-nnav .midbarWrapper .search-box .btn-submit button {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    height: 32px;
+    line-height: 1px;
+    width: 32px;
+    cursor: pointer
+}
+
+#pagelet-nnav .midbarWrapper .search-box .btn-submit button>.icon-search
+    {
+    width: 17px;
+    height: 16px;
+    line-height: 16px;
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/search_ic_home_ce3b2c9.png?__sprite)
+        center no-repeat
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    z-index: 200
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con {
+    border: 1px solid #d9d9d9;
+    border-top: 0;
+    font-size: 14px;
+    color: #444
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-tip
+    {
+    font-size: 12px;
+    color: #999;
+    padding: 16px 0 0 16px
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item>a
+    {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item>a:hover
+    {
+    background: #f4f5f6
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no
+    {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #999;
+    width: 28px;
+    margin-right: 10px;
+    text-align: right
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-1
+    {
+    color: #f85959
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-2
+    {
+    color: #ff7800
+}
+
+#pagelet-nnav .midbarWrapper .search-box .slayer .slayer-con .search-item .search-no.search-no-3
+    {
+    color: #ffba00
+}
+
+#pagelet-nnav .midbarWrapper .search-box.show-layer .slayer {
+    display: block
+}
+
+#pagelet-nnav .midbarWrapper .user-box {
+    position: relative;
+    float: right;
+    width: 240px;
+    font-size: 14px
+}
+
+#pagelet-nnav .midbarWrapper .user-box .username-box {
+    position: relative;
+    float: right;
+    text-align: right;
+    line-height: 58px;
+    font-size: 14px;
+    color: #444;
+    width: 150px
+}
+
+#pagelet-nnav .midbarWrapper .user-box .username-box span {
+    color: #444
+}
+
+#pagelet-nnav .midbarWrapper .user-box .nav-login {
+    float: right
+}
+
+#pagelet-nnav .midbarWrapper .user-box .user-item:hover span {
+    color: #6b6b6b
+}
+
+#pagelet-nnav .midbarWrapper .user-info {
+    position: relative;
+    text-align: right
+}
+
+#pagelet-nnav .midbarWrapper .user-head {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    vertical-align: top
+}
+
+#pagelet-nnav .midbarWrapper .user-head .user-image {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 6px;
+    background-image:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/default_2114d52.png)
+}
+
+#pagelet-nnav .midbarWrapper .user-head img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 6px;
+    opacity: 0
+}
+
+#pagelet-nnav .midbarWrapper .new-article {
+    margin-left: 25px;
+    width: 58px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #ed4040;
+    color: #fff
+}
+
+#pagelet-nnav .midbarWrapper .new-article:hover {
+    background: #ff6d71
+}
+
+#pagelet-nnav.nohome .topbarWrapper .tb-link {
+    padding: 0 13px
+}
+
+#pagelet-nnav.nohome .midbarWrapper .logo-box {
+    width: 130px
+}
+
+#pagelet-nnav.nohome .midbarWrapper .search-box {
+    width: 530px
+}
+
+#pagelet-nnav.nohome .midbarWrapper .search-box input {
+    width: 460px
+}
+
+#pagelet-nnav .weather {
+    display: none
+}
+
+#pagelet-nnav .bottom-layer {
+    opacity: 0;
+    position: absolute;
+    width: 242px;
+    height: 361px;
+    top: 158px;
+    z-index: 20;
+    filter: alpha(opacity = 0);
+    background-color: navy
+}
+
+#pagelet-nnav .hide {
+    display: none
+}
+
+#pagelet-nnav .description {
+    position: relative
+}
+
+#pagelet-nnav .description .city_name, #pagelet-nnav .description .city_condition
+    {
+    margin-right: 10px
+}
+
+#pagelet-nnav .description img {
+    margin-right: 6px;
+    vertical-align: text-top
+}
+
+#pagelet-nnav .description .city_temperature em {
+    position: relative
+}
 /*!/pagelet/btestweather/btestweather.less*/
-.bcityselect{width:240px;height:96px;border-radius:1px;position:absolute;z-index:1;background:#fff;top:28px;left:0}.bcityselect .select-style{width:106px;float:left;position:relative;height:26px;border:1px solid #e8e8e8;margin-top:12px;margin-left:7px}.bcityselect .select-style span{position:absolute;top:5px;left:8px;font-size:14px;width:90px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:16px;color:#444}.bcityselect .select-style .active-icon{position:absolute;right:0;top:0;width:26px;background:#f4f5f6;border-left:1px solid #e8e8e8;height:26px}.bcityselect .select-style .active-icon .arrow-down{position:absolute;width:0;height:0;left:7px;top:12px;border-radius:2px;border:6px solid #51698a;border-color:#51698a transparent transparent}.bcityselect .select-style .active-icon .arrow-down:after{content:"";position:absolute;width:0;height:0;left:-4px;top:-6px;border:4px solid #f4f5f6;border-color:#f4f5f6 transparent transparent}.bcityselect .ok-btn,.bcityselect .cancel-btn{width:106px;float:left;display:inline-block;height:28px;line-height:28px;text-align:center;font-size:14px;margin-left:7px;margin-top:12px;background:#406599;color:#fff;border-radius:6px}.bcityselect .ok-btn:hover,.bcityselect .cancel-btn:hover{opacity:.8}.bcityselect .cancel-btn{margin-left:10px;background:#e8e8e8;color:#999}.bcityselect .city{margin-left:10px}.bcityselect .province-list,.bcityselect .city-list{width:170%;background:#fff;padding:2px;position:absolute;z-index:2;left:-1px;top:26px;border:1px solid #e8e8e8}.bcityselect .province-list a,.bcityselect .city-list a{width:33%;line-height:28px;float:left;text-align:center}.bcityselect .province-list a:hover,.bcityselect .city-list a:hover{background:#e8e8e8}.bcityselect .city-list{left:inherit;right:-1px}.bcityselect .short{width:97%}.bcityselect .short a{width:50%}#pagelet-btestweather{display:none;color:#444;position:absolute;width:240px;top:24px;border:solid 1px #e8e8e8;z-index:20;background:#fff}#pagelet-btestweather .hide{display:none}#pagelet-btestweather .head{font-size:14px;padding-top:5px;line-height:20px}#pagelet-btestweather .head span.location{margin-right:14px;padding-left:16px;color:#406599;float:left;height:20px;position:relative}#pagelet-btestweather .head span.location .white-line-box{display:none;position:absolute;height:24px;width:100%;left:6px;top:-5px;border:1px solid #e8e8e8;border-bottom-color:#fff;z-index:2}#pagelet-btestweather .head span.location em{cursor:pointer}#pagelet-btestweather .head span.location img{height:12px;position:relative;top:1px}#pagelet-btestweather .head span.location:hover{color:#7696b3}#pagelet-btestweather .head span.wind{margin-right:10px}#pagelet-btestweather .head span.air{border-radius:4px;height:18px;line-height:18px;display:inline-block;font-size:12px;text-align:center;vertical-align:top;padding:0 4px}#pagelet-btestweather .head span.air p{color:#fff}#pagelet-btestweather .days_weather{margin-top:8px;font-size:14px;margin-bottom:2px}#pagelet-btestweather .days_weather .day_weather{float:left;display:inline-block;width:33%}#pagelet-btestweather .days_weather .tomorrow{width:34%}#pagelet-btestweather .days_weather span{display:block;text-align:center}#pagelet-btestweather .days_weather .title{color:#999}#pagelet-btestweather .days_weather .weather-icon{margin:auto;width:48px;height:48px}#pagelet-btestweather .temperature{white-space:nowrap;font-size:0}#pagelet-btestweather .temperature em{font-size:14px;position:relative}#pagelet-btestweather .temperature .line{padding:3px}#pagelet-btestweather .weather-icon-0{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/0_2491676.png?__sprite)}#pagelet-btestweather .weather-icon-1{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/1_51a147f.png?__sprite)}#pagelet-btestweather .weather-icon-2{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/2_edf7194.png?__sprite)}#pagelet-btestweather .weather-icon-3{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/3_0457b68.png?__sprite)}#pagelet-btestweather .weather-icon-4{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/4_7642bb6.png?__sprite)}#pagelet-btestweather .weather-icon-5{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/5_1531508.png?__sprite)}#pagelet-btestweather .weather-icon-6{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/6_db5a188.png?__sprite)}#pagelet-btestweather .weather-icon-7{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/7_88acb18.png?__sprite)}#pagelet-btestweather .weather-icon-8{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/8_9815104.png?__sprite)}#pagelet-btestweather .weather-icon-9{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/9_2f510a8.png?__sprite)}#pagelet-btestweather .weather-icon-10{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/10_2537929.png?__sprite)}#pagelet-btestweather .weather-icon-13{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/13_b05865c.png?__sprite)}#pagelet-btestweather .weather-icon-14{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/14_9b3eb63.png?__sprite)}#pagelet-btestweather .weather-icon-15{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/15_5a76b28.png?__sprite)}#pagelet-btestweather .weather-icon-16{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/16_6a326fa.png?__sprite)}#pagelet-btestweather .weather-icon-17{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/17_32ec6f5.png?__sprite)}#pagelet-btestweather .weather-icon-18{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/18_a639aa7.png?__sprite)}#pagelet-btestweather .weather-icon-19{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/19_939a531.png?__sprite)}#pagelet-btestweather .weather-icon-20{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/20-36_55ac7de.png?__sprite)}#pagelet-btestweather .weather-icon-29{background:url(/static/style/image/newindex/29-36.png?__sprite)}#pagelet-btestweather .weather-icon-30{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/30_10c227c.png?__sprite)}#pagelet-btestweather .weather-icon-31{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/31_4b92e75.png?__sprite)}#pagelet-btestweather .weather-icon-32{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/32_6a54cc8.png?__sprite)}#pagelet-btestweather .weather-icon-33{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/33_d20b8b5.png?__sprite)}#pagelet-btestweather .weather-icon-34{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/34_e4493a6.png?__sprite)}#pagelet-btestweather .weather-icon-35{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/29-35_0505311.png?__sprite)}#pagelet-btestweather .weather-icon-36{background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/20-36_55ac7de.png?__sprite)}#pagelet-btestweather .weather-icon-44{background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/44_0af4b08.png?__sprite)}#pagelet-btestweather .weather-icon-45{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/45-46_26db39c.png?__sprite)}#pagelet-btestweather .weather-icon-46{background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/45-46_26db39c.png?__sprite)}
+.bcityselect {
+    width: 240px;
+    height: 96px;
+    border-radius: 1px;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    top: 28px;
+    left: 0
+}
+
+.bcityselect .select-style {
+    width: 106px;
+    float: left;
+    position: relative;
+    height: 26px;
+    border: 1px solid #e8e8e8;
+    margin-top: 12px;
+    margin-left: 7px
+}
+
+.bcityselect .select-style span {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 14px;
+    width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+    color: #444
+}
+
+.bcityselect .select-style .active-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 26px;
+    background: #f4f5f6;
+    border-left: 1px solid #e8e8e8;
+    height: 26px
+}
+
+.bcityselect .select-style .active-icon .arrow-down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 7px;
+    top: 12px;
+    border-radius: 2px;
+    border: 6px solid #51698a;
+    border-color: #51698a transparent transparent
+}
+
+.bcityselect .select-style .active-icon .arrow-down:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -4px;
+    top: -6px;
+    border: 4px solid #f4f5f6;
+    border-color: #f4f5f6 transparent transparent
+}
+
+.bcityselect .ok-btn, .bcityselect .cancel-btn {
+    width: 106px;
+    float: left;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: 12px;
+    background: #406599;
+    color: #fff;
+    border-radius: 6px
+}
+
+.bcityselect .ok-btn:hover, .bcityselect .cancel-btn:hover {
+    opacity: .8
+}
+
+.bcityselect .cancel-btn {
+    margin-left: 10px;
+    background: #e8e8e8;
+    color: #999
+}
+
+.bcityselect .city {
+    margin-left: 10px
+}
+
+.bcityselect .province-list, .bcityselect .city-list {
+    width: 170%;
+    background: #fff;
+    padding: 2px;
+    position: absolute;
+    z-index: 2;
+    left: -1px;
+    top: 26px;
+    border: 1px solid #e8e8e8
+}
+
+.bcityselect .province-list a, .bcityselect .city-list a {
+    width: 33%;
+    line-height: 28px;
+    float: left;
+    text-align: center
+}
+
+.bcityselect .province-list a:hover, .bcityselect .city-list a:hover {
+    background: #e8e8e8
+}
+
+.bcityselect .city-list {
+    left: inherit;
+    right: -1px
+}
+
+.bcityselect .short {
+    width: 97%
+}
+
+.bcityselect .short a {
+    width: 50%
+}
+
+#pagelet-btestweather {
+    display: none;
+    color: #444;
+    position: absolute;
+    width: 240px;
+    top: 24px;
+    border: solid 1px #e8e8e8;
+    z-index: 20;
+    background: #fff
+}
+
+#pagelet-btestweather .hide {
+    display: none
+}
+
+#pagelet-btestweather .head {
+    font-size: 14px;
+    padding-top: 5px;
+    line-height: 20px
+}
+
+#pagelet-btestweather .head span.location {
+    margin-right: 14px;
+    padding-left: 16px;
+    color: #406599;
+    float: left;
+    height: 20px;
+    position: relative
+}
+
+#pagelet-btestweather .head span.location .white-line-box {
+    display: none;
+    position: absolute;
+    height: 24px;
+    width: 100%;
+    left: 6px;
+    top: -5px;
+    border: 1px solid #e8e8e8;
+    border-bottom-color: #fff;
+    z-index: 2
+}
+
+#pagelet-btestweather .head span.location em {
+    cursor: pointer
+}
+
+#pagelet-btestweather .head span.location img {
+    height: 12px;
+    position: relative;
+    top: 1px
+}
+
+#pagelet-btestweather .head span.location:hover {
+    color: #7696b3
+}
+
+#pagelet-btestweather .head span.wind {
+    margin-right: 10px
+}
+
+#pagelet-btestweather .head span.air {
+    border-radius: 4px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    padding: 0 4px
+}
+
+#pagelet-btestweather .head span.air p {
+    color: #fff
+}
+
+#pagelet-btestweather .days_weather {
+    margin-top: 8px;
+    font-size: 14px;
+    margin-bottom: 2px
+}
+
+#pagelet-btestweather .days_weather .day_weather {
+    float: left;
+    display: inline-block;
+    width: 33%
+}
+
+#pagelet-btestweather .days_weather .tomorrow {
+    width: 34%
+}
+
+#pagelet-btestweather .days_weather span {
+    display: block;
+    text-align: center
+}
+
+#pagelet-btestweather .days_weather .title {
+    color: #999
+}
+
+#pagelet-btestweather .days_weather .weather-icon {
+    margin: auto;
+    width: 48px;
+    height: 48px
+}
+
+#pagelet-btestweather .temperature {
+    white-space: nowrap;
+    font-size: 0
+}
+
+#pagelet-btestweather .temperature em {
+    font-size: 14px;
+    position: relative
+}
+
+#pagelet-btestweather .temperature .line {
+    padding: 3px
+}
+
+#pagelet-btestweather .weather-icon-0 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/0_2491676.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-1 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/1_51a147f.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-2 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/2_edf7194.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-3 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/3_0457b68.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-4 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/4_7642bb6.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-5 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/5_1531508.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-6 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/6_db5a188.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-7 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/7_88acb18.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-8 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/8_9815104.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-9 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/9_2f510a8.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-10 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/10_2537929.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-13 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/13_b05865c.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-14 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/14_9b3eb63.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-15 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/15_5a76b28.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-16 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/16_6a326fa.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-17 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/17_32ec6f5.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-18 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/18_a639aa7.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-19 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/19_939a531.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-20 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/20-36_55ac7de.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-29 {
+    background: url(/static/style/image/newindex/29-36.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-30 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/30_10c227c.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-31 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/31_4b92e75.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-32 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/32_6a54cc8.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-33 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/33_d20b8b5.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-34 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/34_e4493a6.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-35 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/29-35_0505311.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-36 {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/20-36_55ac7de.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-44 {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/44_0af4b08.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-45 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/45-46_26db39c.png?__sprite)
+}
+
+#pagelet-btestweather .weather-icon-46 {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/45-46_26db39c.png?__sprite)
+}
 /*!/pagelet/btestcommbox/btestcommbox.less*/
-#pagelet-btestcommbox{position:relative;width:300px;max-height:300px;margin:16px 0 30px;border:1px solid #e8e8e8;background:#e8e8e8}#pagelet-btestcommbox .img-box>img{height:100%;width:100%;opacity:0;vertical-align:middle;-webkit-transition:.4s opacity;transition:.4s opacity}#pagelet-btestcommbox .comm-label{display:inline-block;position:absolute;bottom:2px;right:2px;border:1px solid #fff;border-radius:4px;color:#fff;font-size:12px;line-height:12px;height:12px;padding:1px 2px;text-align:center}
+#pagelet-btestcommbox {
+    position: relative;
+    width: 300px;
+    max-height: 300px;
+    margin: 16px 0 30px;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8
+}
+
+#pagelet-btestcommbox .img-box>img {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    vertical-align: middle;
+    -webkit-transition: .4s opacity;
+    transition: .4s opacity
+}
+
+#pagelet-btestcommbox .comm-label {
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    padding: 1px 2px;
+    text-align: center
+}
 /*!/pagelet/btesthotnews/btesthotnews.less*/
-#pagelet-btesthotnews{display:none;position:relative;margin:16px 0 30px}#pagelet-btesthotnews .head{position:relative;font-size:18px;color:#444;font-weight:700;padding-left:10px;line-height:1}#pagelet-btesthotnews .head:before{content:"";display:inline-block;position:absolute;width:4px;height:16px;left:0;top:50%;margin-top:-8px;background-color:#ed4040;border-radius:5px;float:left}#pagelet-btesthotnews .news a{margin-top:16px;font-size:14px;overflow:hidden;color:#444;line-height:1.5em;display:block;cursor:pointer}#pagelet-btesthotnews .news a:hover{color:#406599}#pagelet-btesthotnews .news-no{display:inline-block;font-size:16px;font-weight:700;color:#222;margin-right:6px;float:left}#pagelet-btesthotnews .news-no.news-no-1{color:#f85959}#pagelet-btesthotnews .news-no.news-no-2{color:#ff4f06}#pagelet-btesthotnews .news-no.news-no-3{color:#ff7800}#pagelet-btesthotnews .news-title{max-height:60px;margin-left:20px;font-size:14px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;text-overflow:ellipsis}#pagelet-btesthotnews .news-first{float:left;display:inline-block;width:128px;height:84px;border:1px solid #e8e8e8;background-color:#e8e8e8}#pagelet-btesthotnews .news-first .news-first-icon{width:25px;height:25px;position:absolute;background:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/news1_02d4b0c.png) no-repeat center;background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/news1_02d4b0c.png);background-image:url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/news1_33f86df.svg),none;top:30px}#pagelet-btesthotnews .news-first .news-pic{opacity:0;width:100%;height:100%}#pagelet-btesthotnews .news-content{height:86px;font-size:0;margin-left:130px}#pagelet-btesthotnews .news-content::before{content:'';height:100%;display:inline-block;vertical-align:middle}#pagelet-btesthotnews .news-content .news-inner{display:inline-block;width:100%;vertical-align:middle}
+#pagelet-btesthotnews {
+    display: none;
+    position: relative;
+    margin: 16px 0 30px
+}
+
+#pagelet-btesthotnews .head {
+    position: relative;
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+    padding-left: 10px;
+    line-height: 1
+}
+
+#pagelet-btesthotnews .head:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 4px;
+    height: 16px;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    background-color: #ed4040;
+    border-radius: 5px;
+    float: left
+}
+
+#pagelet-btesthotnews .news a {
+    margin-top: 16px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #444;
+    line-height: 1.5em;
+    display: block;
+    cursor: pointer
+}
+
+#pagelet-btesthotnews .news a:hover {
+    color: #406599
+}
+
+#pagelet-btesthotnews .news-no {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    margin-right: 6px;
+    float: left
+}
+
+#pagelet-btesthotnews .news-no.news-no-1 {
+    color: #f85959
+}
+
+#pagelet-btesthotnews .news-no.news-no-2 {
+    color: #ff4f06
+}
+
+#pagelet-btesthotnews .news-no.news-no-3 {
+    color: #ff7800
+}
+
+#pagelet-btesthotnews .news-title {
+    max-height: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#pagelet-btesthotnews .news-first {
+    float: left;
+    display: inline-block;
+    width: 128px;
+    height: 84px;
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8
+}
+
+#pagelet-btesthotnews .news-first .news-first-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/news1_02d4b0c.png)
+        no-repeat center;
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/news1_02d4b0c.png);
+    background-image:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/svg/news1_33f86df.svg),
+        none;
+    top: 30px
+}
+
+#pagelet-btesthotnews .news-first .news-pic {
+    opacity: 0;
+    width: 100%;
+    height: 100%
+}
+
+#pagelet-btesthotnews .news-content {
+    height: 86px;
+    font-size: 0;
+    margin-left: 130px
+}
+
+#pagelet-btesthotnews .news-content::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#pagelet-btesthotnews .news-content .news-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle
+}
 /*!/pagelet/company/company.less*/
-#pagelet-company{background-color:#f5f6f7;line-height:2;font-size:12px;color:#999;padding:10px 14px;margin:16px 0 4px;text-align:left}#pagelet-company span{display:block}#pagelet-company a{color:#999;cursor:pointer}#pagelet-company img{vertical-align:middle;margin-right:1px;margin-bottom:3px}
+#pagelet-company {
+    background-color: #f5f6f7;
+    line-height: 2;
+    font-size: 12px;
+    color: #999;
+    padding: 10px 14px;
+    margin: 16px 0 4px;
+    text-align: left
+}
+
+#pagelet-company span {
+    display: block
+}
+
+#pagelet-company a {
+    color: #999;
+    cursor: pointer
+}
+
+#pagelet-company img {
+    vertical-align: middle;
+    margin-right: 1px;
+    margin-bottom: 3px
+}
 /*!/pagelet/recommendpgc/recommendpgc.less*/
-#pagelet-recommendpgc{display:none;margin:16px 0 30px}#pagelet-recommendpgc .head{margin-bottom:23px}#pagelet-recommendpgc .dtag{display:inline}#pagelet-recommendpgc .Pgc_Change{font-size:14px;color:#999;float:right}#pagelet-recommendpgc .content .Pgc_Item{margin-bottom:22px}#pagelet-recommendpgc .content .Pgc_Item .Pgc_Image{width:30px;height:30px;border-radius:50%;border:1px solid #e8e8e8;background-color:#e8e8e8;float:left;margin-right:7px;overflow:hidden}#pagelet-recommendpgc .content .Pgc_Item .Pgc_Image>img{width:100%;height:100%;opacity:0}#pagelet-recommendpgc .content .Pgc_Item .Pgc_Name{font-size:16px;color:#406599;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;display:block}#pagelet-recommendpgc .content .Pgc_Item .title{font-size:14px;color:#505050;position:relative;margin-top:13px;line-height:17px;padding-left:9px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;max-height:33px}#pagelet-recommendpgc .content .Pgc_Item .title:before{content:"";display:inline-block;width:3px;height:3px;background-color:#777;margin-bottom:3px;position:absolute;top:8px;left:0}
+#pagelet-recommendpgc {
+    display: none;
+    margin: 16px 0 30px
+}
+
+#pagelet-recommendpgc .head {
+    margin-bottom: 23px
+}
+
+#pagelet-recommendpgc .dtag {
+    display: inline
+}
+
+#pagelet-recommendpgc .Pgc_Change {
+    font-size: 14px;
+    color: #999;
+    float: right
+}
+
+#pagelet-recommendpgc .content .Pgc_Item {
+    margin-bottom: 22px
+}
+
+#pagelet-recommendpgc .content .Pgc_Item .Pgc_Image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    float: left;
+    margin-right: 7px;
+    overflow: hidden
+}
+
+#pagelet-recommendpgc .content .Pgc_Item .Pgc_Image>img {
+    width: 100%;
+    height: 100%;
+    opacity: 0
+}
+
+#pagelet-recommendpgc .content .Pgc_Item .Pgc_Name {
+    font-size: 16px;
+    color: #406599;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    display: block
+}
+
+#pagelet-recommendpgc .content .Pgc_Item .title {
+    font-size: 14px;
+    color: #505050;
+    position: relative;
+    margin-top: 13px;
+    line-height: 17px;
+    padding-left: 9px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 33px
+}
+
+#pagelet-recommendpgc .content .Pgc_Item .title:before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #777;
+    margin-bottom: 3px;
+    position: absolute;
+    top: 8px;
+    left: 0
+}
 /*!/pagelet/nfeedback/nfeedback.less*/
-#pagelet-nfeedback{position:fixed;bottom:36px;margin-left:546px;left:50%;z-index:10;display:block}#pagelet-nfeedback .btn{display:block}#pagelet-nfeedback .btn .icon{height:34px;width:34px}#pagelet-nfeedback .refresh{display:block;width:44px;height:44px;background:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_feed_n_58d9ffe.png?__sprite) no-repeat center}#pagelet-nfeedback .refresh:hover{background-image:url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_feed_h_63b5dc3.png?__sprite)}#pagelet-nfeedback .loading{-webkit-animation:rotating .8s linear 0s infinite;animation:rotating .8s linear 0s infinite}@keyframes 'rotating'{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes 'rotating'{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}#pagelet-nfeedback .tools{width:44px;height:81px;border-style:solid;border-width:1px;border-color:#eaeaea;background-color:#fff;box-shadow:0 2px 6px 0 rgba(0,0,0,.18);border-radius:25px}#pagelet-nfeedback .tools .nrefresh{display:block;position:relative;width:44px;height:40px;border-top-left-radius:22px;border-top-right-radius:22px;background:url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/nrefresh_1def494.png?__sprite) no-repeat;background-position:13px 14px;-webkit-transform-origin:49% 55%;transform-origin:49% 55%}#pagelet-nfeedback .tools .nrefresh .refresh_img{position:absolute;left:13px;bottom:9px}#pagelet-nfeedback .tools .ntop{display:block;position:relative;width:44px;height:40px;border-bottom-left-radius:22px;border-bottom-right-radius:22px;border-top:1px solid #e9e9e9}#pagelet-nfeedback .tools .ntop .top_img{position:absolute;left:13px;top:13px}
+#pagelet-nfeedback {
+    position: fixed;
+    bottom: 36px;
+    margin-left: 546px;
+    left: 50%;
+    z-index: 10;
+    display: block
+}
+
+#pagelet-nfeedback .btn {
+    display: block
+}
+
+#pagelet-nfeedback .btn .icon {
+    height: 34px;
+    width: 34px
+}
+
+#pagelet-nfeedback .refresh {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_feed_n_58d9ffe.png?__sprite)
+        no-repeat center
+}
+
+#pagelet-nfeedback .refresh:hover {
+    background-image:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/refresh_feed_h_63b5dc3.png?__sprite)
+}
+
+#pagelet-nfeedback .loading {
+    -webkit-animation: rotating .8s linear 0s infinite;
+    animation: rotating .8s linear 0s infinite
+}
+
+@
+keyframes 'rotating '{ 0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+50%{
+-webkit-transform
+:rotate(180deg)
+;transform
+:rotate(180deg)
+}
+100%{
+-webkit-transform
+:rotate(360deg)
+;transform
+:rotate(360deg)
+}
+}
+@
+-webkit-keyframes 'rotating '{ 0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+50%{
+-webkit-transform
+:rotate(180deg)
+;transform
+:rotate(180deg)
+}
+100%{
+-webkit-transform
+:rotate(360deg)
+;transform
+:rotate(360deg)
+}
+}
+#pagelet-nfeedback .tools {
+    width: 44px;
+    height: 81px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .18);
+    border-radius: 25px
+}
+
+#pagelet-nfeedback .tools .nrefresh {
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 40px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/nrefresh_1def494.png?__sprite)
+        no-repeat;
+    background-position: 13px 14px;
+    -webkit-transform-origin: 49% 55%;
+    transform-origin: 49% 55%
+}
+
+#pagelet-nfeedback .tools .nrefresh .refresh_img {
+    position: absolute;
+    left: 13px;
+    bottom: 9px
+}
+
+#pagelet-nfeedback .tools .ntop {
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 40px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top: 1px solid #e9e9e9
+}
+
+#pagelet-nfeedback .tools .ntop .top_img {
+    position: absolute;
+    left: 13px;
+    top: 13px
+}
 /*!/pagelet/friendlink/friendlink.less*/
-#pagelet-friendlink{margin-bottom:20px}#pagelet-friendlink .dtag{position:relative;font-size:18px;line-height:1;font-weight:700;color:#222;padding-left:14px;margin-bottom:20px}#pagelet-friendlink .dtag:before{content:'';position:absolute;width:4px;height:18px;left:0;top:50%;margin-top:-9px;background:#ed4040;border-radius:5px}#pagelet-friendlink .row{font-size:14px;line-height:14px;color:#222;margin-bottom:20px}#pagelet-friendlink .row .item{float:left}#pagelet-friendlink .row .item:after{content:'';position:relative;top:1px;display:inline-block;height:12px;width:1px;background-color:#ddd;margin:0 11px 0 15px}#pagelet-friendlink .row .item.last:after{content:none}
+#pagelet-friendlink {
+    margin-bottom: 20px
+}
+
+#pagelet-friendlink .dtag {
+    position: relative;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    color: #222;
+    padding-left: 14px;
+    margin-bottom: 20px
+}
+
+#pagelet-friendlink .dtag:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+    background: #ed4040;
+    border-radius: 5px
+}
+
+#pagelet-friendlink .row {
+    font-size: 14px;
+    line-height: 14px;
+    color: #222;
+    margin-bottom: 20px
+}
+
+#pagelet-friendlink .row .item {
+    float: left
+}
+
+#pagelet-friendlink .row .item:after {
+    content: '';
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+    background-color: #ddd;
+    margin: 0 11px 0 15px
+}
+
+#pagelet-friendlink .row .item.last:after {
+    content: none
+}
 /*!/pagelet/ngameentry/ngameentry.less*/
-#pagelet-ngameentry{margin:16px 0 30px}#pagelet-ngameentry .game-btn{font-size:16px;line-height:26px;height:26px;display:inline-block;*display:inline;*zoom:1;color:#939393;border:1px solid #ddd;border-radius:14px;background-color:#f8f8f8;width:45%;text-align:center}#pagelet-ngameentry .game-btn:hover{background-color:#ddd}
+#pagelet-ngameentry {
+    margin: 16px 0 30px
+}
+
+#pagelet-ngameentry .game-btn {
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #939393;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    background-color: #f8f8f8;
+    width: 45%;
+    text-align: center
+}
+
+#pagelet-ngameentry .game-btn:hover {
+    background-color: #ddd
+}
 /*!/pagelet/activity_ad/activity_ad.less*/
-#pagelet-activity .head{height:33px;font-size:0;border-left:solid 1px #e8e8e8;border-right:solid 1px #e8e8e8}#pagelet-activity .head .item{display:inline-block;width:149px;font-size:16px;height:30px;line-height:30px;text-align:center;border-top:solid 1px #e8e8e8;border-bottom:solid 1px #e8e8e8}#pagelet-activity .head .item_l{width:148px;border-right:solid 1px #e8e8e8}#pagelet-activity .head .select{border-top:solid 2px #ed4040;border-bottom:0}#pagelet-activity .shopping{display:none;height:111px;position:relative;border-left:solid 1px #e8e8e8;border-bottom:solid 1px #e8e8e8;background-color:#e8e8e8}#pagelet-activity .shopping:before{content:"";height:113px;width:1px;display:inline-block;position:absolute;background-color:#e8e8e8;right:0;z-index:2}#pagelet-activity .picture{height:80px;background-color:#e8e8e8;border:solid 1px #e8e8e8;border-top:0;border-bottom:0}#pagelet-activity .picture img{opacity:0;width:100%;height:100%}#pagelet-activity .description{height:30px;background-color:#f4f5f6;border:solid 1px #e8e8e8;font-size:14px;color:#444;margin:0;padding-left:10px;padding-right:10px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#pagelet-activity .description:before{content:"";display:inline-block;width:3px;height:3px;background-color:#777;margin-bottom:3px;position:absolute;top:8px;left:0}
+#pagelet-activity .head {
+    height: 33px;
+    font-size: 0;
+    border-left: solid 1px #e8e8e8;
+    border-right: solid 1px #e8e8e8
+}
+
+#pagelet-activity .head .item {
+    display: inline-block;
+    width: 149px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-top: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8
+}
+
+#pagelet-activity .head .item_l {
+    width: 148px;
+    border-right: solid 1px #e8e8e8
+}
+
+#pagelet-activity .head .select {
+    border-top: solid 2px #ed4040;
+    border-bottom: 0
+}
+
+#pagelet-activity .shopping {
+    display: none;
+    height: 111px;
+    position: relative;
+    border-left: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    background-color: #e8e8e8
+}
+
+#pagelet-activity .shopping:before {
+    content: "";
+    height: 113px;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    background-color: #e8e8e8;
+    right: 0;
+    z-index: 2
+}
+
+#pagelet-activity .picture {
+    height: 80px;
+    background-color: #e8e8e8;
+    border: solid 1px #e8e8e8;
+    border-top: 0;
+    border-bottom: 0
+}
+
+#pagelet-activity .picture img {
+    opacity: 0;
+    width: 100%;
+    height: 100%
+}
+
+#pagelet-activity .description {
+    height: 30px;
+    background-color: #f4f5f6;
+    border: solid 1px #e8e8e8;
+    font-size: 14px;
+    color: #444;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#pagelet-activity .description:before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #777;
+    margin-bottom: 3px;
+    position: absolute;
+    top: 8px;
+    left: 0
+}

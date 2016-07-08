@@ -1,0 +1,415 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+    form, fieldset, input, p, blockquote, th, td, ins, img {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word
+}
+
+html {
+    background: #f2f2f2;
+    overflow-y: scroll
+}
+
+body {
+    font: 12px/22px verdana, Arial, Helvetica, '宋体', sans-serif;
+    color: #333
+}
+
+img {
+    border: none 0
+}
+
+img {
+    vertical-align: middle;
+    _vertical-align: baseline
+}
+
+table {
+    border-collapse: collapse
+}
+
+input {
+    outline: 0;
+    border-radius: 0;
+    vertical-align: middle
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+ol {
+    list-style-type: decimal;
+    list-style: decimal;
+    padding-left: 22px
+}
+
+.ui_notice {
+    height: 26px;
+    width: 100%;
+    color: #c30;
+    background: #fbe954;
+    text-align: center
+}
+
+.ui_notice .ui_notice_in {
+    height: 26px;
+    line-height: 26px;
+    line-height: 28px\9;
+    overflow: hidden;
+    position: relative
+}
+
+.ui_notice_in .more {
+    display: block;
+    border: 1px solid #b1bdd6;
+    padding: 2px;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 6px
+}
+
+.ui_nav {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: #eb6120;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 50
+}
+
+.ui_nav_menu {
+    margin-left: 200px;
+    height: 50px;
+    font-family: "微软雅黑", "宋体"
+}
+
+.ui_nav_menu .ui_inline {
+    height: 50px
+}
+
+.ui_nav_menu {
+    height: 50px
+}
+
+.ui_nav_menu li {
+    position: relative;
+    float: left
+}
+.ui_drama_nav .ui_nav_menu li a.select {
+    background: #b47300
+}
+.ui_sport_nav .ui_nav_menu li a.select {
+    background: #00648a
+}
+.ui_nav_menu li a {
+    display: block;
+    *display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    *line-height: 38px;
+    overflow: hidden;
+    margin: 7px 0;
+    padding: 0 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none
+}
+
+.ui_nav_menu li a:hover {
+    color: #fff
+}
+
+.ui_nav_menu li a.select, .ui_nav_menu li a.select:hover, .ui_nav_menu li.ishover a.select
+    {
+    background: #da4400
+}
+
+.ui_nav_menu li.ishover a {
+    background: #f60;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_drama_nav .ui_plugs_body .logo img {
+    margin-top: -82px
+}
+
+.wrap_mini .ui_plugs_body {
+    width: 980px
+}
+
+.ui_plugs_body {
+    width: 1190px;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto
+}
+
+.ui_plugs_body a {
+    color: #fff
+}
+
+.ui_plugs_body .logo, .userBanner .userHeadLogo {
+    display: block;
+    height: 41px;
+    position: absolute;
+    z-index: 9;
+    top: 4px;
+    left: 0;
+    overflow: hidden;
+    width: 102px
+}
+.ui_sport_nav .ui_plugs_body .logo img {
+    margin-top: -123px
+}
+.ui_plugs_body .logo img, .userBanner .userHeadLogo img {
+    width: 102;
+    height: 286px;
+    background: url(logos_white.png?v=0001) no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='logos_white.png?v=0001',
+        sizingMethod='crop');
+    border: 0;
+    float: left
+}
+
+.ui_cityChoose {
+    display: block;
+    *display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 36px;
+    *line-height: 38px;
+    overflow: hidden;
+    padding: 0 15px 0 10px;
+    background: url(ico_arrow.gif) no-repeat right 17px
+}
+
+.ui_cityChoice {
+    background-position: right -15px
+}
+
+.ui_inline, .ui_inline {
+    margin-left: 0;
+    list-style: none
+}
+
+.ui_inline li, .ui_inline li {
+    display: inline-block;
+    *display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+    *zoom: 1
+}
+
+.ui_nav_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 370px;
+}
+
+.ui_nav_right {
+    width: 420px;
+}
+
+.wrap_mini .ui_nav_right {
+    width: 420px
+}
+
+.ui_nav_right .zt_my2013 {
+    position: absolute;
+    right: 100px;
+    top: 21px
+}
+
+.ui_nav_right .right .zt_my2013 {
+    top: 45px;
+    z-index: 1100
+}
+
+.ui_t_search {
+    height: 30px;
+    width: 190px;
+    float: left;
+    margin-top: 10px;
+}
+
+.ui_t_search .overTxtLabel {
+    width: 140px !important
+}
+
+.ui_t_search {
+    width: 185px
+}
+
+.search_text {
+    width: 152px
+}
+
+.wrap_mini .search_text {
+    width: 152px
+}
+
+.search_text {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #666;
+    padding: 5px 3px;
+    border: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: 0;
+    float: left;
+    width: 124px
+}
+
+.search_button {
+    width: 27px;
+    height: 28px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+.ui_t_searchClicked .search_button input, .search_button input:hover {
+    background-position: 5px -30px;
+    background-color: #e8e8e8
+}
+.search_button input {
+    background: url(ico_glass.gif) no-repeat
+}
+.search_button input {
+    background: url(ico_glass.gif) no-repeat
+}
+@media screen and (max-width:1200px) {
+    .ui_indextad {
+        width: 980px
+    }
+    .ui_nav_menu li {
+        padding: 0 1px
+    }
+    .ui_nav_menu li a {
+        padding: 0 8px
+    }
+    .ui_nav_right {
+        width: 420px;
+    }
+    .ui_t_search {
+        width: 185px
+    }
+    .search_text {
+        width: 152px
+    }
+    .ui_layout_footer {
+        width: 980px;
+        overflow: hidden
+    }
+    .aboutGewara .right {
+        width: 300px
+    }
+    .aboutGewara .right .apps {
+        margin: 20px 0 0 0
+    }
+    .siteList span, .aboutGewara dd span {
+        margin: 0 4px
+    }
+    #backTopBox {
+        display: none
+    }
+}
+@media screen and (max-width:1200px) {
+    .ui_layout {
+        width: 980px
+    }
+    .index_wrap .index_right {
+        margin-left: 10px;
+        width: 770px
+    }
+    .index_right .ui_right {
+        margin-left: 10px
+    }
+    .index_right .ui_left {
+        width: 500px
+    }
+    .index_right .ui_right {
+        width: 260px
+    }
+    .imgView {
+        width: 500px
+    }
+    .imgView .imgList ul {
+        position: absolute;
+        left: -95px;
+        top: 0
+    }
+    .index_right .ui_right .mod_line .mod_hd {
+        margin-left: -10px;
+        padding-left: 10px
+    }
+    .movieBox .even_move .even_center {
+        width: 516px;
+        margin-left: -8px
+    }
+    .sportPlayBox {
+        width: 350px
+    }
+    .hotAc ul li {
+        width: 245px
+    }
+    .hotAc ul li.ml30 {
+        margin-left: 10px
+    }
+    .hotPlayItem .mr30 {
+        margin-right: 20px
+    }
+    .hezuozhuanqu, .publicize {
+        width: 750px
+    }
+    .followUs li.spe .fbox img {
+        width: 90px;
+        height: 90px
+    }
+    .followUs li.spe .fbox .ui_pic {
+        width: 90px !important;
+        padding-top: 33px
+    }
+    .imgView .imgList span {
+        left: 95px;
+        width: 488px
+    }
+    .ui_left .mod_line .mod_hd em {
+        display: none
+    }
+    .dramaInfo .ui_left li {
+        padding-left: 0
+    }
+    .dramaInfo .ui_left {
+        width: 118px
+    }
+    .dramaInfo .isfix {
+        margin-top: 10px
+    }
+    .dramaInfo .ui_right {
+        width: 360px
+    }
+    .hotAc .mod_bd {
+        padding: 0
+    }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://www.gewara.com/ -->
+<html xmlns:wb="“http://open.weibo.com/wb”" slick-uniqueid="1">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- SUCCESS_HEAD -->
+
+<meta name="viewport"
+    content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=yes">
+<title>高地文化云</title>
+<script src="./resource/wb.js" async="async" defer="defer" type="text/javascript" charset="utf-8"></script>
+<meta name="keywords" content="高地文化云">
+<meta name="description" content="高地文化云">
+<link rel="stylesheet" type="text/css" href="./resource/menubar.css">
+</head>
+<body>
+    <iframe id="sina_anywhere_iframe" style="display: none;" src="./resource/saved_resource.html"></iframe>
+<div id="top_notice" class="ui_notice" style="display: none;">
+    <div class="ui_notice_in"></div>
+</div>
+<div class="ui_nav ui__nav">
+    <div class="ui_plugs_body">
+        <a href="#" class="logo" title="高地文化云"><img
+            src="./resource/blank.gif" alt="高地文化云" width="102"
+            height="40"></a>
+        <div id="cityChoose" class="ui_changeCity">
+            <b class="ui_cityChoose " title="点击切换区域">广州</b>
+        </div>
+        <div class="ui_nav_menu" lang="bgcolor">
+            <ul class="ui_inline" lang="ishover">
+                <li class="isDisabled"><a class="select"
+                    href="index.html">首页</a></li>
+                <li key="drama" class=""><a
+                    href="zixun_index.html">资讯</a></li>
+                <li key="movie" class="isDisabled"><a
+                    href="chanpin_index.html">演出</a></li>
+                <li key="activity" class=""><a href="#">场馆</a></li>
+                <li key="activity" class=""><a
+                    href="huodong_index.html">活动</a></li>
+                <li key="activity" class=""><a href="#">文创产品</a></li>
+                <li key="activity" class=""><a href="#">文艺达人</a></li>
+                <li class=""><a href="quanzi_index.html">圈子</a></li>
+                <li class=""><a href="#">互助</a></li>
+            </ul>
+        </div>
+        <div class="ui_nav_right">
+            <div class="ui_t_search">
+                <!-- 搜索条 -->
+        <form action="#" id="gForm">
+            <input type="hidden" value="" id="searchid">
+            <input type="text" name="skey" value=""
+                class="search_text" alt="文创产品" id="skey"
+                autocomplete="off" x-webkit-speech=""
+                accesskey="s">
+            <!-- <label class="overTxtLabel" for="skey" style="line-height: 28px; height: 28px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 200px; text-indent: 6px; left: 0px; top: 11px;">演出..</label> -->
+            <label class="search_button"> <input
+                class="search_button" type="submit"
+                value=" ">
+            </label>
+        </form>
+    </div>
+    <!-- 搜索条 -->
+    <div class="ui_logins right" id="global_check_login">
+        <div class="ui_userBox ui_sign">
+            <img class="ui_dHead" width="30" height="30"
+                alt="" style="display: none;"
+                src="default_head.png"> <a
+                href="javascript:showLogin(refreshPage,&#39;&#39;,&#39;https://www.gewara.com/&#39;);">登录</a>|<a
+                href="http://www.gewara.com/register.xhtml?tagNo=14679589415515673"
+                target="_blank">注册</a>
+        </div>
+        <!-- <a class="left msgWala" id="myMsg" href="#">消息<span>10</span></a> -->
+        <a class="left" id="myMsg" href="#">消息<span
+            id="messsageCount" class="none">0</span></a>
+        <!--<a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>-->
+        <div class="ui_userBoxBtn"
+            id="global_user_detail"
+            style="position: absolute; left: -1px; top: 50px; height: 0px; visibility: hidden; zoom: 1; opacity: 0; display: block;">
+            <div class="ulist">
+                <a id="global_userOrder"
+                    class="global_userOrder"
+                    href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14678951076895995"
+                    target="_blank">我的订单</a> <a
+                    href="http://www.gewara.com/home/charge.xhtml?tagNo=14678951076891352"
+                    target="_blank">我的账户</a> <a
+                    href="javascript:logout();">退出</a>
+                <div class="cls"></div>
+            </div>
+            <div id="golbal_orderDetail"
+                class="ui_nav_orderDetail"
+                style="position: absolute; left: -313px; top: 0px; height: 0px; visibility: hidden; zoom: 1; opacity: 0; display: block;">
+                <div id="ajaxOrderListDetail"
+                    style="background: #fff;">
+                    <div class="ainner">
+                        <em class="sline"></em>
+                        <div class="nav_loading">亲！最近您还没有购票订单哦。
+                        <a href="http://www.gewara.com/cinema/searchOpi.xhtml" target="_blank">快速购票</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myMsgDetail" class="ui_myMsgDetail">
+            <div id="message_list"></div>
+        </div>
+        <div class="ui_warning ui_warning_header none"
+            id="speNotice">
+            <div class="inner">
+                <i class="t">◆<i>◆</i></i>
+                <p>
+                    <b class="ico_g"></b>您的账户存在安全风险，为保障您的账户安全，请及时更改您的密码！
+                </p>
+                <p class="tar mt5">
+                    <a class="ffst" href="#">马上更改&gt;&gt;</a>
+                </p>
+            </div>
+        </div>
+        <div class="ui_tips ui_bindAcTips"
+            id="bindAcTips"
+            style="display: none; cursor: pointer;"
+            onclick="window.location.href=&#39;/home/bind/bindIndex.xhtml?tagNo=14678951076891411&#39;;closebindAcTips();">
+            <div class="inner">
+                <span class="close" id="bindClose"
+                    title="关闭">关闭</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
