@@ -1,153 +1,58 @@
 <!DOCTYPE html>
-<html slick-uniqueid="1"><head>
+<html slick-uniqueid="1"><head> 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>申请发票_格瓦拉生活网</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=yes">
-	<link rel="stylesheet" type="text/css" href="wddd_files/gewara.css">
-	<script type="text/javascript" src="wddd_files/mootools.js"></script>
-	<script type="text/javascript" src="wddd_files/gewara.js"></script>
+	<title>账户充值_高地文化云</title>
+	<link rel="stylesheet" type="text/css" href="css/gwr.css">
+	<script type="text/javascript" src="js/mootools.js"></script>
+	<script type="text/javascript" src="js/gwr.js"></script>
 	<style type="text/css">
-	.expressage p{width:100%;position:relative;}
-	.expressage em{background:url(http://static5.gewara.com/css/home/ico_tj.gif) no-repeat;width:30px;height:16px;display:block;position:absolute;top:0;left:74px;}
-	.expressage font{color:#eb6120;font-size:12px;margin-left:50px;}
+	.tab_title_bg{font-size:12px;font-weight:bold;position: relative;height:32px;line-height:32px;background:url(http://static5.gewara.com/css/home/tab_title_bg.jpg) repeat-x;border:1px solid #bccced}
+	.tab_title_mainbg{height:45px;position:absolute;left:140px;top:-3px;;overflow:hidden;width:auto;cursor:pointer;}
+	.tab_title_mainbg label{width:108px;height:35px;float:left;text-align: center;cursor: pointer;padding-top:10px;line-height:20px;}
+	.tab_title_mainbg label input{vertical-align: middle;margin-right:2px;}
+	.tab_title_mainbg label.select{background:url(http://static5.gewara.com/css/home/tab_title_mainbg.jpg) no-repeat;}
+	.tab_title_mainbox{border:1px solid #bccced;width:auto; }
+	.tab_title_mainboxInner{padding:20px 76px;}
+	.topup_input{width:90px;height: 18px;padding:3px;border:2px solid #68acff;}
+	#onlinePay_content label{width:153px;display:inline-block;height:30px;cursor: pointer;}
+	.s{width:440px;height:36px;margin-top:10px;vertical-align: middle;border-width:1px 0 1px;border-style:solid;border-color:#f8cc53;text-align:left}
+	.s td, .s th{font-size:14px;font-weight:bold;text-indent: 5px;border-right:1px solid #f8cc53}
+	.s td{background:#ffe187;color:#724b00}
+	.s th{background:#fdefbe;color:#ff6509}
+	.balance_color{color:#2abe7d;}
+	.topup_search_box{border-bottom:1px solid #c0c0c0;border-top:1px solid #c0c0c0;background:#f9f9f9;height:40px;}
+	.table_bline th{border-bottom:1px #d2d2d2 solid;line-height:25px;background:#f5f5f5;text-align:left;padding-left:10px;}
+	.table_bline td{border-bottom:1px #d2d2d2 solid;line-height:40px;padding-left:10px;}
+	.ui-layout .vipCard{border-bottom:0px;line-height:22px;height:30px;}
+	.vipCard .vipText{width:150px;text-align:right;float:left;}
+	.vipCard .vipSb{width:auto;float:left;}
+	.bt1{width:50px;height:25px;background:url(http://static5.gewara.com/img/pay/bt.png) no-repeat;border:0px;cursor: pointer;}
+	.warmTips{color:green;height:20px;line-height:20px;padding-left:16px;background:url(http://static5.gewara.com/css/home/harTips.jpg) 0 center no-repeat;margin-top:20px;}
+	.warmp{padding:0 20px;}
+	.out-table{margin:10px auto 0 auto;width:90%}
+	.order_table{background:#eee;margin:4px 0 0 4px;}
+	.order_table table{border:1px solid;border-color:#fce3cb #ccc #ccc #fce3cb;background:#fff;position:relative;top:-4px;left:-4px;}
+	.order_table td{border-bottom:1px solid #fce3cb;padding:4px 7px;}
+	.bgcolor td{background:#fce3cb;height:22px;font-weight:normal;border:0px;}
+	
+	.title_box{position:relative;top:-35px;width:218px;height:28px;visibility:hidden;left:260px;_left:270px;}
+	.point{border-color:transparent #facd68 transparent transparent ;border-style:dotted  solid;border-width:6px;height:0px;;lineheight:0;overflow:hidden;width:0px;position:relative;left:-12px;top:17px;}
+	.top{border-color:#facd68 transparent;border-style:none dotted solid;border-width:1px;}
+	.bot{border-color:#facd68 transparent;border-style: solid dotted  none;border-width:1px;}
+	.title_box{position:relative;top:-22px;left:36px;width:218px;height:28px;line-height:28px;visibility:hidden;border:1px solid #facd68;background:#fffbe2;color:#666;z-index:1000;text-align:center;}
+	.title_box span{width:0;height:0px;font-size:0;overflow:hidden;position:absolute;}
+	.bot{ border-width:8px;border-style: dotted solid dotted none;border-color: transparent #facd68 transparent transparent;left:-8px;top:5px;}
+	.top{border-width:8px;border-style: dotted solid dotted none ;border-color:transparent #fffbe2; left:-6px;top:5px;}
+	.labelBox{margin-top:10px;}
+	.labelBox label{display:inline-block;width:140px;height:22px;line-height: 22px;margin-bottom:10px;overflow:hidden;}
+	.getPrice{font-size:16px;font-weight:bold;color:#333}
+	.getPrice b{color:#FF3300}
+	
+	.cF60{color:#f60!important;}
 	</style>
-<style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
-/** reset styling **/
-.firebugResetStyles {
-    z-index: 2147483646 !important;
-    top: 0 !important;
-    left: 0 !important;
-    display: block !important;
-    border: 0 none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    outline: 0 !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    min-height: 0 !important;
-    max-height: none !important;
-    position: fixed !important;
-    transform: rotate(0deg) !important;
-    transform-origin: 50% 50% !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    background: transparent none !important;
-    pointer-events: none !important;
-    white-space: normal !important;
-}
-style.firebugResetStyles {
-    display: none !important;
-}
-
-.firebugBlockBackgroundColor {
-    background-color: transparent !important;
-}
-
-.firebugResetStyles:before, .firebugResetStyles:after {
-    content: "" !important;
-}
-/**actual styling to be modified by firebug theme**/
-.firebugCanvas {
-    display: none !important;
-}
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.firebugLayoutBox {
-    width: auto !important;
-    position: static !important;
-}
-
-.firebugLayoutBoxOffset {
-    opacity: 0.8 !important;
-    position: fixed !important;
-}
-
-.firebugLayoutLine {
-    opacity: 0.4 !important;
-    background-color: #000000 !important;
-}
-
-.firebugLayoutLineLeft, .firebugLayoutLineRight {
-    width: 1px !important;
-    height: 100% !important;
-}
-
-.firebugLayoutLineTop, .firebugLayoutLineBottom {
-    width: 100% !important;
-    height: 1px !important;
-}
-
-.firebugLayoutLineTop {
-    margin-top: -1px !important;
-    border-top: 1px solid #999999 !important;
-}
-
-.firebugLayoutLineRight {
-    border-right: 1px solid #999999 !important;
-}
-
-.firebugLayoutLineBottom {
-    border-bottom: 1px solid #999999 !important;
-}
-
-.firebugLayoutLineLeft {
-    margin-left: -1px !important;
-    border-left: 1px solid #999999 !important;
-}
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.firebugLayoutBoxParent {
-    border-top: 0 none !important;
-    border-right: 1px dashed #E00 !important;
-    border-bottom: 1px dashed #E00 !important;
-    border-left: 0 none !important;
-    position: fixed !important;
-    width: auto !important;
-}
-
-.firebugRuler{
-    position: absolute !important;
-}
-
-.firebugRulerH {
-    top: -15px !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 14px !important;
-    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%13%88%00%00%00%0E%08%02%00%00%00L%25a%0A%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%04%F8IDATx%DA%EC%DD%D1n%E2%3A%00E%D1%80%F8%FF%EF%E2%AF2%95%D0D4%0E%C1%14%B0%8Fa-%E9%3E%CC%9C%87n%B9%81%A6W0%1C%A6i%9A%E7y%0As8%1CT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AATE9%FE%FCw%3E%9F%AF%2B%2F%BA%97%FDT%1D~K(%5C%9D%D5%EA%1B%5C%86%B5%A9%BDU%B5y%80%ED%AB*%03%FAV9%AB%E1%CEj%E7%82%EF%FB%18%BC%AEJ8%AB%FA'%D2%BEU9%D7U%ECc0%E1%A2r%5DynwVi%CFW%7F%BB%17%7Dy%EACU%CD%0E%F0%FA%3BX%FEbV%FEM%9B%2B%AD%BE%AA%E5%95v%AB%AA%E3E5%DCu%15rV9%07%B5%7F%B5w%FCm%BA%BE%AA%FBY%3D%14%F0%EE%C7%60%0EU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5JU%88%D3%F5%1F%AE%DF%3B%1B%F2%3E%DAUCNa%F92%D02%AC%7Dm%F9%3A%D4%F2%8B6%AE*%BF%5C%C2Ym~9g5%D0Y%95%17%7C%C8c%B0%7C%18%26%9CU%CD%13i%F7%AA%90%B3Z%7D%95%B4%C7%60%E6E%B5%BC%05%B4%FBY%95U%9E%DB%FD%1C%FC%E0%9F%83%7F%BE%17%7DkjMU%E3%03%AC%7CWj%DF%83%9An%BCG%AE%F1%95%96yQ%0Dq%5Dy%00%3Et%B5'%FC6%5DS%95pV%95%01%81%FF'%07%00%00%00%00%00%00%00%00%00%F8x%C7%F0%BE%9COp%5D%C9%7C%AD%E7%E6%EBV%FB%1E%E0(%07%E5%AC%C6%3A%ABi%9C%8F%C6%0E9%AB%C0'%D2%8E%9F%F99%D0E%B5%99%14%F5%0D%CD%7F%24%C6%DEH%B8%E9rV%DFs%DB%D0%F7%00k%FE%1D%84%84%83J%B8%E3%BA%FB%EF%20%84%1C%D7%AD%B0%8E%D7U%C8Y%05%1E%D4t%EF%AD%95Q%BF8w%BF%E9%0A%BF%EB%03%00%00%00%00%00%00%00%00%00%B8vJ%8E%BB%F5%B1u%8Cx%80%E1o%5E%CA9%AB%CB%CB%8E%03%DF%1D%B7T%25%9C%D5(%EFJM8%AB%CC'%D2%B2*%A4s%E7c6%FB%3E%FA%A2%1E%80~%0E%3E%DA%10x%5D%95Uig%15u%15%ED%7C%14%B6%87%A1%3B%FCo8%A8%D8o%D3%ADO%01%EDx%83%1A~%1B%9FpP%A3%DC%C6'%9C%95gK%00%00%00%00%00%00%00%00%00%20%D9%C9%11%D0%C0%40%AF%3F%EE%EE%92%94%D6%16X%B5%BCMH%15%2F%BF%D4%A7%C87%F1%8E%F2%81%AE%AAvzr%DA2%ABV%17%7C%E63%83%E7I%DC%C6%0Bs%1B%EF6%1E%00%00%00%00%00%00%00%00%00%80cr%9CW%FF%7F%C6%01%0E%F1%CE%A5%84%B3%CA%BC%E0%CB%AA%84%CE%F9%BF)%EC%13%08WU%AE%AB%B1%AE%2BO%EC%8E%CBYe%FE%8CN%ABr%5Dy%60~%CFA%0D%F4%AE%D4%BE%C75%CA%EDVB%EA(%B7%F1%09g%E5%D9%12%00%00%00%00%00%00%00%00%00H%F6%EB%13S%E7y%5E%5E%FB%98%F0%22%D1%B2'%A7%F0%92%B1%BC%24z3%AC%7Dm%60%D5%92%B4%7CEUO%5E%F0%AA*%3BU%B9%AE%3E%A0j%94%07%A0%C7%A0%AB%FD%B5%3F%A0%F7%03T%3Dy%D7%F7%D6%D4%C0%AAU%D2%E6%DFt%3F%A8%CC%AA%F2%86%B9%D7%F5%1F%18%E6%01%F8%CC%D5%9E%F0%F3z%88%AA%90%EF%20%00%00%00%00%00%00%00%00%00%C0%A6%D3%EA%CFi%AFb%2C%7BB%0A%2B%C3%1A%D7%06V%D5%07%A8r%5D%3D%D9%A6%CAu%F5%25%CF%A2%99%97zNX%60%95%AB%5DUZ%D5%FBR%03%AB%1C%D4k%9F%3F%BB%5C%FF%81a%AE%AB'%7F%F3%EA%FE%F3z%94%AA%D8%DF%5B%01%00%00%00%00%00%00%00%00%00%8E%FB%F3%F2%B1%1B%8DWU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*UiU%C7%BBe%E7%F3%B9%CB%AAJ%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5*%AAj%FD%C6%D4%5Eo%90%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5%86%AF%1B%9F%98%DA%EBm%BBV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%AD%D6%E4%F58%01%00%00%00%00%00%00%00%00%00%00%00%00%00%40%85%7F%02%0C%008%C2%D0H%16j%8FX%00%00%00%00IEND%AEB%60%82") repeat-x !important;
-    border-top: 1px solid #BBBBBB !important;
-    border-right: 1px dashed #BBBBBB !important;
-    border-bottom: 1px solid #000000 !important;
-}
-
-.firebugRulerV {
-    top: 0 !important;
-    left: -15px !important;
-    width: 14px !important;
-    height: 100% !important;
-    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%0E%00%00%13%88%08%02%00%00%00%0E%F5%CB%10%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%06~IDATx%DA%EC%DD%D1v%A20%14%40Qt%F1%FF%FF%E4%97%D9%07%3BT%19%92%DC%40(%90%EEy%9A5%CB%B6%E8%F6%9Ac%A4%CC0%84%FF%DC%9E%CF%E7%E3%F1%88%DE4%F8%5D%C7%9F%2F%BA%DD%5E%7FI%7D%F18%DDn%BA%C5%FB%DF%97%BFk%F2%10%FF%FD%B4%F2M%A7%FB%FD%FD%B3%22%07p%8F%3F%AE%E3%F4S%8A%8F%40%EEq%9D%BE8D%F0%0EY%A1Uq%B7%EA%1F%81%88V%E8X%3F%B4%CEy%B7h%D1%A2E%EBohU%FC%D9%AF2fO%8BBeD%BE%F7X%0C%97%A4%D6b7%2Ck%A5%12%E3%9B%60v%B7r%C7%1AI%8C%BD%2B%23r%00c0%B2v%9B%AD%CA%26%0C%1Ek%05A%FD%93%D0%2B%A1u%8B%16-%95q%5Ce%DCSO%8E%E4M%23%8B%F7%C2%FE%40%BB%BD%8C%FC%8A%B5V%EBu%40%F9%3B%A72%FA%AE%8C%D4%01%CC%B5%DA%13%9CB%AB%E2I%18%24%B0n%A9%0CZ*Ce%9C%A22%8E%D8NJ%1E%EB%FF%8F%AE%CAP%19*%C3%BAEKe%AC%D1%AAX%8C*%DEH%8F%C5W%A1e%AD%D4%B7%5C%5B%19%C5%DB%0D%EF%9F%19%1D%7B%5E%86%BD%0C%95%A12%AC%5B*%83%96%CAP%19%F62T%86%CAP%19*%83%96%CA%B8Xe%BC%FE)T%19%A1%17xg%7F%DA%CBP%19*%C3%BA%A52T%86%CAP%19%F62T%86%CA%B0n%A9%0CZ%1DV%C6%3D%F3%FCH%DE%B4%B8~%7F%5CZc%F1%D6%1F%AF%84%F9%0F6%E6%EBVt9%0E~%BEr%AF%23%B0%97%A12T%86%CAP%19%B4T%86%CA%B8Re%D8%CBP%19*%C3%BA%A52huX%19%AE%CA%E5%BC%0C%7B%19*CeX%B7h%A9%0C%95%E1%BC%0C%7B%19*CeX%B7T%06%AD%CB%5E%95%2B%BF.%8F%C5%97%D5%E4%7B%EE%82%D6%FB%CF-%9C%FD%B9%CF%3By%7B%19%F62T%86%CA%B0n%D1R%19*%A3%D3%CA%B0%97%A12T%86uKe%D0%EA%B02*%3F1%99%5DB%2B%A4%B5%F8%3A%7C%BA%2B%8Co%7D%5C%EDe%A8%0C%95a%DDR%19%B4T%C66%82fA%B2%ED%DA%9FC%FC%17GZ%06%C9%E1%B3%E5%2C%1A%9FoiB%EB%96%CA%A0%D5qe4%7B%7D%FD%85%F7%5B%ED_%E0s%07%F0k%951%ECr%0D%B5C%D7-g%D1%A8%0C%EB%96%CA%A0%A52T%C6)*%C3%5E%86%CAP%19%D6-%95A%EB*%95q%F8%BB%E3%F9%AB%F6%E21%ACZ%B7%22%B7%9B%3F%02%85%CB%A2%5B%B7%BA%5E%B7%9C%97%E1%BC%0C%EB%16-%95%A12z%AC%0C%BFc%A22T%86uKe%D0%EA%B02V%DD%AD%8A%2B%8CWhe%5E%AF%CF%F5%3B%26%CE%CBh%5C%19%CE%CB%B0%F3%A4%095%A1%CAP%19*Ce%A8%0C%3BO*Ce%A8%0C%95%A12%3A%AD%8C%0A%82%7B%F0v%1F%2FD%A9%5B%9F%EE%EA%26%AF%03%CA%DF9%7B%19*Ce%A8%0C%95%A12T%86%CA%B8Ze%D8%CBP%19*Ce%A8%0C%95%D1ae%EC%F7%89I%E1%B4%D7M%D7P%8BjU%5C%BB%3E%F2%20%D8%CBP%19*Ce%A8%0C%95%A12T%C6%D5*%C3%5E%86%CAP%19*Ce%B4O%07%7B%F0W%7Bw%1C%7C%1A%8C%B3%3B%D1%EE%AA%5C%D6-%EBV%83%80%5E%D0%CA%10%5CU%2BD%E07YU%86%CAP%19*%E3%9A%95%91%D9%A0%C8%AD%5B%EDv%9E%82%FFKOee%E4%8FUe%A8%0C%95%A12T%C6%1F%A9%8C%C8%3D%5B%A5%15%FD%14%22r%E7B%9F%17l%F8%BF%ED%EAf%2B%7F%CF%ECe%D8%CBP%19*Ce%A8%0C%95%E1%93~%7B%19%F62T%86%CAP%19*Ce%A8%0C%E7%13%DA%CBP%19*Ce%A8%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4%AE%A4%F5%25%C0%00%DE%BF%5C'%0F%DA%B8q%00%00%00%00IEND%AEB%60%82") repeat-y !important;
-    border-left: 1px solid #BBBBBB !important;
-    border-right: 1px solid #000000 !important;
-    border-bottom: 1px dashed #BBBBBB !important;
-}
-
-.overflowRulerX > .firebugRulerV {
-    left: 0 !important;
-}
-
-.overflowRulerY > .firebugRulerH {
-    top: 0 !important;
-}
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.fbProxyElement {
-    position: fixed !important;
-    pointer-events: auto !important;
-}
-</style></head>
+</head>
 <body>
+
 <!-- SUCCESS_HEAD -->
 <!--[if lt IE 7]>
 <div class="ui_warning ui_ieUpdate center">你正在使用低版本浏览器，为了您的格瓦拉账号安全和更好的产品体验，强烈建议您立即 <a class="blue" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">升级浏览器</a>。</div>
@@ -158,101 +63,116 @@ style.firebugResetStyles {
 </div>
 
 <div class="ui_nav ui__nav">
-	<div class="ui_plugs_body">
-		<a href="http://www.gewara.com/" class="logo" title="格瓦拉生活网"><img src="wddd_files/blank.gif" alt="格瓦拉生活网" height="40" width="102"></a>
-		<div id="cityChoose" class="ui_changeCity"><b title="点击切换城市" class="ui_cityChoose">广州</b></div>
-		<div class="ui_nav_menu" lang="bgcolor">
-							<ul class="ui_inline" lang="ishover">
-					<li class="isDisabled"><a href="http://www.gewara.com/">首页</a></li>
-					<li key="movie"><a href="http://www.gewara.com/movie/">电影</a></li>					<li key="drama"><a href="http://www.gewara.com/drama/">演出</a></li>										<li key="activity"><a href="http://www.gewara.com/activity/">活动</a></li>				    <li><a href="http://www.gewara.com/wala/">社区</a></li>
-				</ul>
-					</div>
-		<div class="ui_nav_right">
-			<div class="ui_t_search">
-				<form action="/newSearchKey.xhtml" id="gForm">
-					<input value="" id="searchid" type="hidden">
-					<input name="skey" class="search_text" alt="电影、演出.." id="skey" autocomplete="off" x-webkit-speech="" accesskey="s" type="text"><label for="skey" style="line-height: 28px; height: 28px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 200px; text-indent: 6px; left: 0px; top: 11px;" class="overTxtLabel">电影、演出..</label><label class="search_button"><input class="search_button" value="&nbsp;" type="submit"></label>
-				</form>
-			</div>
-			<div class="ui_logins right" id="global_check_login"><style type="text/css">
-.ui_top_nav{position:relative; z-index:2; _position:static;}
-.ui_logins{position:relative; z-index:0; float:right;}
-.ui_cityChoose{z-index:10px;}
-.ui_warning_header{position:absolute; overflow:visible; width:200px; right:115px; height:auto; line-height:20px; top:15px; text-align:left; color:#666;}
-.ui_warning_header .inner{position:relative; padding:5px 0;}
-.ui_warning_header i{display:inline-block; font-family:'SimSun'; font-size:16px; font-style:normal; height:22px; line-height:26px; overflow:hidden; position:absolute;}
-.ui_warning_header .t{color:#FFE3BB; right:10px;top:-13px;}
-.ui_warning_header i.t i{color:#FFFFDD; left:0; top:1px;}
-.ui_warning_header a{color:#c30; padding:0;}
-.ui_warning_header a:hover{color:#c30; text-decoration:underline!important;}
-.ui_userBox{float:left} 
-.ui_getRd{float:right;}
-.systemNew ,.whenNew{padding:10px 20px; background:#f1f1f1;}
-.whenNew{margin-top:2px;}
-.whenNew a ,.systemNew a ,.systemNew a span.goto ,.whenNew a span.goto{background:url(http://static5.gewara.com/css/sns/snsIco_new.png?v=10000) no-repeat;}
-.whenNew a ,.systemNew a{display:block; padding-left:30px; height:30px; line-height:30px; font-size:18px; color:#6f6f6f;  position:relative;}
-.whenNew a:hover ,.systemNew a:hover{color:#333;}
-.systemNew a{background-position:-10px -10px;}
-.whenNew a{background-position:-10px -50px;}
-.systemNew.haveNew a em ,.whenNew.haveNew a em{width:7px; height:7px; display:block; background:#ff5d00; border-radius:7px; position:absolute; top:12px; left:105px;}
-.systemNew a span.goto ,.whenNew a span.goto{background-position:-14px -87px; float:right; width:15px; height:30px; display:inline-block;}
-.ui_myMsgDetail{box-shadow:2px 2px 0 rgba(0, 0, 0, 0.1);overflow:hidden;}
-#sysCount{float:right;font-size:14px; margin-right:10px;}
-/* tips公用 */
-.ui_tips{display:block; position:absolute; overflow:hidden; z-index:10; }
-.ui_tips .inner{display:block;  padding:0; position:relative; overflow:hidden; width:100%; height:100%;}
-.ui_tips .inner .close{position:absolute; display:block; overflow:hidden; text-indent:-9999px;cursor:pointer;}
-/* 退票tips*/
-.ui_tpTips{width:202px; height:57px;right:50px; top:35px; background:url(http://static5.gewara.com/css/movie_wide/tptips.png?v=2016070904) 0 0 no-repeat;}
-.ui_tpTips .inner .close{width:30px; height:30px; right:0px; top:18px; }
-/* 绑定账户tips*/
-.ui_bindAcTips{width:255px; height:65px;right:70px; top:35px; background:url(http://static5.gewara.com/css/sns/bindAcTips.png?v=2016070904) 0 0 no-repeat;}
-.ui_bindAcTips .inner .close{width:30px; height:30px; right:0px; top:18px;}
-</style>
+	<!-- 导航条 start -->
+        <div class="ui_plugs_body">
+        <a href="#" class="logo" title="高地文化云"><!-- <img src="./resource/blank.gif" alt="高地文化云" width="102" height="40"> --></a>
+        <div id="cityChoose" class="ui_changeCity">
+            <!-- <b class="ui_cityChoose " title="点击切换区域">广州</b> -->
+        </div>
+        <div class="ui_nav_menu" lang="bgcolor">
+                            <ul class="ui_inline" lang="ishover">
+                    <li class=""><a href="index.html">首页</a></li>
+                    <li key="" class=""><a class="" href="zixun_index.html">资讯</a></li>
+                    <li key="" class=""><a href="yanchu_index.html">演出</a></li>
+                    <li key="" class=""><a href="changguan_index.html">场馆</a></li>
+                    <li key="" class=""><a href="huodong_index.html">活动</a></li>
+                    <li key="" class=""><a href="wenchuang_index.html">文创产品</a></li>
+                    <li key="" class=""><a href="daren_index.html">文艺达人</a></li>
+                    <li class=""><a href="quanzi_index.html">圈子</a></li>
+                    <li class=""><a href="huzhu_index.html">互助</a></li>
+                </ul>
+        </div>
+        <div class="ui_nav_right">
+            <div class="ui_t_search"><!-- 搜索条 -->
+                <form action="#" id="gForm">
+                    <input type="hidden" value="" id="searchid">
+                    <input type="text" name="skey" value="" class="search_text" alt="文创产品" id="skey" autocomplete="off" x-webkit-speech="" accesskey="s">
+                    <!-- <label class="overTxtLabel" for="skey" style="line-height: 28px; height: 28px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 200px; text-indent: 6px; left: 0px; top: 11px;">演出..</label> -->
+                    <label class="search_button">
+                        <input class="search_button" type="submit" value=" ">
+                    </label>
+                </form>
+            </div><!-- 搜索条 -->
+            <div class="ui_logins right" id="global_check_login">
+            <style type="text/css">
+            .ui_top_nav{position:relative; z-index:2; _position:static;}
+            .ui_logins{position:relative; z-index:0; float:right;}
+            .ui_cityChoose{z-index:10px;}
+            .ui_warning_header{position:absolute; overflow:visible; width:200px; right:115px; height:auto; line-height:20px; top:15px; text-align:left; color:#666;}
+            .ui_warning_header .inner{position:relative; padding:5px 0;}
+            .ui_warning_header i{display:inline-block; font-family:'SimSun'; font-size:16px; font-style:normal; height:22px; line-height:26px; overflow:hidden; position:absolute;}
+            .ui_warning_header .t{color:#FFE3BB; right:10px;top:-13px;}
+            .ui_warning_header i.t i{color:#FFFFDD; left:0; top:1px;}
+            .ui_warning_header a{color:#c30; padding:0;}
+            .ui_warning_header a:hover{color:#c30; text-decoration:underline!important;}
+            .ui_userBox{float:left} 
+            .ui_getRd{float:right;}
+            .systemNew ,.whenNew{padding:10px 20px; background:#f1f1f1;}
+            .whenNew{margin-top:2px;}
+            .whenNew a ,.systemNew a ,.systemNew a span.goto ,.whenNew a span.goto{background:url(http://static5.gewara.com/css/sns/snsIco_new.png?v=10000) no-repeat;}
+            .whenNew a ,.systemNew a{display:block; padding-left:30px; height:30px; line-height:30px; font-size:18px; color:#6f6f6f;  position:relative;}
+            .whenNew a:hover ,.systemNew a:hover{color:#333;}
+            .systemNew a{background-position:-10px -10px;}
+            .whenNew a{background-position:-10px -50px;}
+            .systemNew.haveNew a em ,.whenNew.haveNew a em{width:7px; height:7px; display:block; background:#ff5d00; border-radius:7px; position:absolute; top:12px; left:105px;}
+            .systemNew a span.goto ,.whenNew a span.goto{background-position:-14px -87px; float:right; width:15px; height:30px; display:inline-block;}
+            .ui_myMsgDetail{box-shadow:2px 2px 0 rgba(0, 0, 0, 0.1);overflow:hidden;}
+            #sysCount{float:right;font-size:14px; margin-right:10px;}
+            /* tips公用 */
+            .ui_tips{display:block; position:absolute; overflow:hidden; z-index:10; }
+            .ui_tips .inner{display:block;  padding:0; position:relative; overflow:hidden; width:100%; height:100%;}
+            .ui_tips .inner .close{position:absolute; display:block; overflow:hidden; text-indent:-9999px;cursor:pointer;}
+            /* 退票tips*/
+            .ui_tpTips{width:202px; height:57px;right:50px; top:35px; background:url(http://static5.gewara.com/css/movie_wide/tptips.png?v=2016070618) 0 0 no-repeat;}
+            .ui_tpTips .inner .close{width:30px; height:30px; right:0px; top:18px; }
+            /* 绑定账户tips*/
+            .ui_bindAcTips{width:255px; height:65px;right:70px; top:35px; background:url(http://static5.gewara.com/css/sns/bindAcTips.png?v=2016070618) 0 0 no-repeat;}
+            .ui_bindAcTips .inner .close{width:30px; height:30px; right:0px; top:18px;}
+            </style>
 
-<div class="ui_userBox ui_userBox_logon" id="global_user_infobox">
-	<a href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" target="_blank"><img class="ui_dHead" alt="" style="display:none; background:url(http://img5.gewara.com/cw30h30/images/201607/headpic/s_112a73ad_15581a4f062_1861.gif) center center no-repeat;" src="wddd_files/blank.gif" height="30" width="30"></a>
-	<a class="ismessge" title="心_睡" href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" target="_blank"><b> 心_睡 </b></a>
-</div>
-<!-- <a class="left msgWala" id="myMsg" href="#">消息<span>10</span></a> -->
-<a class="left" id="myMsg" href="http://www.gewara.com/activity/message/index.xhtml">消息<span id="messsageCount" class="none">0</span></a>
-<a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>
-<div class="ui_userBoxBtn" id="global_user_detail">
-	<div class="ulist">
-		<a id="global_userOrder" class="global_userOrder" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=1468041804479574" target="_blank">我的订单</a>
-		<a href="http://www.gewara.com/home/charge.xhtml?tagNo=1468041804479175" target="_blank">我的账户</a>
-		<a href="javascript:logout();">退出</a>
-		<div class="cls"></div>
-	</div>
-	<div id="golbal_orderDetail" class="ui_nav_orderDetail">
-		<div id="ajaxOrderListDetail" style="background:#fff;">
-			<div class="ainner">
-				<em class="sline"></em>
-				<div class="nav_loading">加载中，请稍后...</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="myMsgDetail" class="ui_myMsgDetail">
-	<div id="message_list"></div>
-</div>
-<div class="ui_warning ui_warning_header none" id="speNotice">
-	<div class="inner">
-		<i class="t">◆<i>◆</i></i>
-		<p><b class="ico_g"></b>您的账户存在安全风险，为保障您的账户安全，请及时更改您的密码！</p>
-		<p class="tar mt5"><a class="ffst" href="http://www.gewara.com/home/acct/goUpPass.xhtml?tagNo=14680418044792468&amp;danger=true">马上更改&gt;&gt;</a></p>
-	</div>
-</div>
-<!-- <div class="ui_tips ui_tpTips" id="tuipiaoTips" style="display:none;" onclick="window.location.href='/home/myOrderManage.xhtml?tagNo=1468041804479858';closetuipiaoTips();">
-	<div class="inner"><span class="close" onclick="closetuipiaoTips();" title="关闭">关闭</span></div>
-</div> -->
-<div class="ui_tips ui_bindAcTips" id="bindAcTips" style="display:none;cursor:pointer;" onclick="window.location.href='/home/bind/bindIndex.xhtml?tagNo=14680418044791170';closebindAcTips();">
-	<div class="inner"><span class="close" id="bindClose" title="关闭">关闭</span></div>
-</div>
-
-</div>
-		</div>
-	</div>
+            <div class="ui_userBox ui_sign">
+                <img class="ui_dHead" width="30" height="30" alt="" style="display:none;" src="default_head.png">
+                <a href="#">退出登录</a>
+            </div>
+            <!-- <a class="left msgWala" id="myMsg" href="#">消息<span>10</span></a> -->
+            <a class="left" id="myMsg" href="#">消息<span id="messsageCount" class="none">0</span></a>
+            <!--<a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>-->
+            <div class="ui_userBoxBtn" id="global_user_detail" style="position: absolute; left: -1px; top: 50px; height: 0px; visibility: hidden; zoom: 1; opacity: 0; display: block;">
+                <div class="ulist">
+                    <a id="global_userOrder" class="global_userOrder"
+                         href="#" target="_blank">我的订单</a>
+                    <a href="http://www.gewara.com/home/charge.xhtml?tagNo=14678951076891352" target="_blank">我的账户</a>
+                    <a href="javascript:logout();">退出</a>
+                    <div class="cls"></div>
+                </div>
+                <div id="golbal_orderDetail" class="ui_nav_orderDetail" style="position: absolute; left: -313px; top: 0px; height: 0px; visibility: hidden; zoom: 1; opacity: 0; display: block;">
+                    <div id="ajaxOrderListDetail" style="background:#fff;"><div class="ainner">
+                <em class="sline"></em>
+                <div class="nav_loading">亲！最近您还没有购票订单哦。<a href="http://www.gewara.com/cinema/searchOpi.xhtml" target="_blank">快速购票</a></div>
+            </div>
+            </div>
+                </div>
+            </div>
+            <div id="myMsgDetail" class="ui_myMsgDetail">
+                <div id="message_list"></div>
+            </div>
+            <div class="ui_warning ui_warning_header none" id="speNotice">
+                <div class="inner">
+                    <i class="t">◆<i>◆</i></i>
+                    <p><b class="ico_g"></b>您的账户存在安全风险，为保障您的账户安全，请及时更改您的密码！</p>
+                    <p class="tar mt5"><a class="ffst" href="http://www.gewara.com/home/acct/goUpPass.xhtml?tagNo=14678951076898341&amp;danger=true">马上更改&gt;&gt;</a></p>
+                </div>
+            </div>
+            <!-- <div class="ui_tips ui_tpTips" id="tuipiaoTips" style="display:none;" onclick="window.location.href='/home/myOrderManage.xhtml?tagNo=14678951076898967';closetuipiaoTips();">
+                <div class="inner"><span class="close" onclick="closetuipiaoTips();" title="关闭">关闭</span></div>
+            </div> -->
+            <div class="ui_tips ui_bindAcTips" id="bindAcTips" style="display:none;cursor:pointer;" onclick="window.location.href=&#39;/home/bind/bindIndex.xhtml?tagNo=14678951076891411&#39;;closebindAcTips();">
+                <div class="inner"><span class="close" id="bindClose" title="关闭">关闭</span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 导航条 end -->
 </div>
 <div style="position: absolute; left: 371px; top: 50px;" class="ui_city_plugs none clear" id="ui_city_plugs"><div class="inner" style="position:relative;">
 	<span class="ui_close" title="关闭"></span>
@@ -813,7 +733,7 @@ style.firebugResetStyles {
 <script type="text/javascript">
 gewa.util.cinemaCityPy = "/movie/searchCinema.xhtml";
 </script>
-<script type="text/javascript" src="wddd_files/gewara_002.js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
+<script type="text/javascript" src="zhye_files/gewara_002.js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
 
 <script type="text/javascript">
 window.addEvent('domready',function(){
@@ -903,30 +823,37 @@ window.addEvent("load", function(){
 		<div class="ui_left">
 			<div class="ui_subNav">
 	<div class="userInfo">
-		<a class="pic" href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" title="心_睡"><img style="background:url(http://img5.gewara.com/cw60h60/images/201607/headpic/s_112a73ad_15581a4f062_1861.gif) center center no-repeat;" alt="心_睡" src="wddd_files/blank.gif" height="60" width="60"></a>
+		<a class="pic" href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" title="心_睡"><img style="background:url(http://img5.gewara.com/cw60h60/images/201607/headpic/s_112a73ad_15581a4f062_1861.gif) center center no-repeat;" alt="心_睡" src="zhye_files/blank.gif" height="60" width="60"></a>
 		<p class="ui_oneLine mt10"><a href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" title="心_睡">心_睡</a></p>
 	</div>
-	<dl>
-		<dt>我的订单</dt>
-		<dd><a href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14680417961414423">我的订单</a></dd>
-		<dd class="select"><a href="http://www.gewara.com/home/invoice/receiveInvoice.xhtml?tagNo=14680417961415981">我的发票</a></dd>
-	</dl>
-	<dl>
-		<dt>我的钱包</dt>
-		<dd><a href="http://www.gewara.com/home/acct/cardList.xhtml?tagNo=14680417961416321">我的票券</a></dd>
-		<dd><a href="http://www.gewara.com/home/acct/pointList.xhtml?tagNo=14680417961419135">我的积分</a></dd>
-		<dd><a href="http://www.gewara.com/home/charge.xhtml?tagNo=14680417961412916">账户余额</a></dd>
-	</dl>
-	<dl>
-		<dt>我的账户</dt>
-		
-		<dd><a href="http://www.gewara.com/home/acct/safetyCenter.xhtml?tagNo=14680417961417129">安全中心</a></dd>
-		<dd><a href="http://www.gewara.com/home/memberSynchroizaInfo.xhtml?tagNo=14680417961412648">同步设置</a></dd>
-	</dl>
-	<dl>
-		<dt>反馈中心</dt>
-		<dd><a href="http://www.gewara.com/home/acct/customerQuestion.xhtml?tagNo=14680417961418203">意见反馈</a></dd>
-	</dl>
+    <!-- left menu start -->
+    <dl>
+        <dt>我的信息</dt>
+        <dd><a href="jbxx.html">基本信息</a></dd>
+        <dd><a href="shxx.html">收货信息</a></dd>
+    </dl>
+    <dl>
+        <dt>我的订单</dt>
+        <dd class=""><a href="wddd.htm">我的订单</a></dd>
+        <dd><a href="wdfp.htm">我的发票</a></dd>
+    </dl>
+    <dl>
+        <dt>我的钱包</dt>
+        <dd><a href="wdpq.htm">我的票券</a></dd>
+        <dd><a href="wdjf.htm">我的积分</a></dd>
+        <dd class="select"><a href="wdye.htm">账户余额</a></dd>
+    </dl>
+    <dl>
+        <dt>我的账户</dt>
+        
+        <dd><a href="aqzx.htm">安全中心</a></dd>
+        <dd><a href="tbsz.htm">同步设置</a></dd>
+    </dl>
+    <dl>
+        <dt>反馈中心</dt>
+        <dd><a href="yjfk.htm">意见反馈</a></dd>
+    </dl>
+     <!-- left menu end -->
 </div>
 <script type="text/javascript">
 function selectPosition(el,element,x,trans,fn){
@@ -941,367 +868,142 @@ function selectPosition(el,element,x,trans,fn){
 }
 </script>		</div>
 		<div class="ui_right">
-			<div class="hd_title">
-				<h1>申请发票</h1>
-				<span class="link">
-					<a href="http://www.gewara.com/home/invoice/invoiceList.xhtml?tagNo=14680417961413819">申请记录</a>
-				</span>
-				<span class="more">
-					<a href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14680417961411967">返回我的订单</a>
-				</span>
-			</div>
-			<div class="topBorder">
-				<form id="invoiceForm" name="invoiceForm" method="post" action="javascript:submitInvoice()">
-				<div id="_hidDV" style="display:none;"></div>
-				<div class="mod_title">
-					<div class="mod_hd">
-						<h3>1. 填写发票信息</h3>
+			<div class="clear">
+				<div class="hd_title">
+					<h1>账户余额</h1>
+				</div>
+				<div class="title mt20">
+					充值账户：
+											4G5KMXDqntRAp3u-open@sina.com
+										<div class="more" style="right:268px;">
+												<span class="left">为了你的账户安全，请</span>
+						<a href="http://www.gewara.com/home/acct/bindMobile.xhtml?tagNo=14680418888885135">绑定手机</a>
+											</div>
+				</div>
+				<div class="outside-box auto-outside-box">
+					<div class="inside-box auto-inside-box acolor" style="padding:5px 10px; height:30px; line-height:30px;">
+						<span class="gewaRemain">账户金额： <b>0</b>元</span>
+						<span class="gewaWabi ml20">瓦币：<b>0</b><em>(<em class="">1瓦币</em>=<em>1元</em>)</em></span>
+						<a href="http://www.gewara.com/helpCenter/index.xhtml?diaryId=3225030&amp;dkey=helpcenter1335254458085" target="_blank" title="什么是瓦币" class="wabiQa">&nbsp;</a>
+						<a class="ml10 cF60 udl" href="javascript:toChangeBank()">站内金额转瓦币</a>
+						<div style="position:absolute;">
+							<div class="title_box" id="box">
+									<span class="bot"></span>
+									<span class="top"></span>
+									现金劵金额是所得现金劵的面值总额。
+							</div>
+						</div>
+						<span class="ml10"><a href="http://www.gewara.com/home/myAccount.xhtml?tagNo=14680418888884341" style="color:#666;">充值记录</a></span>
 					</div>
-					<div class="mod_bd">
-						<ul class="applyInvoiceLists clear">
-							<li>
-								<span class="txt">开票类型</span><label for="invoiceType_drama" class="mr30"><input checked="checked" style="vertical-align:-2px; margin-right:5px;" value="dramanote" name="invoiceType" id="invoiceType_drama" type="radio">演出</label><label for="invoiceType_derivativenote"><input style="vertical-align:-2px; margin-right:5px;" value="derivativenote" name="invoiceType" id="invoiceType_derivativenote" type="radio">衍生品</label>
+				</div>
+				<div id="payFromDIV">
+				<form id="payForm" action="javascript:submitFun()" method="post">
+				<input name="cid" value="" type="hidden">
+				<input name="paymethod" id="paymethod" value="directPay" type="hidden">
+				<div class="tab_title_bg mt10">
+					<span class="ml10">请选择充值方式：</span>
+					<div class="tab_title_mainbg clear" id="chooseWay">
+						<label for="p1s" id="onlinePay" class="select">在线充值</label>
+						<label for="p4s" id="ccardPay">贵宾卡激活</label>
+						
+					</div>
+				</div>
+				<div class="tab_title_mainbox">
+					<div class="tab_title_mainboxInner">
+						<ul class="ul-80 clear" id="amount_content">
+							<li class="c_ud">
+								<div class="ul-80Inner">充值账户：</div>
+								<label for="gewaWabi" class="mr10">
+									
+									<input name="chargeto" value="wabi" checked="checked" style="vertical-align:-2px; margin-right:2px;" id="gewaWabi" type="radio">瓦币账户
+								</label>
 								
+								<span class="cF60 ml20"></span>
+								<a href="http://www.gewara.com/helpCenter/index.xhtml?diaryId=3225030&amp;dkey=helpcenter1335254458085" target="_blank">什么是瓦币？</a>
+								<div class="mt15"></div>
+								<div class="ul-80Inner mt5">充值金额：</div><input id="totalfee" name="totalfee" onfocus="msg()" onblur="msb()" class="left mr5 topup_input text validate['required','digit[1,500]']" size="11" type="text">元
+								<div id="xianshi" style="visibility:hidden;position:relative;left:15px;top:0px;display:inline;"><span style="color:#c13a0a;font-weight:bold;">注：</span>每笔最高充值金额不超过<b class="bgfont">500</b>元，账户余额最多不超过<b class="bgfont">2000</b>元。</div>
 							</li>
-							<li class="clear">
-								<span class="txt left">邮寄方式</span>
-								<div class="expressage left">
-									<p>
-										<label for="expressage_kd"><input style="vertical-align:-2px; margin-right:5px;" value="EXP" name="posttype" onchange="changetitle('',this);" id="expressage_kd" type="radio">快递到付</label>
-										<font>高效率有保障，推荐使用；</font>
-										<em></em>
-									</p>
-									<p>
-										<label for="expressage_py"><input style="vertical-align:-2px; margin-right:5px;" value="COMMON" onchange="changetitle('',this);" name="posttype" id="expressage_py" type="radio">平邮</label>
-										<font class="none">免邮费，10-15日到，有一定几率丢件，慎选╯﹏╰；</font>
-									</p>
+						</ul>
+						<ul class="ul-80 mt10">
+							<li class="check-three" id="onlinePay_content">
+								<div class="ul-80Inner">银行卡：</div>
+																								<label style="background:url(http://static5.gewara.com/img/pay/icon_zsyh_s.gif) no-repeat 24px top;" for="pnrPay07">
+								<input name="paybank" id="pnrPay07" value="CMB" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_ccb_s.gif) no-repeat 24px top;" for="pnrPay10">
+								<input name="paybank" id="pnrPay10" value="CCB" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_zggsyh_s.gif) no-repeat 24px top;" for="pnrPay25">
+								<input name="paybank" id="pnrPay25" value="ICBC" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_zgyh.gif) no-repeat 24px top;" for="pnrPay45">
+								<input name="paybank" id="pnrPay45" value="BOC" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_pa.gif) no-repeat 24px top;" for="pnrPay50">
+								<input name="paybank" id="pnrPay50" value="PINGAN" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_comm_s.gif) no-repeat 24px top;" for="pnrPay41">
+								<input name="paybank" id="pnrPay41" value="BCOM" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_abc_s.gif) no-repeat 24px top;" for="pnrPay29">
+								<input name="paybank" id="pnrPay29" value="ABC" type="radio">
+								</label>
+																<label style="background:url(http://static5.gewara.com/img/pay/icon_spdb_s.gif) no-repeat 24px top;" for="pnrPay16">
+								<input name="paybank" id="pnrPay16" value="PDB" type="radio">
+								</label>
+																<label for="more"><input name="paybank" id="more" checked="checked" value="" type="radio">更多充值方式</label><br><br>
+								<div class="ul-80Inner">支付宝：</div>
+								<label style="background:url(http://static5.gewara.com/img/pay/zfb.gif) no-repeat 24px top;" for="online_directPay">
+									<input name="paymethod_type" id="online_directPay" value="directPay" onclick="onlinePay(this.value)" type="radio">
+								</label>
+							</li>
+							
+							<li class="none" id="ccardPay_content" style="padding-left:0px;">
+								<div class="vipCard">
+									<div class="vipText mt5">请输入贵宾卡激活密码：</div>
+									<div class="vipSb">
+										<input id="cardpass" class="topup_input" name="cardpass" size="14" style="width:160px;" type="text"><br>
+									</div>
+									<div style="clear:both;padding-top:20px;">
+										<div class="vipText mt5">验证码：</div>
+										<div class="vipSb">
+											  <input value="RDUY8DpXyxZQpFJtee30b646" name="captchaId" id="dialogLoginCharge" type="hidden">
+											  <input class="focusText" autocomplete="off" id="dialogLoginChargeInput" name="captcha" alt="输入验证码" style="border: 2px solid #68ACFF;width:68px;height:24px;color:#808080;font:22px/24px verdana,lucida,arial,helvetica,'宋体',sans-serif;outline: none;background:#fff;" type="text">
+											  <img id="dialogLoginChargeImg" src="zhye_files/captcha.jpg" style="cursor: pointer; background: transparent url(&quot;http://static5.gewara.com/css/images/loading2.gif&quot;) no-repeat scroll center center;" onclick="GewaraUtil.refreshCaptcha('dialogLoginCharge','','https://www.gewara.com/')" title="看不清楚，请点击换一张图片" height="30" width="80">
+										      <br><br>
+										      <input class="bt1" value="充 值" type="submit">
+										</div>
+									</div>
 								</div>
+								<div class="clear"></div>
+								<div class="warmTips">使用说明</div>
+								<div class="warmp">
+									<p>1、此卡仅限在格瓦拉生活网上激活充值后使用</p>
+									<p>2、此卡充值后可在格瓦拉生活网上在线选购电影票、套餐、演出票等格瓦拉提供服务；</p>
+									<p>3、卡内金额不可兑换现金，不挂失，请妥善保管充值密码；</p>
+									<p>4、请在有效期内完成充值，有效期自发卡之日起一年有效；</p>
+								</div>
+								<div class="warmTips">温馨提示</div>
+								<div class="warmp">您可以<a href="http://www.gewara.com/subject/advertIndex.xhtml" target="_blank">联系贵宾卡销售部</a>购买</div>
 							</li>
-							<li class="clear">
-								<span class="txt left">发票金额</span>
-								<input id="account" class="iText" name="" onclick="getReceiveInvoice();" readonly="readonly" type="text">
-								<span class="cRed ml20">*</span>
+							
+							<li style="padding-left:0px;margin-top:20px;"><b class="fc_b">注：</b>
+								在充值过程中遇到任何问题，请联系客服：1010-1068
+								周一至周日  9:00至22:00
 							</li>
-							<li>
-								<span class="txt">发票抬头</span><label for="invoiceTitle_gr" class="mr30"><input checked="checked" style="vertical-align:-2px; margin-right:5px;" value="gr" onchange="changetitle('姓名');" name="invoiceTitle" id="invoiceTitle_gr" type="radio">个人</label><label for="invoiceTitle_dw"><input style="vertical-align:-2px; margin-right:5px;" value="dw" onchange="changetitle('公司名称');" name="invoiceTitle" id="invoiceTitle_dw" type="radio">单位</label>
-								
-							</li>
-							<li>
-								<span class="txt" id="lable_title">姓名</span><input id="title" class="iText" name="title" type="text">
-								<span class="cRed ml20">*</span>
+							<li id="lakalanone">
+								<label class="button redBt bigBt mt30" for="disBtnaccount033"><input value="下一步" id="disBtnaccount033" type="submit"></label>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="mod_title">
-					<div class="mod_hd">
-						<h3>2. 填写快递信息</h3><em class="c999 ml20">收货地址提交后将作为订单地址且不能更改</em>
-					</div>
-					<div class="mod_bd">
-						<ul class="applyInvoiceLists clear">
-							<li><span class="txt">收件人</span><input id="contactor" class="iText" name="contactor" type="text">
-							<span class="cRed ml20">*</span></li>
-							<li class="clear"><span class="txt left">收件地址</span>
-								<div id="ajaxLoadAddress"><div class="full_percent">
-		<span id="provinceHTML">
-	<input id="agtag" name="agtag" value="PCR" type="hidden">
-	<select style="width: 80px;" class="iSelect mr10" name="province" id="province" onchange="changeValue(this, 'province', 'cityHTML');">
-		<option selected="selected" value="">
-			请选择...
-		</option>
-				<option value="110000">
-			北京
-		</option>
-				<option value="120000">
-			天津市
-		</option>
-				<option value="130000">
-			河北省
-		</option>
-				<option value="140000">
-			山西省
-		</option>
-				<option value="150000">
-			内蒙古自治区
-		</option>
-				<option value="210000">
-			辽宁省
-		</option>
-				<option value="220000">
-			吉林省
-		</option>
-				<option value="230000">
-			黑龙江省
-		</option>
-				<option value="310000">
-			上海
-		</option>
-				<option value="320000">
-			江苏省
-		</option>
-				<option value="330000">
-			浙江省
-		</option>
-				<option value="340000">
-			安徽省
-		</option>
-				<option value="350000">
-			福建省
-		</option>
-				<option value="360000">
-			江西省
-		</option>
-				<option value="370000">
-			山东省
-		</option>
-				<option value="410000">
-			河南省
-		</option>
-				<option value="420000">
-			湖北省
-		</option>
-				<option value="430000">
-			湖南省
-		</option>
-				<option value="440000">
-			广东省
-		</option>
-				<option value="450000">
-			广西壮族自治区
-		</option>
-				<option value="460000">
-			海南省
-		</option>
-				<option value="500000">
-			重庆市
-		</option>
-				<option value="510000">
-			四川省
-		</option>
-				<option value="520000">
-			贵州省
-		</option>
-				<option value="530000">
-			云南省
-		</option>
-				<option value="540000">
-			西藏自治区
-		</option>
-				<option value="610000">
-			陕西省
-		</option>
-				<option value="620000">
-			甘肃省
-		</option>
-				<option value="630000">
-			青海省
-		</option>
-				<option value="640000">
-			宁夏回族自治区
-		</option>
-				<option value="650000">
-			新疆维吾尔自治区
-		</option>
-			</select>
-	</span>
-		
-		<span id="cityHTML">
-	<select class="iSelect mr20" style="width: 100px;" name="citycode" id="citycode">
-		<option selected="selected" value="">
-			城市选择
-		</option>
-			</select>
-	</span>
-		
-</div>
-
-</div>
-								<p style="padding-left:165px; clear:both;">
-								<input id="address" style="width:360px;" class="iText" name="address" alt="请输入详细地址" type="text"><label for="address" style="line-height: 36px; height: 36px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 368px; text-indent: 6px; left: 601px; top: 917px;" class="overTxtLabel">请输入详细地址</label>
-								</p>
-							</li>
-							<li><span class="txt">邮编</span><input id="postcode" class="iText" name="postcode" type="text">
-							</li>
-							<li><span class="txt">手机号</span><input class="iText" name="phone" id="phone" type="text">
-							<span class="cRed ml20">*</span></li>
-						</ul>
-					</div>
-				</div>
-				<p style="padding-left:165px;" class="clear">
-					<a class="button redBt maxBt left" href="javascript:submitInvoice();"><span>提&nbsp;&nbsp;交</span></a>
-					<a href="http://www.gewara.com/home/invoice/invoiceList.xhtml?tagNo=14680417961418936" class="left ml30 fs14" style="line-height:36px;">先不提交了</a>
-				</p>
-				<div class="grayBgBox c666" style="margin-top:80px; line-height:30px;">
-					<p class="fs14">说明</p>
-					<p>1、电影订单2016年6月1日前下单的请联系在线客服或是1010-1068申请，2016年6月1日开始请凭票至影院开取。</p>
-					<p>2、自助申请订单只支持演出和商城订单，超过180天的订单请联系在线客服或是1010-1068申请。</p>
-					<p>3、请填写正确邮寄地址，如邮寄 地址错误导致发票无法送达，不支持补寄。</p>
-					<p>4、优惠金额、格瓦拉券类、积分、充值卡等非现金交易金额不支持开票。</p>
-				</div>
-				<input id="orderidList" name="orderidList" type="hidden">
 				</form>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-window.addEvent('domready',function(){
-	gewaUtil.textOver('.iText');
-});
-</script>
-<script type="text/javascript">
-var pretypeArray = new Array();
-window.addEvent('domready',function(){
-	updateAddress();
-})
-function changetitle(title,obj){
-	if(title){
-		$('lable_title').innerHTML = title;
-	}else{
-		$$('.expressage font').each(function(item){
-			item.addClass('none');
-		})
-		obj.getParent().getNext('font').removeClass('none');
-	}
-}
-function submitInvoice(){
-	var invoiceTypes = $$(document.getElementsByName("invoiceType"));
-	var isTypeChecked =false;
-	var postTypes = $$(document.getElementsByName("posttype"));
-	var isChecked = false;
-	postTypes.each(function(el,index){
-		if(el.get("checked")){
-			isChecked = true;
-		}
-	});
-	invoiceTypes.each(function(el,index){
-		if(el.get("checked")){
-			isTypeChecked = true;
-		}
-	});
-	if(!isTypeChecked){
-		gewaUtil.alert('请选择开票类型！');
-		return;
-	}
-	if(!isChecked){
-		gewaUtil.alert('请选择邮寄方式！');
-		return;
-	}
-	if($('account').value<100){
-		gewaUtil.alert('申请金额不能小于100元！');
-		return;
-	}
-	if(!$('title').value){
-		gewaUtil.alert('请填写发票抬头！');
-		return;
-	}
-	if(!$('citycode').value){
-		gewaUtil.alert('请选择邮寄城市!');
-		return;
-	}
-	if(!$('address').value){
-		gewaUtil.alert('请填写邮寄地址!');
-		return;
-	}
-	if(!$('postcode').value){
-		gewaUtil.alert('请填写邮政编码!');
-		return;
-	}
-	if(!$('phone').value){
-		gewaUtil.alert('请填写联系电话!');
-		return;
-	}
-	if(pretypeArray.length>0){
-		var html = '<p class="fs14">订单号：<b>'+ pretypeArray.join(',')+ '</b>由格瓦拉票务平台代售，所申请发票需由主办方开据，请注意</p>';
-			html += '<p class="mt20">1、由演出主办方负责开具发票；</p>';
-			html += '<p>2、为你邮寄发票可能会有一些延迟，请耐心等待；</p>';
-		gewa.util.issure('','<div class="invoice">'+ html +'</div>','格瓦拉申请发票提示：',520, 'pay',function(){
-			saveInvoice();
-		});
-	}else{
-		saveInvoice();
-	}
-}
-
-function saveInvoice(){
-	var url = '/home/invoice/saveReceiveInvoice.xhtml';
-	GewaraUtil.mask("disBtn");
-	var values = GewaraUtil.getValues("invoiceForm");
-	GewaraUtil.sendRequest(url, values, function(result){
-		GewaraUtil.unmask();
-		if(result.success){
-			gewaUtil.alert('提交成功！发票开据后你将会收到手机短信通知。');
-			document.location.href="/home/invoice/invoiceList.xhtml";
-		}else{
-			gewaUtil.alert(result.msg);
-		}
-	});
-}
-
-function addTotal(el, orderid){
-	el = $(el);
-	if(el.checked == true){
-		$('showAmount').innerHTML = parseInt(el.value) + parseInt($('amount').value);
-		$('amount').value = parseInt(el.value) + parseInt($('amount').value);
-		splitData(el);
-	}else if(el.checked == false){
-		$('showAmount').innerHTML = parseInt($('amount').value) - parseInt(el.value);
-		$('amount').value = parseInt($('amount').value) - parseInt(el.value);
-		splitData(el);
-	}
-}
-function splitData(el){
-	var orderid = $('orderidList').value;
-	if(el.checked == true){ //选中
-		if(orderid != ""){
-			$('orderidList').value =$('orderidList').value + "," + el.get('id');
-		}else {
-			$('orderidList').value = el.get('id');
-			pretypeArray.empty();
-		}
-		if(el.get('lang') && el.get('lang') != 'M'){
-			pretypeArray.include(el.get('id'));
-		}
-	}else if(el.checked == false){ //去掉
-		var tmpArray = $('orderidList').value;
-		var data = Array.clone(tmpArray.split(","));
-		data.erase(el.get('id'));
-		$('orderidList').value = data.toString();
-		if(el.get('lang') && el.get('lang') != 'M'){
-			pretypeArray.erase(el.get('id'));
-		}
-	}
-}
-function updateAddress(){
-	var url = '/home/invocie/ajaxLoadAddress.xhtml';
-	var values = {'agtag':'PCR'};
-	GewaraUtil.sendLoad('ajaxLoadAddress', url, values, function(){
-	});
-}
-</script>
-<script type="text/javascript">
-	function getReceiveInvoice(){
-		$('orderidList').value="";
-		var invoiceTypes = $$(document.getElementsByName("invoiceType"));
-		var type ="";
-		invoiceTypes.each(function(el,index){
-			if(el.get("checked")){
-				type = el.value;
-			}
-		});
-		var values = {'invoiceType':type};
-		var url = "/home/invoice/getReceiveInvoice.xhtml";
-		gewaUtil.loadData('_hidDV', url, values, function(result){
-			if(result.success){
-				gewaUtil.issure('', '_hidDV', '可申请的发票列表 ' ,860, '_hidDV',function(calls,id){
-					if(checkAccout())gewa.util.container['_hidDV'].dispose('_hidDV');
-				});
-			}else{
-				gewaUtil.alert(result.msg);
-			}
-		});
-	}
-</script>
 <div class="ui_footer" id="superFooter">
 	<div class="ui_layout ui_layout_footer">
 		<div class="siteList">
@@ -1344,17 +1046,6 @@ function updateAddress(){
 				<span>All Rights Reserved</span>
 				<span><a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备09050772号</a></span>
 				<span>ICP证：沪B2-20120044</span>
-			</p>
-			<p class="footer_tag" id="footer_tag">
-				<a href="http://online.unionpay.com/static/merchant/sgmc_9_1_1.html" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" height="44" width="146"></a>
-				<a href="https://ss.knet.cn/verifyseal.dll?sn=2011052300100008956&amp;ct=df&amp;a=1&amp;pa=0.1484418809989817" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -135px" height="44" width="115"></a>
-				<a href="http://www.ectrustprc.org.cn/certificate.id/certificateb.php?id=20098540" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -45px" height="44" width="140"></a>
-				<a href="https://www.alipay.com/aip/aip_validate_list.htm?trust_id=AIP01027377" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -90px" height="44" width="135"></a>
-				<a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120326180136168" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -180px" height="44" width="115"></a>
-				<a href="http://pinggu.zx110.org/review_url_www.gewara.com" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -225px" height="44" width="115"></a>
-				<a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1672660546" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -315px" height="44" width="144"></a>
-				<a href="http://www.zx110.org/picp/?sn=3101050317379915" target="_blank" rel="nofollow"><img src="wddd_files/blank.gif" style="background-position:0 -360px" height="44" width="144"></a>
-				
 			</p>
 		</div>
 	</div>
@@ -1415,5 +1106,150 @@ function onlineCustomer(flag){
 }
 </script>
 
-<!-- SUCCESS_BOTTOM -->
+<!-- SUCCESS_BOTTOM --><div id="_hidDV" style="display:none;"></div>
+<script type="text/javascript">
+window.addEvent('domready',function(){
+	GewaraUtil.refreshCaptcha('dialogLoginCharge','','https://www.gewara.com/');
+	if($('chooseWay')){
+		$('chooseWay').getElements('label').each(function(item){
+			item.addEvent('click',function(){
+				this.addClass('select');
+				$(item.id+'_content').removeClass('none');
+				clearOther(item);
+				var tmps = item.id
+				if(tmps=='onlinePay') tmps = 'directPay';
+				$('paymethod').value = tmps;
+			});
+		})
+	}
+		$("onlinePay_content").getElements("input[type=radio][name=paybank]").each(function(item){
+		item.addEvent('click',function(){
+			$('online_directPay').checked = false;
+			$('paymethod').value = 'directPay';
+		});
+	});
+	
+	dealParams();
+});
+function dealParams(){
+	var str = location.href;
+	if(str.indexOf("selectChargeWay")>0){
+		str = str.substr(str.indexOf("selectChargeWay"));
+		str = str.substring(str.indexOf("=")+1,str.indexOf("&"));
+		if(str.length>0 && str=="vipCharge"){
+			$('ccardPay').click();
+		}
+	}
+}
+function clearOther(self){
+	$('chooseWay').getElements('label').each(function(item){
+		if(self.id!=item.id){ 
+			item.removeClass('select');
+			$(item.id+'_content').addClass('none');
+			if(self.id!='onlinePay')  $('amount_content').addClass('none');
+			else  $('amount_content').removeClass('none');
+		}
+	})
+}
+function onlinePay(paymethod){
+	$('paymethod').value = paymethod;
+	if(paymethod=='directPay'){
+		$("onlinePay_content").getElements("input[type=radio][name=paybank]").each(function(item){
+			item.checked = false;
+		});
+	}
+	
+}
+function submitFun(){
+	// 点击下一步按钮时, 验证是否有设置密码, 是否需要弹框
+	var paymethod = $('paymethod').value;
+	if(paymethod=='ccardPay'){
+		var v = $('cardpass').value;
+		if(!GewaraUtil.isNotNull(v)){gewaUtil.alert('请填写密码！');$('cardpass').focus();return;}
+		var dialogLoginChargeId = $('dialogLoginCharge').value;
+    	var dialogLoginCharge = $('dialogLoginChargeInput').value;
+    	if(!$chk(dialogLoginCharge)){
+    		 $('dialogLoginChargeInput').focus(); 
+    		 gewaUtil.alert('请输入验证码！');
+    		 return;
+        }
+    	submitFunNext();
+	}else if(paymethod=='chargeTelecomPay'){
+		if(!($("tianyi").checked || $("guhua").checked)){
+			gewaUtil.alert('请选择充值方式！');
+			return;
+		}
+		submitFunNext();
+	}else{
+		var v = $('totalfee').value;
+		if(!GewaraUtil.isNotNull(v)){gewaUtil.alert('请填写充值金额！', function(){$('totalfee').focus();});return;}
+		else if(isNaN(v) || v<1){gewaUtil.alert('请填写正确的充值金额！', function(){$('totalfee').focus();});return;}
+		else if(v > 500){gewaUtil.alert('充值金额不能超过500元！', function(){$('totalfee').focus();});return;}
+		submitFunNext();
+	}
+}
+function submitFunNext(){
+	var url = '/home/confirmCharge.xhtml';
+	var values = GewaraUtil.getValues('payForm');
+	GewaraUtil.sendRequest(url, values, function(result){
+		if(result.success){
+			if(result.redirectUrl){
+				if(result.redirectUrl.contains('http')){
+					document.location.href = result.redirectUrl;
+				}else{
+					document.location.href = result.redirectUrl;
+				}
+			}else{
+				gewaUtil.alert(result.retval,function(){
+					gotoURL('/home/myAccount.xhtml');
+				});
+			}
+		}else{ 
+			if(result.account){ 
+				var html = '<div style="padding:10px 20px;">充值需要先绑定手机哦，点击<a style="color:#dd5c17" href="/home/acct/bindMobile.xhtml?tagNo=14680418888885631">立即绑定</a></div>'
+				gewa.util.maskContent('',html,'充值提示','200');
+			}else{
+				gewaUtil.alert(result.msg);
+				GewaraUtil.refreshCaptcha('dialogLoginCharge','','https://www.gewara.com/');
+			}
+		}
+	});
+}
+function changCharge(amount){
+	$('tel_amount').innerHTML = (amount + amount/5*1.5);
+	$('tel_czf').innerHTML = amount;
+	$('tel_tdf').innerHTML = amount/5*1.5;
+}
+
+function msg(){
+	var temp=document.getElementById('xianshi').style.visibility="visible";
+}
+
+function msb(){
+	var temp=document.getElementById('xianshi').style.visibility="hidden";
+}
+function visi(){
+	var temp=document.getElementById('box').style.visibility="visible";
+}
+
+function hid(){
+	var temp=document.getElementById('box').style.visibility="hidden";
+}
+function toChangeBank(){
+	var number = Number.random(100000,999999);
+	var cur = gewara.util.rtime();
+	var url = "/home/toChangeBank.xhtml?tagNo="+cur+number;
+	gewaUtil.loadData('_hidDV', url, {}, function(result){
+		if(result.success){
+			gewaUtil.issure('', '_hidDV', '账户金额转瓦币 ' , 400, '_hidDV',function(calls,id){
+				bankToWabi();
+			});
+		}else{
+			gewaUtil.alert(result.msg);
+		}
+	});
+}
+
+</script>
+
 </body></html>

@@ -6,9 +6,9 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=yes">
-	<link rel="stylesheet" type="text/css" href="./personInfo_resource/gewara.css">
-	<script type="text/javascript" src="./personInfo_resource/mootools.js"></script>
-	<script type="text/javascript" src="./personInfo_resource/gewara.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/gwr.css">
+	<script type="text/javascript" src="./js/mootools.js"></script>
+	<script type="text/javascript" src="./js/gwr.js"></script>
 	<style type="text/css">
 	.bindBanner{background:url(http://static5.gewara.com/css/sns/bindBanner.jpg?v=2016070618) 0 0 no-repeat; width:1200px; height:120px; margin:20px auto; position:relative;}
 	.bindBanner a{display:block; position:absolute; width:145px; height:55px; right:90px; top:28px;}
@@ -33,9 +33,11 @@
 <div class="ui_nav ui__nav">
     <!-- 导航条 start -->
         <div class="ui_plugs_body">
-        <a href="#" class="logo" title="高地文化云"><!-- <img src="./resource/blank.gif" alt="高地文化云" width="102" height="40"> --></a>
+        <a href="#" class="logo" title="高地文化云">
+            <!-- <img src="./resource/blank.gif" alt="高地文化云" width="102" height="40"> -->
+        </a>
         <div id="cityChoose" class="ui_changeCity">
-            <!-- <b class="ui_cityChoose " title="点击切换区域">广州</b> -->
+         <!-- <b class="ui_cityChoose " title="点击切换区域">广州</b> -->
         </div>
         <div class="ui_nav_menu" lang="bgcolor">
                             <ul class="ui_inline" lang="ishover">
@@ -107,9 +109,8 @@
             <!--<a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>-->
             <div class="ui_userBoxBtn" id="global_user_detail" style="position: absolute; left: -1px; top: 50px; height: 0px; visibility: hidden; zoom: 1; opacity: 0; display: block;">
                 <div class="ulist">
-                    <a id="global_userOrder" class="global_userOrder"
-                         href="#" target="_blank">我的订单</a>
-                    <a href="http://www.gewara.com/home/charge.xhtml?tagNo=14678951076891352" target="_blank">我的账户</a>
+                    <a id="global_userOrder" class="global_userOrder" href="wddd.htm" target="_blank">我的订单</a>
+                    <a href="#" target="_blank">我的账户</a>
                     <a href="javascript:logout();">退出</a>
                     <div class="cls"></div>
                 </div>
@@ -697,7 +698,7 @@
 <script type="text/javascript">
 gewa.util.cinemaCityPy = "/movie/searchCinema.xhtml";
 </script>
-<script type="text/javascript" src="./personInfo_resource/gewara(1).js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
+<script type="text/javascript" src="./js/gwr2.js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
 
 <script type="text/javascript">
 window.addEvent('domready',function(){
@@ -791,32 +792,32 @@ window.addEvent("load", function(){
 		<p class="ui_oneLine mt10"><a href="http://www.gewara.com/ua/u/AAD3AE6AB9C21B5319F400435890C356" title=".">.</a></p>
 	</div>
     <!-- left menu start -->
-	<dl>
-		<dt>我的信息</dt>
-		<dd class="select"><a href="person_center/jbxx.html">基本信息</a></dd>
-		<dd><a href="person_center/shxx.html">收货信息</a></dd>
-	</dl>
-	<dl>
-		<dt>我的订单</dt>
-		<dd class=""><a href="person_center/wddd.htm">我的订单</a></dd>
-		<dd><a href="person_center/wdfp.htm">我的发票</a></dd>
-	</dl>
-	<dl>
-		<dt>我的钱包</dt>
-		<dd><a href="person_center/wdpq.htm">我的票券</a></dd>
-		<dd><a href="person_center/wdjf.htm">我的积分</a></dd>
-		<dd><a href="person_center/wdye.htm">账户余额</a></dd>
-	</dl>
-	<dl>
-		<dt>我的账户</dt>
-		
-		<dd><a href="person_center/aqzx.htm">安全中心</a></dd>
-		<dd><a href="person_center/tbsz.htm">同步设置</a></dd>
-	</dl>
-	<dl>
-		<dt>反馈中心</dt>
-		<dd><a href="person_center/yjfk.htm">意见反馈</a></dd>
-	</dl>
+    <dl>
+        <dt>我的信息</dt>
+        <dd><a href="jbxx.html">基本信息</a></dd>
+        <dd class="select"><a href="shxx.html">收货信息</a></dd>
+    </dl>
+    <dl>
+        <dt>我的订单</dt>
+        <dd class=""><a href="wddd.htm">我的订单</a></dd>
+        <dd><a href="wdfp.htm">我的发票</a></dd>
+    </dl>
+    <dl>
+        <dt>我的钱包</dt>
+        <dd><a href="wdpq.htm">我的票券</a></dd>
+        <dd><a href="wdjf.htm">我的积分</a></dd>
+        <dd><a href="wdye.htm">账户余额</a></dd>
+    </dl>
+    <dl>
+        <dt>我的账户</dt>
+        
+        <dd><a href="aqzx.htm">安全中心</a></dd>
+        <dd><a href="tbsz.htm">同步设置</a></dd>
+    </dl>
+    <dl>
+        <dt>反馈中心</dt>
+        <dd><a href="yjfk.htm">意见反馈</a></dd>
+    </dl>
      <!-- left menu end -->
 </div>
 <script type="text/javascript">
@@ -833,7 +834,7 @@ function selectPosition(el,element,x,trans,fn){
 </script>		</div>
 		<div class="ui_right" style="position:relative;">
 						<div id="myOrderManagetableDIV"><div class="hd_title">
-	<h1>基本信息</h1>
+	<h1>收货信息</h1>
 	<div class="more"></div>
 </div>
 <div>
