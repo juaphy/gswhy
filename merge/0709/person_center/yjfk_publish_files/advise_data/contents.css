@@ -1,0 +1,30 @@
+/*
+Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+	fieldset,input,p,blockquote,th,td,ins,img{margin: 0px;padding: 0px;word-wrap:break-word;}
+
+body
+{
+	/* Font */
+	font:16px/30px 'Microsoft YaHei','微软雅黑',Arial;
+
+	/* Text color */
+	color: #222;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+	word-wrap:break-word;
+}
+
+/* preserved spaces for rtl list item bullets. (#6249)*/
+ol,ul,dl
+{
+    padding-right:40px;
+}
+blockquote{
+	background:#FAF5F2 none repeat scroll 0 0;
+	border:1px solid #E5E5E5;
+	padding:3px;
+}
