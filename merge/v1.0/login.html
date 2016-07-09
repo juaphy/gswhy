@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)http://www.gewara.com/login.xhtml?TARGETURL=%2Fhome%2Finvoice%2FreceiveInvoice.xhtml%3FtagNo%3D14679708170873213 -->
+<html slick-uniqueid="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=no">
+	<title>用户登录 - 高地文化云</title>
+	
+	<link rel="stylesheet" type="text/css" href="./login_files/gewara.css">
+	<style type="text/css">
+	body{background:#f2f2f2;font-size:14px;}
+	input{vertical-align: -2px;_vertical-align: 0px;}
+	.G_nologin{width:1200px;margin:0 auto;}
+	.G_reg_header{padding:15px 0;}
+	.reg_logo .logo{display:block;height:41px;overflow:hidden;width:102px;float:left;}
+	.reg_logo .logo img{width:102;height:286px;background:url(http://static5.gewara.com/css/global/newLogos.png?v=0001) no-repeat;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static5.gewara.com/css/global/newLogos.png?v=0001',sizingMethod='crop');border:none;}
+	.G_reg_header h2{font:30px/50px "微软雅黑",Arial,Helvetica,'宋体';float:left;margin-left:25px;}
+	.W_login_form .overTxtLabel{font-size:16px;}
+	.G_nologin_main{width:1100px;padding:50px;background:#fff;}
+	.scroll_img{width:660px; height:420px;float:left;}
+	.scroll_img #move_tag{width:660px; height:10px; text-align:center; line-height:10px; display: block;margin-top:10px;}
+	.W_login_form .username, .W_login_form .password,.no_reg .W_btn_g,.W_login_form .cooperation dd a,.icon_th{background:url("http://static5.gewara.com/css/home/form_login.png") no-repeat 0 0;}
+	.icon_th{padding-left:22px;background-position:-73px -494px;}
+	.loginbox{width:440px;float:left;color:#999;}
+	.loginbox .W_login_form{padding-left:70px;}
+	.W_login_form .info_list{margin:0 0 20px;position:relative;}
+	.W_login_form .info_list .notice{position:absolute;top:-21px;left:0;}
+	.W_login_form .username, .W_login_form .password, .W_login_form .verify{border:1px solid #ccc; border-radius:2px;box-shadow:1px 1px 1px 0 #eaeaea inset;color:#ccc;height:30px;padding:9px 3px 3px 54px;display:block;}
+	.W_login_form .focus_username{box-shadow:0 0 5px #ff9a66;border-color:#ff9a66;}
+	.W_login_form .username input, .W_login_form .password input,.W_login_form .verify input{border:0 none;width:300px;height:24px;color:#808080;font:22px/24px verdana,lucida,arial,helvetica,"宋体",sans-serif;vertical-align: -3px;outline: none;background:#fff;}
+	.W_login_form .focus_error{border-color:#dd4b39}
+	.W_login_form .verify{padding:9px 5px 3px;float:left;}
+	.W_login_form .verify input{width:155px;outline: none;}
+	.W_login_form .username{background-position:3px -18px;}
+	.W_login_form .password{background-position:3px -78px;}
+	.W_login_form .lostPassword a,.no_reg_tip a{color:#333;}
+	.W_login_form .no_reg{padding-bottom:20px;border-bottom:1px dashed #dddddd;}
+	.W_login_form .no_reg .W_btn_g{float:left;display:block;width:180px;height:60px;background-position:-1px -140px;font:30px/60px "微软雅黑",Arial,Helvetica,'宋体';color:#fff;text-align:center;border:0px;cursor: pointer;}
+	.W_login_form .no_reg .W_btn_g:hover{background-position:-1px -220px;text-decoration:none;color:#fff;}
+	.W_login_form .no_reg_tip{float:right;margin:32px 0 0;font-size:12px;}
+	
+	.W_login_form .cooperation dt{font-size:20px;color:#333;}
+	.W_login_form .cooperation dd a{display:block;float:left;width:90px;height:90px;margin-right:2px;text-indent:-9999px;overflow:hidden;}
+	.W_login_form .cooperation dd .sina{background-position:0 -300px;}
+	.W_login_form .cooperation dd .qq{background-position:-92px -300px;}
+	.W_login_form .cooperation dd .zhifubao{background-position:-184px -300px;}
+	.W_login_form .cooperation dd .yinlian{background-position:-276px -300px;}
+	.W_login_form .cooperation dd .sina:hover{background-position:0 -401px;}
+	.W_login_form .cooperation dd .qq:hover{background-position:-92px -401px;}
+	.W_login_form .cooperation dd .zhifubao:hover{background-position:-184px -401px;}
+	.W_login_form .cooperation dd .yinlian:hover{background-position:-276px -401px;}
+	
+	
+	.G_reg_bottom{width:1160px; padding:0 20px; margin:0 auto; height:70px;line-height:70px;color:#333;background:#e4e4e4;text-align:left;}
+	.G_reg_bottom p span{margin-right:15px;}
+	.G_reg_bottom p span em{font-weight:bold;}
+	
+	.mr30{margin-right:30px!important;}
+	.c_red{color:red;}
+	.jointly img{margin-right:3px;}
+	.jointly a{margin-right:10px;font-size:14px;color:#999}
+	/************************************
+			search
+	*************************************/
+	.autocompleter-choices,.classW{position:absolute;margin:0px 0 0 0px;border-spacing:inherit;border-collapse:separate;padding:0;list-style:none;
+		border:1px solid #ff9a66 !important;background-color:#fff;text-align:left;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		z-index:100;background: #FFF;
+		width:368px !important;
+	}
+	.autocompleter-choices li,.classW li{position:relative;margin:0;padding:0;text-indent:16px;display:block;float:none !important;cursor:pointer;
+		font-weight:normal;white-space:nowrap;font-size:14px;line-height:32px;overflow: hidden;height:32px;width:100%;clear: both;
+	}
+	.autocompleter-choices li.autocompleter-selected,.classW li.autocompleter-selected{background-color:#ff9a66;color:#fff;}
+	.autocompleter-choices li.autocompleter-selected a,.classW li.autocompleter-selected a{color:#fff;}
+	.autocompleter-choices span.autocompleter-queried,.classW span.autocompleter-queried{display:inline;float:none;font-weight:bold;margin:0;padding:0;}
+	.autocompleter-choices li.autocompleter-selected span.autocompleter-queried,.classW li.autocompleter-selected span.autocompleter-queried{color:#9FCFFF;}
+	/*20140306*/
+	.avoidLogin {font-size:12px;color:#333;width:100%;}
+	.avoidLogin label{position:relative;z-index:3;cursor:pointer;}
+	.aLogin_select {position:absolute;top:-11px;left:-11px; border:1px solid #FFA463;background-color:#FFFFE1;padding:10px;z-index:1;display:block!important;}
+	.aLogin_select p{color:#f60;text-indent:20px;}
+	</style>
+</head>
+<body>
+<div class="G_nologin">
+	<div class="G_reg_header clear">
+		<div class="reg_logo"><a href="http://www.gewara.com/" class="logo"><img src="./login_files/blank.gif" alt="高地文化云" width="102" height="40"></a></div>
+		<h2>高地文化云</h2>
+	</div>
+	<div class="G_nologin_main clear">
+		<div class="scroll_img">
+			<img src="./login_files/logobanner.png" alt="" width="660" height="420">
+		</div>
+		<div class="loginbox">
+			<div class="W_login_form">
+				<form method="post" id="loginForm" action="person_index.html">
+					<input type="hidden" name="TARGETURL" value="/home/invoice/receiveInvoice.xhtml?tagNo=14679708170873213">
+					<div class="info_list">
+						<label class="username">
+							<input class="G_input" type="text" name="j_username" id="j_username" alt="输入登录邮箱或手机号码" value="" autocomplete="off"><label class="overTxtLabel" for="j_username" style="line-height: 24px; height: 24px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 300px; text-indent: 6px; left: 55px; top: 11px;">输入登录邮箱或手机号码</label>
+						</label>
+					</div>
+					<div class="info_list">
+						<label class="password">
+							<input class="G_input" type="password" name="j_password" id="j_password" alt="输入登录密码"><label class="overTxtLabel" for="j_password" style="line-height: 24px; height: 24px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 300px; text-indent: 6px; left: 55px; top: 11px;">输入登录密码</label>
+						</label>
+					</div>
+					<div class="info_list clear">
+						<input type="hidden" name="captchaId" id="myLoginCaptcha" value="nFnhw8kVeBPuCUcM308caad1">
+						<label class="verify">
+							<input type="text" class="G_input captcha" id="myLoginCaptchaInput" name="captcha" alt="输入验证码"><label class="overTxtLabel" for="myLoginCaptchaInput" style="line-height: 24px; height: 24px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 155px; text-indent: 6px; left: 6px; top: 11px;">输入验证码</label>
+						</label>
+						<img id="myLoginCaptchaImg" width="80" height="30" src="./login_files/captcha.xhtml" style="margin: 3px 0px 0px 30px; background: url(&quot;http://static5.gewara.com/css/images/loading2.gif&quot;) center center no-repeat;">
+						<a href="javascript:void(0);" style="margin:10px 0 0 10px" title="看不清楚，请点击换一张图片" onclick="GewaraUtil.refreshCaptcha(&#39;myLoginCaptcha&#39;,&#39;&#39;,&#39;https://www.gewara.com/&#39;)">换一张</a>
+					</div>
+					<div class="info_list clear avoidLogin" style="width:100%;">
+						<label for="rememberMe" id="avoidLoginLabel">
+							<input id="rememberMe" class="W_checkbox mr5" name="rememberMe" type="checkbox" value="Y">&nbsp;一周内免登录
+						</label>
+						<div class="none" id="avoidLogin"> 							<br>
+							<p>请不要在公用电脑上勾选此项</p>
+						</div>
+					</div>
+					<div class="info_list no_reg clear">
+						<span class="no_reg_tip"><a href="http://www.gewara.com/forgetPassword.xhtml" title="忘记密码" class="mr5">忘记密码</a>|<a href="http://www.gewara.com/helpCenter/index.xhtml?diaryId=3207269&amp;dkey=helpcenter1328150673525" title="帮助" class="ml10 mr5" target="_blank">帮助</a>|<a href="register.html" title="免费注册" class="ml10">免费注册</a></span>
+						<input type="submit" value="登   录" class="W_btn_g" id="sbmit">
+					</div>
+					<div class="info_list cooperation clear" style="margin-bottom:10px;">
+						<dl>
+							<dd class="mt10">
+								<a href="http://www.gewara.com/login/sinaLogin.xhtml" target="_blank" title="新浪账号登录" class="sina"><img src="./login_files/blank.gif" height="90" width="90">新浪</a>
+								<a href="http://www.gewara.com/login/qqLogin.xhtml" target="_blank" title="QQ账号登录" class="qq"><img src="./login_files/blank.gif" height="90" width="90">腾讯</a>
+								<a href="http://www.gewara.com/login/alipayLogin.xhtml" target="_blank" title="支付宝账号登录" class="zhifubao"><img src="./login_files/blank.gif" height="90" width="90">支付宝</a>
+								<a href="http://www.gewara.com/login/chinapayLogin.xhtml" target="_blank" title="银联在线支付账号登录" class="yinlian" style="margin-right:0;"><img src="./login_files/blank.gif" height="90" width="90">银联在线</a>
+							</dd>
+						</dl>
+					</div>
+				</form>
+			</div>		
+		</div>
+	</div>
+</div>
+<div class="G_reg_bottom">
+	<p><span>Copyright © 2007–2014 Gaidiwenhuayun.</span><span>All Rights Reserved</span><span>粤ICP备09050xxx号</span><span class="mr30">ICP证粤B2-201200xx</span><span class="mr30"><em>手机版 </em>iPhone Android </span><span><em>客服电话</em> 0000-0000</span></p>
+</div>
+<script type="text/javascript" src="./login_files/mootools.js"></script>
+<script type="text/javascript" src="./login_files/gewara.js"></script>
+<script type="text/javascript">
+window.addEvent('domready',function(){
+	var lastUserName = Cookie.read('lastUserName');
+	if(lastUserName){
+		$('j_username').value = lastUserName;
+	}
+	gewaUtil.textOver('.G_input');
+	GewaraUtil.refreshCaptcha('myLoginCaptcha','','https://www.gewara.com/');
+	$$(".info_list").getElements("input[type='text'],input[type='password']").each(function(items,i){
+		items.addEvents({
+			'focus':function(){
+				this.getParent('label').addClass('focus_username');
+			},
+			'blur':function(){
+				var el = this.getParent('label').removeClass('focus_username');
+			}
+		});
+	});
+		
+	$('sbmit').addEvent('click',function(e){
+		e.preventDefault();
+		vForm = $("loginForm");
+		var isValid = validateForm(vForm);
+		if(isValid) {
+			var username = $('j_username').value;
+			Cookie.write('lastUserName',username,{duration:365,path:'/login.xhtml'});
+			$("loginForm").submit();
+		}
+		return false;
+	})
+	autoNotice();
+	if($('avoidLoginLabel')){
+		$('avoidLoginLabel').addEvents({
+			"mouseover": function(){
+				tim=setTimeout("avoidLoginTime()",400);
+			},
+			"mouseout": function(){
+				clearTimeout(tim);
+				if($('avoidLogin')){
+					$('avoidLogin').removeClass('aLogin_select');
+				}
+			}
+		});
+	}
+});
+function avoidLoginTime(){
+	if($('avoidLogin')){
+		$('avoidLogin').addClass('aLogin_select');
+	}
+}
+function focusError(that,text){
+	that = that.getParent();
+	var el = that.getParent();
+	if(!that.retrieve('error')){
+		that.addClass('focus_error');
+		var s = el.getStyle('margin-bottom').toInt(),error = new Element('div',{'html':text,styles:{'color':'#dd4b39','margin':'-'+s+'px 0 8px 0','font-size':'13px','line-height':'22px'}}).inject(el,'after');
+		that.store('error',error);
+	}else{
+		that.addClass('focus_error');
+		that.retrieve('error').show().innerHTML = text;
+	}
+}
+
+function remmoveError(el){
+	el = $(el).getParent();
+	if(!el.retrieve('error'))return;
+	el.retrieve('error').hide();
+	el.removeClass('focus_error');
+}
+
+function validateForm(form) {
+	var nval = $('j_username').value;
+	var mycaptcha = $('myLoginCaptchaInput').value;
+	if(nval ==''){
+		$("j_username").focus();
+		//focusError($('j_username'),'登录邮箱或手机号码不能为空！');
+		return false;
+	}else remmoveError("j_username");
+	if($("j_password").value==''){
+		$("j_password").focus();
+		//focusError($('j_password'),'登录密码不能为空！');
+		return false;
+	}else remmoveError('j_password');
+	if(mycaptcha == ''){
+		$('myLoginCaptchaInput').focus();
+		//focusError($('myLoginCaptchaInput'),'验证码不能为空！');
+		return false;
+	}else remmoveError('myLoginCaptchaInput');
+	return true;
+}
+function autoNotice(){
+	var tokens = ['@qq.com','@163.com','@126.com','@sina.com','@gmail.com','@hotmail.com','@tencent.com','@alipay.com','@sohu.com','@139.com','@msn.com','@live.cn','@kaixin.com','@taobao.com','@miao.com','@yeah.net','@vip.qq.com'];
+	completer = new Autocompleter.Local($("j_username"), tokens, {
+		'delay': 100,
+		'maxChoices': 8,
+		'minLength':1,
+		'autoPos':false,
+		'filter': function() {
+			this.choices.setStyles({'width':this.element.getSize().x,'border-color':'#ff9a66'})
+			this.choices.toPos(this.element,'bottomLeft',Browser.ie?(-55):(-54),8);
+			var values = this.element.value.trim().split(/ +/);
+			if(/^\d+$/.test(values[0]))return false;
+			return this.tokens.filter(function(token){
+				var result = values.every(function(v){
+					if(v.split('@').length > 1 && v.split('@')[1] != ''){
+						var reg = new RegExp(v.split('@')[1].escapeRegExp(),'i');
+						return reg.test(token);
+					}else return true; 
+				});
+				return result;
+			});
+		},
+		'injectChoice': function(choice){
+			var el = new Element('li');
+			if(this.element.value.trim().split('@').length > 1){
+				el.innerHTML = this.element.value.trim().split('@')[0] + choice;
+				this.addChoiceEvents(el).injectInside(this.choices);
+			}else{el.innerHTML = this.element.value.trim() + choice;this.addChoiceEvents(el).injectInside(this.choices);}
+		}
+	});
+}
+</script>
+
+<ul class="autocompleter-choices" style="z-index: 100; top: 0px; left: 0px; visibility: hidden; zoom: 1; opacity: 0;"></ul></body></html>

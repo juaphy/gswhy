@@ -1,0 +1,477 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+    blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+    dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+    tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+    label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, figure, figcaption, footer,
+    header, hgroup, menu, nav, output, ruby, section, summary, time,
+    mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+    menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    color: #4f5157;
+    text-decoration: none
+}
+
+@
+-webkit-keyframes popUp {
+    from {-webkit-transform: scale(0)
+}
+
+to {
+    -webkit-transform: scale(1)
+}
+
+}
+@
+keyframes popUp {
+    from {-webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+}
+html, body {
+    min-height: 100%;
+    font: 12px/1.4 Arial, Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #fff
+}
+
+html {
+    overflow-y: scroll
+}
+
+input::-webkit-input-placeholder {
+    color: #9e9e9e
+}
+
+input::-moz-placeholder {
+    color: #9e9e9e
+}
+
+input:-ms-input-placeholder {
+    color: #9e9e9e
+}
+
+strong {
+    font-weight: 700
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    display: inline-block
+}
+
+.clearfix {
+    display: block
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto
+}
+
+#aboutus {
+    position: relative;
+    padding: 12px 0;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9a9a9a
+}
+
+#aboutus .fitem {
+    margin: 0 3px;
+    color: #9a9a9a
+}
+
+#aboutus .fitem>img {
+    vertical-align: middle;
+    margin: 0 3px 3px 0
+}
+
+.index-wrapper {
+    padding-top: 82px
+}
+
+.index-left {
+    float: left;
+    width: 128px;
+    margin-top: 16px
+}
+
+.index-main {
+    float: left;
+    width: 600px
+}
+
+.index-right {
+    float: right;
+    width: 240px
+}
+
+.goodvoice {
+    display: block;
+    height: 80px;
+    margin: 16px 0 30px
+}
+
+.goodvoice>img {
+    width: 100%;
+    height: 100%
+}
+
+.detail-wrapper {
+    padding-top: 82px
+}
+
+.detail-wrapper a {
+    color: #406599
+}
+
+.detail-wrapper a:hover {
+    color: #7696b3
+}
+
+.detail-main {
+    float: left;
+    width: 660px
+}
+
+.detail-right {
+    float: right;
+    width: 300px
+}
+
+.sideGap {
+    margin: 40px 0
+}
+
+.dtag {
+    position: relative;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    color: #222;
+    padding-left: 14px;
+    margin-bottom: 20px
+}
+
+.dtag:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+    background: #ed4040;
+    border-radius: 5px
+}
+
+.snsbox {
+    height: 30px;
+    font-size: 0;
+    text-align: right
+}
+
+.snsbox:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.snsbox .snsbox-inner {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 30px
+}
+
+.snsbox .snsbox-inner .snszone {
+    float: right
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn:first-child {
+    margin-left: 5px
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn:hover {
+    opacity: .7
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weixin {
+    position: relative;
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/weixin_allshare_9595a7c.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weixin .qrcodeW {
+    display: none;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -63px;
+    padding: 6px;
+    border-radius: 5px;
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/background-opaque-dark_b917d1b.gif)
+        #fff
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weixin .qrcodeW .qrcode {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: #fff
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weixin:hover {
+    opacity: 1
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weixin:hover .qrcodeW {
+    display: block
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-qzone {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/qqkj_allshare_3e46c6d.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weibo {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/sina_allshare_6ade2a6.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weibo.gray {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/weibo_allshare_unselected_920287a.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-weibo.gray.checked {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/sina_allshare_6ade2a6.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-tqq {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/tencent_allshare_ea6f096.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-tqq.gray {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/tencent_allshare_unselected_16050b3.png?__sprite)
+        no-repeat center
+}
+
+.snsbox .snsbox-inner .snszone .sns-btn.sns-tqq.gray.checked {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/newindex/tencent_allshare_ea6f096.png?__sprite)
+        no-repeat center
+}
+
+.d-union-1 {
+    max-height: 80px;
+    margin: 40px auto;
+    text-align: center
+}
+
+.icon {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.icon.icon-tsina {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_weibo_normal_2e7b5c2.png?__sprite)
+        center no-repeat
+}
+
+.icon.icon-tqq {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_tencent_normal_537500b.png?__sprite)
+        center no-repeat
+}
+
+.icon.icon-qzone {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_qzone_normal_1e083ce.png?__sprite)
+        center no-repeat
+}
+
+.icon.icon-close {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/home_ic_close_normal_e37e884.png?__sprite)
+        center no-repeat
+}
+
+.icon:hover.icon-tsina {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_weibo_hover_f2d0ba7.png?__sprite)
+        center no-repeat
+}
+
+.icon:hover.icon-tqq {
+    background:
+        url(//s3b.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_tencent_hover_a4b6764.png?__sprite)
+        center no-repeat
+}
+
+.icon:hover.icon-qzone {
+    background:
+        url(//s3.pstatp.com/toutiao/resource/toutiao_web/static/style/image/share_qzone_hover_b334c46.png?__sprite)
+        center no-repeat
+}
+
+.selected .icon.icon-close, .btn:hover .icon.icon-close {
+    background:
+        url(//s3a.pstatp.com/toutiao/resource/toutiao_web/static/style/image/home_ic_close_hover_5071e41.png?__sprite)
+        center no-repeat
+}
+
+.dialog {
+    color: #4E4E4E;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index: 25
+}
+
+.dialog .btn {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    display: block;
+    height: 18px;
+    width: 18px;
+    cursor: pointer
+}
+
+.dialog .btn .icon-close {
+    height: 8px;
+    width: 17px
+}
+
+.dialog .dialog-header {
+    padding: 9px 15px;
+    border: 1px solid #ddd;
+    border-top: 2px solid #dc2525;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid #ddd
+}
+
+.dialog .dialog-header h3 {
+    font-size: 20px;
+    height: 20px;
+    color: #dc2525;
+    padding-left: 23px;
+    margin-left: -15px;
+    line-height: 20px
+}
+
+.dialog .dialog-inner {
+    border: 1px solid #ddd;
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+    padding-top: 15px
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 21;
+    opacity: .5;
+    filter: alpha(opacity = 50);
+    background-color: #000
+}
+
+a[title^='站长统计'] {
+    display: none
+}
+
+.none {
+    display: none
+}

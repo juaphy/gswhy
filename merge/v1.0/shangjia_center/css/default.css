@@ -1,0 +1,1945 @@
+.ui_summary span, .ui_summary_big span, .screenList a img.seatPic {
+    background: url(ico_pub.gif) no-repeat
+}
+.search_button input {
+    background: url(ico_glass.gif) no-repeat
+}
+.ratings li, .ui_big_ratings li, .initRating span {
+    background: url(ico_star.gif?v=54654) no-repeat
+}
+.ui_movieType_line span, .ui_roomType em {
+    background: url(bg_ico.png?v=20150527) no-repeat;
+    display: inline-block;
+    margin: 0 2px 1px 0;
+    float: left;
+    overflow: hidden
+}
+
+.mod_tabs .mod_hd ul.nav_tabs, .mod_tabs ul.nav_tabs {
+    height: 43px;
+    line-height: 40px;
+    background-color: #f9f9f9;
+	border-bottom:3px solid #6cbfde;
+}
+.mod_hd{
+	border-bottom:3px solid #6cbfde;
+	}
+
+.mod_tabs .mod_hd ul.nav_tabs li.select a, .mod_tabs ul.nav_tabs li.select a
+    {
+   
+    border-bottom: 3px solid #6cbfde;
+    color: #000000;
+}
+.ui_list li a {
+    color: #333;
+    *display: block;
+    padding-left: 10px;
+    background: url(ico_dot.gif) no-repeat left center
+}
+.ui_cinemaDesc em {
+    background: url(ico_cinemaServer_min.gif?v=20140117) no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    width: 26px;
+    height: 24px;
+    float: left;
+    margin: 0 4px
+}
+.ui_city_plugs .ui_close {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    opacity: .6;
+    right: 5px;
+    top: 5px;
+    zoom: 1;
+    background: url(ico_close.gif) 3px 3px no-repeat
+}
+.ui_city_cType a {
+    display: inline-block;
+    background: url(line.gif) no-repeat right 11px;
+    float: left;
+    padding: 0 12px;
+    color: #999;
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    line-height: 34px\9;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    cursor: pointer
+}
+.ui_nav {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: #00b0ec;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 50
+}
+
+.ui_plugs_body {
+    width: 1290px;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto
+}
+.ui_nav_menu li a.select, .ui_nav_menu li a.select:hover, .ui_nav_menu li.ishover a.select
+    {
+    background: #005f9b;
+}
+.ui_nav_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 430px;
+}
+
+.ui_logins {
+    width: 200px;
+    position: relative
+}
+.ui_sign {
+    margin-left: 0px
+}
+.ui_t_search {
+    height: 30px;
+    width: 190px;
+    float: left;
+    margin-top: 10px;
+}
+
+.ui_t_search .overTxtLabel {
+    width: 140px !important
+}
+
+.search_text {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #666;
+    padding: 5px 3px;
+    border: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: 0;
+    float: left;
+    width: 124px
+}
+.ui_quickBuy {
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    width: 100%;
+    background: url(bg_quickBuy.gif) 0 0 no-repeat #fb9;
+    text-indent: 20px;
+    font-family: "Î¢ÈíÑÅºÚ", "ËÎÌå";
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: -9999px;
+    overflow: hidden
+}
+
+@media screen and (max-width:1200px) {
+    .ui_indextad {
+        width: 980px
+    }
+    .ui_nav_menu li {
+        padding: 0 1px
+    }
+    .ui_nav_menu li a {
+        padding: 0 8px
+    }
+    .ui_nav_right {
+        width: 420px;
+    }
+    .ui_t_search {
+        width: 185px
+    }
+    .search_text {
+        width: 152px
+    }
+    .ui_layout_footer {
+        width: 980px;
+        overflow: hidden
+    }
+    .aboutGewara .right {
+        width: 300px
+    }
+    .aboutGewara .right .apps {
+        margin: 20px 0 0 0
+    }
+    .siteList span, .aboutGewara dd span {
+        margin: 0 4px
+    }
+    #backTopBox {
+        display: none
+    }
+}
+body {
+    position: relative
+}
+
+.ui_layout a {
+    color: #333
+}
+
+.ui_left, .ui_right {
+    float: left;
+    min-height: 1px;
+    background: #fff
+}
+
+.index_wrap {
+    padding: 10px
+}
+
+.index_wrap .index_left {
+    width: 180px;
+    float: left
+}
+
+.index_wrap .index_right {
+    width: 980px;
+    overflow: hidden;
+    float: right;
+    background: #fff;
+    margin-left: 20px
+}
+
+.index_right .ui_left {
+    width: 690px;
+    height: 100%
+}
+
+.index_right .ui_right {
+    width: 270px;
+    margin-left: 20px;
+    height: 100%
+}
+
+.ui_textTags {
+    background: url(ico_tags.gif?v=54678) no-repeat;
+    display: block;
+    height: 15px;
+    float: left
+}
+
+.mod_kong {
+    margin-bottom: 0
+}
+
+.bigBt span, .bigBt input {
+    font-size: 12px;
+    font-weight: normal
+}
+
+.ui_tags_sale {
+    background-position: 0 -32px;
+    width: 27px
+}
+
+.ui_tags_notice {
+    background-position: 0 -218px;
+    width: 27px
+}
+
+.ui_tags_hot {
+    background-position: 0 -202px;
+    width: 27px
+}
+
+.ui_tags_resale {
+    background-position: 0 -16px;
+    width: 27px
+}
+
+.ui_tags_speResale {
+    background-position: 0 -314px;
+    width: 51px
+}
+
+.ui_tags_fanmeeting {
+    background-position: 0 -48px;
+    width: 39px
+}
+
+.ui_tags_tejia {
+    background-position: 0 -250px;
+    width: 27px
+}
+
+.ui_tags_lingdian {
+    background-position: 0 -138px;
+    width: 39px
+}
+
+.ui_tags_lijian {
+    background-position: 0 -170px;
+    width: 27px
+}
+
+.ui_tags_lifan {
+    background-position: 0 -186px;
+    width: 27px
+}
+
+.ui_tags_qiang {
+    background-position: 0 -154px;
+    width: 27px
+}
+
+.ui_tags_newCinema {
+    background-position: 0 -122px;
+    width: 51px
+}
+
+.ui_tags_hudong {
+    background-position: 0 -298px;
+    width: 27px
+}
+
+.ui_tags_jiangli {
+    background-position: 0 -282px;
+    width: 27px
+}
+
+.ui_tags_dianyin {
+    background-position: 0 -330px;
+    width: 27px
+}
+
+.ui_tags_yingzhan {
+    background-position: 0 -346px;
+    width: 27px
+}
+
+.ui_tags_kong {
+    width: 28px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-position: 0 -266px;
+    color: #fff
+}
+
+.banner_app a.pic2wm, .ui_qbuy, .prevue, .ui_wbName, .ui_hotWala {
+    background: url(ico_index.gif?v=45646) no-repeat
+}
+
+.ui_wbName {
+    font: 14px/30px 'Î¢ÈíÑÅºÚ', 'ËÎÌå';
+    padding-right: 25px;
+    background-position: right 4px
+}
+
+.ui_qbuy {
+    padding: 0 10px 0 20px;
+    color: #999 !important;
+    background-position: 0 -28px
+}
+
+.ui_hotWala {
+    padding: 0 10px 0 20px;
+    color: #999 !important;
+    background-position: 0 -150px
+}
+
+.ui_nt, .ui_nt a {
+    color: #999
+}
+
+.ui_nt {
+    margin-right: 10px
+}
+
+.mod_line .mod_hd {
+    border-bottom: 2px solid #eee;
+    height: 40px;
+    line-height: 40px;
+    position: relative
+}
+
+.mod_line h2 {
+    font-family: 'Î¢ÈíÑÅºÚ', 'ËÎÌå';
+    font-size: 16px;
+    font-weight: bold
+}
+
+.mod_line .mod_bd {
+    padding-top: 15px
+}
+
+.leftNavBox dt em, .leftNavTags a em, .leftNavBox dt b, .leftNavTags .yhico
+    {
+    background: url(bg_subnav.gif?v=1261) no-repeat
+}
+
+.leftNavBox {
+    width: 180px;
+    position: absolute;
+    overflow: hidden
+}
+
+.leftNavTags {
+    width: 182px;
+    overflow: hidden;
+    zoom: 1;
+    margin-left: -1px;
+    margin-top: -1px
+}
+
+.leftNavBox dt {
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 34px;
+    color: #fff;
+    padding: 8px 15px 8px 45px;
+    overflow: hidden;
+    border-bottom: 2px solid #fff
+}
+
+.leftNavBox .navMovie dt {
+    background: #6cbfde
+}
+
+.leftNavBox .navDrama dt {
+    background: #6cbfde
+}
+
+.leftNavBox .navSport dt {
+    background: #7ce
+}
+
+.leftNavBox dt em {
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    left: 5px;
+    top: 8px
+}
+
+.leftNavBox .navMovie dt em {
+    background-position: 0 0
+}
+
+.leftNavBox .navDrama dt em {
+    background-position: -32px 0
+}
+
+.leftNavBox .navSport dt em {
+    background-position: -64px 0
+}
+
+.leftNavBox dt a {
+    font: bold 16px/20px "Î¢ÈíÑÅºÚ", "ËÎÌå";
+    color: #fff
+}
+
+.leftNavBox dt a:hover {
+    color: #fff
+}
+
+.leftNavBox dt label {
+    display: block;
+    width: 13px;
+    height: 7px;
+    padding: 22px 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer
+}
+
+.leftNavBox .disable dt label {
+    padding: 15px 5px
+}
+
+.leftNavBox dt label:hover {
+    background: rgba(255, 255, 255, 0.1);
+    -ms-filter:
+        "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#20ffffff,endColorstr=#20ffffff)";
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,
+        startColorstr=#20ffffff, endColorstr=#20ffffff)
+}
+
+.leftNavBox dt b {
+    display: block;
+    width: 13px;
+    height: 7px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.leftNavBox dt span {
+    display: block;
+    line-height: 14px;
+    margin-top: -2px
+}
+
+.leftNavTags li {
+    float: left;
+    display: inline;
+    position: relative
+}
+
+.leftNavTags li a {
+    display: inline-block;
+    float: left;
+    color: #666;
+    padding: 2px 10px;
+    width: 69px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #fff;
+    overflow: hidden;
+    transition: background-color .3s linear 0
+}
+
+.leftNavTags li a:hover {
+    text-decoration: none
+}
+
+.leftNavTags li a span {
+    margin-top: -5px;
+    display: block
+}
+
+.leftNavBox .even_tips span {
+    display: inline-block;
+    float: left;
+    margin: 0 2px;
+    cursor: pointer;
+    width: 8px;
+    height: 8px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    background: #ccc;
+    border-radius: 4px
+}
+
+.leftNavTags a em {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.fix_nav {
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    _top: expression(documentElement.scrollTop);
+    z-index: 298
+}
+
+.fix_top {
+    position: relative;
+    _top: expression(0)
+}
+
+.fix_btm {
+    position: absolute
+}
+
+.navMovie .leftNavTags li a, .leftNavBox .navMovie .even_box {
+    background: #fff7ef
+}
+
+.leftNavBox .navMovie dt b {
+    background-position: -99px -6px
+}
+
+.leftNavBox .navMovie.select dt b {
+    background-position: -112px -6px
+}
+
+.leftNavBox .navMovie .even_tips span.select {
+    background: #f96
+}
+
+.navMovie em.a {
+    background-position: 0 -32px
+}
+
+.navMovie em.b {
+    background-position: -32px -32px
+}
+
+.navMovie em.c {
+    background-position: -64px -32px
+}
+
+.navMovie em.d {
+    background-position: 0 -64px
+}
+
+.navMovie em.e {
+    background-position: -32px -64px
+}
+
+.navMovie em.f {
+    background-position: -64px -64px
+}
+
+.navMovie em.g {
+    background-position: -100px -32px
+}
+
+.navMovie em.h {
+    background-position: -96px -64px
+}
+
+.navMovie em.y {
+    background-position: -34px -223px
+}
+
+.navMovie em.k {
+    background-position: -66px -223px
+}
+
+.navMovie .yhico {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 17px;
+    height: 21px;
+    display: block;
+    background-position: -105px -229px
+}
+
+.navDrama .leftNavTags li a, .leftNavBox .navDrama .even_box {
+    background: #fff8ee
+}
+
+.leftNavBox .navDrama dt b {
+    background-position: -99px -13px
+}
+
+.leftNavBox .navDrama.select dt b {
+    background-position: -112px -13px
+}
+
+.leftNavBox .navDrama .even_tips span.select {
+    background: #eb6
+}
+
+.navDrama em.a {
+    background-position: 0 -96px
+}
+
+.navDrama em.b {
+    background-position: -32px -96px
+}
+
+.navDrama em.c {
+    background-position: -64px -96px
+}
+
+.navDrama em.d {
+    background-position: -96px -96px
+}
+
+.navDrama em.e {
+    background-position: 0 -128px
+}
+
+.navDrama em.f {
+    background-position: -32px -128px
+}
+
+.navDrama em.g {
+    background-position: -64px -128px
+}
+
+.navDrama em.h {
+    background-position: -96px -128px
+}
+
+.navSport .leftNavTags li a, .leftNavBox .navSport .even_box {
+    background: #effaff
+}
+
+.leftNavBox .navSport dt b {
+    background-position: -99px -20px
+}
+
+.leftNavBox .navSport.select dt b {
+    background-position: -112px -20px
+}
+
+.leftNavBox .navSport .even_tips span.select {
+    background: #7ce
+}
+
+.navSport em.a {
+    background-position: 0 -160px
+}
+
+.navSport em.b {
+    background-position: -32px -160px
+}
+
+.navSport em.c {
+    background-position: -64px -160px
+}
+
+.navSport em.d {
+    background-position: 0 -192px
+}
+
+.navSport em.e {
+    background-position: -32px -192px
+}
+
+.navSport em.f {
+    background-position: -64px -192px
+}
+
+.navSport em.g {
+    background-position: -96px -160px
+}
+
+.navSport em.h {
+    background-position: -96px -192px
+}
+
+.navSport em.i {
+    background-position: 0 -224px
+}
+
+.leftNavTags li a:hover {
+    background: #fff;
+    color: #666
+}
+
+.leftNavBox dd, .leftNavBox .disable dd {
+    display: none
+}
+
+.leftNavBox .disable dt {
+    height: 20px
+}
+
+.leftNavBox .disable dt span {
+    display: none
+}
+
+.leftNavBox .disable dt em {
+    top: 0
+}
+
+.leftNavBox .select dd {
+    display: block;
+    width: 180px;
+    overflow: hidden
+}
+
+.leftNavBox .even_box {
+    width: 150px;
+    height: 235px;
+    padding: 15px;
+    border-top: 1px solid #fff;
+    position: relative;
+    zoom: 1
+}
+
+.leftNavBox .even_center {
+    width: 150px;
+    height: 235px;
+    overflow: hidden;
+    position: relative
+}
+
+.leftNavBox .even_center ul {
+    position: absolute
+}
+
+.leftNavBox .even_center ul li {
+    width: 150px;
+    float: left;
+    display: inline
+}
+
+.leftNavBox .even_box a {
+    color: #333
+}
+
+.leftNavBox .even_tips {
+    position: absolute;
+    right: 15px;
+    bottom: 10px
+}
+
+.app2wm {
+    background: #f2f2f2;
+    width: 150px;
+    padding: 15px;
+    display: block;
+    color: #333
+}
+
+.app2wm:hover {
+    text-decoration: none;
+    background: #eee;
+    color: #e6e6e6;
+    color: #333
+}
+
+.app2wm span {
+    display: block
+}
+
+.banner_app {
+    position: relative;
+    height: 100px
+}
+
+.banner_app a.pic {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: url("banner_app_v5.jpg?v=20150930") center center no-repeat;
+    text-indent: -9999px;
+    overflow: hidden
+}
+
+.banner_app a.pic2wm {
+    position: absolute;
+    z-index: 5;
+    display: block;
+    width: 19px;
+    height: 19px;
+    left: 6px;
+    bottom: 6px;
+    background-position: -2px -82px
+}
+
+.select a.pic2wm {
+    background-position: -2px -82px
+}
+
+.pic2wmBox {
+    width: 243px;
+    height: 150px;
+    border: 1px solid #cecece;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    background: #fff;
+    left: 0;
+    display: none;
+    top: 108px;
+    z-index: 5;
+    position: absolute
+}
+
+.pic2wmBox i {
+    display: inline-block;
+    font-family: 'SimSun';
+    line-height: 26px;
+    font-size: 16px;
+    height: 22px;
+    overflow: hidden;
+    position: absolute;
+    font-style: normal;
+    z-index: 5;
+    width: 15px
+}
+
+.pic2wmBox .t {
+    color: #ddd;
+    left: 7px;
+    top: -13px;
+    _top: -12px
+}
+
+.pic2wmBox i.t i {
+    color: #fff;
+    left: 0;
+    top: 1px;
+    _top: 1px
+}
+
+.imgView {
+    position: relative;
+    width: 690px;
+    height: 220px;
+    overflow: hidden
+}
+
+.imgView .imgList ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 690px;
+    height: 220px
+}
+
+.imgView .imgList .mask {
+    width: 690px;
+    height: 40px;
+    background: #000;
+    filter: alpha(opacity = 40);
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2
+}
+
+.imgView .imgList span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 670px;
+    color: #fff;
+    height: 40px;
+    padding: 0 6px;
+    line-height: 40px;
+    display: block
+}
+
+.imgView .imgList span a {
+    font: 16px/40px "Î¢ÈíÑÅºÚ", "ËÎÌå";
+    color: #fff
+}
+
+.imgView .imgList .prev, .imgView .imgList .next {
+    position: absolute;
+    z-index: 4;
+    top: 60px;
+    display: block;
+    width: 40px;
+    height: 60px;
+    background: url(ico_arror.gif?v=1010) no-repeat #ccc;
+    filter: alpha(opacity = 40);
+    opacity: .4
+}
+
+.imgView .imgList .prev:hover, .imgView .imgList .next:hover {
+    filter: alpha(opacity = 60);
+    opacity: .6;
+    background-color: #f6b08f
+}
+
+.imgView .imgList .prev {
+    left: 0;
+    background-position: 12px 17px;
+    display: none
+}
+
+.imgView .imgList .next {
+    right: 0;
+    background-position: -51px 17px;
+    display: none
+}
+
+.imgView .countList {
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+    z-index: 4
+}
+
+.imgView .countList a {
+    display: inline-block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    background: #ccc;
+    color: #fff;
+    margin: 0 2px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+
+.imgView .countList a:hover {
+    text-decoration: none;
+    background: #fc9
+}
+
+.imgView .countList a.select {
+    background: #ec6120
+}
+
+ul.speInfo {
+    margin-top: 10px
+}
+
+ul.speInfo li {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%
+}
+
+ul.speInfo li em {
+    margin: 8px 5px 0 0
+}
+
+ul.speInfo li a {
+    color: #666
+}
+
+.movieBox .ui_left .mod_line .mod_hd {
+    border-bottom: 2px solid #6cbfde
+}
+
+.dramaBox .ui_left .mod_line .mod_hd {
+    border-bottom: 2px solid #6cbfde
+}
+
+.sportBox .ui_left .mod_line .mod_hd {
+    border-bottom: 2px solid #1885ae
+}
+
+.evenBox .even_move {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.evenBox .even_move .even_center {
+    width: 688px;
+    height: 257px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto
+}
+
+.evenBox .even_move li {
+    float: left;
+    width: 156px;
+    display: inline;
+    height: 270px;
+    margin: 0 8px;
+    overflow: hidden;
+    text-align: center
+}
+
+.evenBox .even_left, .evenBox .even_right {
+    position: absolute;
+    z-index: 3;
+    width: 18px;
+    height: 40px;
+    top: 60px
+}
+
+.evenBox .even_left {
+    left: 0
+}
+
+.evenBox .even_right {
+    right: 0
+}
+
+.evenBox .orientation {
+    display: block;
+    cursor: pointer;
+    width: 18px;
+    height: 40px;
+    overflow: hidden;
+    background: url("arror.png?v=1010") no-repeat;
+    _background: url("arror_8.png?v=1010") no-repeat
+}
+
+.evenBox .even_right .orientation {
+    background-position: -30px 0
+}
+
+.dramaBox .evenBox .orientation {
+    background-position: 0 -118px
+}
+
+.sportBox .evenBox .orientation {
+    background-position: 0 -177px
+}
+
+.dramaBox .evenBox .even_right .orientation {
+    background-position: -30px -118px
+}
+
+.sportBox .evenBox .even_right .orientation {
+    background-position: -30px -177px
+}
+
+.evenBox .even_center ul {
+    position: absolute
+}
+
+.evenBox .even_left .disable {
+    background-position: 0 -59px !important
+}
+
+.evenBox .even_right .disable {
+    background-position: -30px -59px !important
+}
+
+.prevue {
+    background-position: 0 -113px;
+    padding-left: 24px;
+    color: #999 !important;
+    display: inline-block
+}
+
+.stepControl {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    z-index: 10
+}
+
+.stepControl span {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    float: left
+}
+
+.stepControl .prev, .stepControl .next {
+    width: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 0 0 6px;
+    background: url("ico_arror_min.gif?v=1010") no-repeat #f96
+}
+
+.stepControl .prev {
+    background-position: 5px 3px
+}
+
+.stepControl .next {
+    background-position: -15px 3px
+}
+
+.stepControl .prev-disable, .stepControl .next-disable {
+    background-color: #ddd
+}
+
+.speList {
+    width: 270px;
+    height: 130px;
+    position: relative;
+    overflow: hidden
+}
+
+.speList ul {
+    width: 3000px;
+    position: absolute
+}
+
+.speList li {
+    width: 270px;
+    float: left
+}
+
+.speList li div {
+    width: 130px;
+    float: left
+}
+
+.dramaBox .button, .dramaBox .button span, .dramaBox .button input {
+    background-image: url(/css/drama_wide/btn_drama.gif?v=1010)
+}
+
+.sportBox .button, .sportBox .button span, .sportBox .button input {
+    background-image: url(/css/sport_wide/btn_sport.gif)
+}
+
+.tag_tSina {
+    display: inline-block;
+    width: 62px;
+    height: 22px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(tag_tsina.gif) 0 0 no-repeat
+}
+
+.index_right .ui_right .mod_line .mod_hd {
+    margin-left: -20px;
+    padding-left: 20px
+}
+
+.ui_left .mod_line .mod_hd a, .mod_line .mod_hd em {
+    color: #999;
+    margin-left: 10px
+}
+
+.dramaInfo .ui_left {
+    width: 280px;
+    height: 320px;
+    overflow: hidden
+}
+
+.dramaInfo .ui_right {
+    width: 360px
+}
+
+.dramaInfo .ui_left li {
+    width: 96px;
+    padding: 0 22px;
+    height: 155px;
+    float: left;
+    text-align: center
+}
+
+.ui_imgBox {
+    position: relative;
+    width: 96px;
+    height: 128px;
+    display: block;
+    overflow: hidden
+}
+
+.ui_imgBox .mask {
+    position: absolute;
+    display: block;
+    z-index: 5;
+    visibility: hidden;
+    left: 0;
+    top: 0;
+    width: 96px;
+    height: 128px;
+    transition: visibility .3s ease-in 0;
+    background: rgba(0, 0, 0, 0.4);
+    -ms-filter:
+        "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#80000000,endColorstr=#80000000)";
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,
+        startColorstr=#80000000, endColorstr=#80000000)
+}
+
+.ui_imgBox .cont {
+    transition: bottom .3s ease-in 0;
+    position: absolute;
+    bottom: -128px;
+    left: 0;
+    text-align: left;
+    display: block;
+    line-height: 18px;
+    z-index: 6;
+    padding: 5px;
+    color: #fff;
+    width: 86px;
+    height: auto
+}
+
+.ui_imgBox:hover {
+    text-decoration: none
+}
+
+.ui_imgBox:hover .mask, .ui_imgBox:hover .cont {
+    bottom: 0;
+    visibility: visible;
+    cursor: pointer
+}
+
+.dramaComment, .dramaComment a {
+    color: #999
+}
+
+.dramaComment li {
+    background: #f4f4f4;
+    height: 110px;
+    padding: 10px;
+    overflow: hidden
+}
+
+.dramaComment li p.txt {
+    height: 60px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 5px 0
+}
+
+.followUs li {
+    width: 23%;
+    float: left;
+    display: inline
+}
+
+.followUs li.spe {
+    width: 31%
+}
+
+.followUs li .fbox {
+    border: 1px solid #e6e6e6;
+    height: 165px;
+    text-align: center;
+    padding: 10px
+}
+
+.followUs li .fbox img {
+    display: block;
+    width: 104px;
+    height: 104px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.followUs li .fbox:hover {
+    border-color: #f1c5a2
+}
+
+.followUs li.spe .fbox {
+    padding: 22px;
+    height: 141px
+}
+
+.followUs li.spe .fbox img {
+    width: 141px;
+    height: 141px
+}
+
+.sportItemsBox {
+    display: block;
+    width: 100px;
+    height: 144px;
+    margin: 0 auto;
+    padding: 7px 9px;
+    text-align: center;
+    background: #f4fcff;
+    border: 1px solid #d5f3ff
+}
+
+.sportItemsBox:hover {
+    text-decoration: none;
+    border-color: #c1e5f3;
+    background-color: #ecf8fd
+}
+
+.sportItemsBox span {
+    font: 14px/22px "Î¢ÈíÑÅºÚ", "ËÎÌå";
+    color: #39c;
+    white-space: nowrap
+}
+
+.sportItemsBox em {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(/css/sport_wide/sport_items.gif) no-repeat
+}
+
+.si_ymq em {
+    background-position: 0 0
+}
+
+.si_zq em {
+    background-position: -100px 0
+}
+
+.si_yy em {
+    background-position: -200px 0
+}
+
+.si_wq em {
+    background-position: -300px 0
+}
+
+.si_ppq em {
+    background-position: -400px 0
+}
+
+.si_lq em {
+    background-position: 0 -100px
+}
+
+.si_bq em {
+    background-position: -100px -100px
+}
+
+.si_slk em {
+    background-position: -200px -100px
+}
+
+.si_sj em {
+    background-position: -300px -100px
+}
+
+.si_blq em {
+    background-position: -400px -100px
+}
+
+.si_gef em {
+    background-position: 0 -200px
+}
+
+.si_sji em {
+    background-position: -100px -200px
+}
+
+.si_lb em {
+    background-position: -200px -200px
+}
+
+.si_sc em {
+    background-position: -300px -200px
+}
+
+.si_py em {
+    background-position: -400px -200px
+}
+
+.si_lh em {
+    background-position: 0 -300px
+}
+
+.si_hb em {
+    background-position: -100px -300px
+}
+
+.si_zxc em {
+    background-position: -200px -300px
+}
+
+.si_hx em {
+    background-position: -300px -300px
+}
+
+.si_kdc em {
+    background-position: -400px -300px
+}
+
+.si_ms em {
+    background-position: 0 -400px
+}
+
+.si_pq em {
+    background-position: -100px -400px
+}
+
+.si_other em {
+    background-position: -200px -400px
+}
+
+.dataWala .mod_hd a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px
+}
+
+.walaTopic .tags {
+    height: 24px;
+    overflow: hidden
+}
+
+.walaTopic .tags span {
+    float: left;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    background: #efefef;
+    color: #666;
+    margin: 0 2px 2px 0
+}
+
+.sportPlayBox {
+    width: 520px
+}
+
+.sportPlayBox .tags {
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #eee
+}
+
+.sportPlayBox .tags ul {
+    position: absolute;
+    height: 35px;
+    top: 0;
+    z-index: 2;
+    overflow: hidden
+}
+
+.sportPlayBox .tags ul li {
+    float: left;
+    height: 35px
+}
+
+.sportPlayBox .tags ul li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    border: 1px solid #fff;
+    border-bottom: 0;
+    width: auto;
+    max-width: 140px;
+    padding: 0 10px;
+    height: 33px;
+    line-height: 32px;
+    line-height: 36px\9;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.sportPlayBox .tags ul li a:hover {
+    color: #f60;
+    text-decoration: none
+}
+
+.sportPlayBox .tags ul li a.select {
+    border: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+    color: #39c;
+    background: #fff
+}
+
+.sportPlayBox .list .ui_text {
+    height: 77px
+}
+
+.sportPlayBox .list .ui_text a {
+    display: inline-block;
+    width: 75px;
+    padding: 0 4px;
+    background: #e1f3ff;
+    float: left;
+    margin: 0 4px 4px 0;
+    _margin: 0 2px 4px 0;
+    position: relative
+}
+
+.sportPlayBox .list .ui_text a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #39c
+}
+
+.sportPlayBox .list .ui_text a span {
+    color: #666;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    top: 1px\9
+}
+
+.sportPlayBox .list .ui_text a:hover span {
+    color: #fff
+}
+
+.hotPlayItem ul li {
+    width: 120px;
+    float: left
+}
+
+.hezuozhuanqu {
+    background: #f4f4f4;
+    width: 960px;
+    padding: 10px;
+    overflow: hidden
+}
+
+.publicize {
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 0;
+    margin: 0 auto
+}
+
+.publicize .nav {
+    background: none repeat scroll 0 0 #666;
+    color: #fff !important;
+    float: left;
+    font-weight: bold;
+    line-height: 16px;
+    margin-right: 5px;
+    filter: alpha(opacity = 50);
+    opacity: .5;
+    text-align: center;
+    text-decoration: none !important
+}
+
+.publicize .nav, .publicize .choice {
+    display: inline-block;
+    height: 16px;
+    width: 16px
+}
+
+.publicize .choice {
+    background: none repeat scroll 0 0 #ff4000;
+    bottom: 5px;
+    position: absolute;
+    z-index: 7
+}
+
+.publicize .nav, .publicize .choice {
+    display: inline-block;
+    height: 16px;
+    width: 16px
+}
+
+.publicize img {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 1
+}
+
+.publicize .navControl {
+    bottom: 5px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    z-index: 9
+}
+
+.hotAc .mod_bd {
+    padding: 5 26px
+}
+
+.hotAc ul li {
+    float: left;
+    width: 304px;
+    height: 128px;
+    overflow: hidden
+}
+
+.newMovieList li {
+    padding: 4px 0;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px dashed #f2f2f2
+}
+
+.newMovieList li.select {
+    padding: 12px 0;
+    height: 96px
+}
+
+.newMovieList li.select dl, .newMovieList li div {
+    display: block !important
+}
+
+.newMovieList li.select div, .newMovieList li dl {
+    display: none !important
+}
+
+.newMovieList li div em {
+    position: absolute;
+    right: 0;
+    color: #999;
+    background: #fff
+}
+
+.newMovieList .ui_textTags {
+    margin: 5px 0 0 5px
+}
+
+.index_hotTopic .ui_pic, .index_tabSport .ui_pic {
+    margin-right: 15px;
+    width: 80px
+}
+
+.index_hotTopic .ui_text {
+    padding: 0 180px 0 0;
+    position: relative
+}
+
+.index_hotTopic .ui_text h3 a, .index_tabSport .ui_text h3 a {
+    font: bold 14px/22px "Î¢ÈíÑÅºÚ", "ËÎÌå";
+    display: block
+}
+
+.index_hotTopic p.info, .index_tabSport p.info {
+    display: block;
+    margin: 5px 0;
+    color: #666
+}
+
+.index_hotTopic p.info a, .index_tabSport p.info em {
+    color: #333
+}
+
+.index_hotTopic .ui_text p, .index_tabSport .ui_text p {
+    color: #999
+}
+
+.box_movieInfo {
+    width: 120px;
+    padding: 10px;
+    float: right;
+    color: #666 !important;
+    background: #fff9ee;
+    position: absolute;
+    right: 0;
+    top: 20px
+}
+
+.box_movieInfo a {
+    color: #666
+}
+
+.box_movieInfo p {
+    color: #666 !important
+}
+
+.cutNews {
+    width: 286px;
+    height: 0;
+    padding: 2px 2px 0;
+    border-width: 1px 1px 0 1px;
+    overflow: hidden;
+    display: none;
+    border-style: solid;
+    border-color: #eee;
+    position: fixed;
+    background: #fff;
+    z-index: 200;
+    bottom: 0;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop +
+        document.documentElement.clientHeight-this.offsetHeight- (
+        parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)))
+}
+
+.cutInner {
+    width: 284px;
+    height: 194px;
+    padding: 2px;
+    position: relative;
+    background: #ddd;
+    overflow: hidden
+}
+
+.cutInner h2 {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    text-indent: 8px
+}
+
+.cutInner a {
+    color: #dd5c17;
+    white-space: nowrap
+}
+
+.cutInner .gui-more {
+    right: 6px;
+    top: 5px;
+    position: absolute
+}
+
+.roomTypeBox {
+    position: relative
+}
+
+.ui_movieType_line {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    z-index: 10
+}
+
+@media screen and (max-width:1200px) {
+    .ui_layout {
+        width: 980px
+    }
+    .index_wrap .index_right {
+        margin-left: 10px;
+        width: 770px
+    }
+    .index_right .ui_right {
+        margin-left: 10px
+    }
+    .index_right .ui_left {
+        width: 500px
+    }
+    .index_right .ui_right {
+        width: 260px
+    }
+    .imgView {
+        width: 500px
+    }
+    .imgView .imgList ul {
+        position: absolute;
+        left: -95px;
+        top: 0
+    }
+    .index_right .ui_right .mod_line .mod_hd {
+        margin-left: -10px;
+        padding-left: 10px
+    }
+    .movieBox .even_move .even_center {
+        width: 516px;
+        margin-left: -8px
+    }
+    .sportPlayBox {
+        width: 350px
+    }
+    .hotAc ul li {
+        width: 245px
+    }
+    .hotAc ul li.ml30 {
+        margin-left: 10px
+    }
+    .hotPlayItem .mr30 {
+        margin-right: 20px
+    }
+    .hezuozhuanqu, .publicize {
+        width: 750px
+    }
+    .followUs li.spe .fbox img {
+        width: 90px;
+        height: 90px
+    }
+    .followUs li.spe .fbox .ui_pic {
+        width: 90px !important;
+        padding-top: 33px
+    }
+    .imgView .imgList span {
+        left: 95px;
+        width: 488px
+    }
+    .ui_left .mod_line .mod_hd em {
+        display: none
+    }
+    .dramaInfo .ui_left li {
+        padding-left: 0
+    }
+    .dramaInfo .ui_left {
+        width: 118px
+    }
+    .dramaInfo .isfix {
+        margin-top: 10px
+    }
+    .dramaInfo .ui_right {
+        width: 360px
+    }
+    .hotAc .mod_bd {
+        padding: 0
+    }
+}
+
+.wrap_mini .ui_layout {
+    width: 980px
+}
+
+.wrap_mini .index_wrap .index_right {
+    margin-left: 10px;
+    width: 770px
+}
+
+.wrap_mini .index_right .ui_right {
+    margin-left: 10px
+}
+
+.wrap_mini .index_right .ui_left {
+    width: 500px
+}
+
+.wrap_mini .index_right .ui_right {
+    width: 260px
+}
+
+.wrap_mini .imgView {
+    width: 500px
+}
+
+.wrap_mini .imgView .imgList ul {
+    position: absolute;
+    left: -95px;
+    top: 0
+}
+
+.wrap_mini .index_right .ui_right .mod_line .mod_hd {
+    margin-left: -10px;
+    padding-left: 10px
+}
+
+.wrap_mini .movieBox .even_move .even_center {
+    width: 516px;
+    margin-left: -8px
+}
+
+.wrap_mini .sportPlayBox {
+    width: 350px
+}
+
+.wrap_mini .hotAc ul li {
+    width: 245px
+}
+
+.wrap_mini .hotAc ul li.ml30 {
+    margin-left: 10px
+}
+
+.wrap_mini .hotPlayItem .mr30 {
+    margin-right: 20px
+}
+
+.wrap_mini .hezuozhuanqu, .wrap_mini .publicize {
+    width: 750px
+}
+
+.wrap_mini .followUs li.spe .fbox img {
+    width: 90px;
+    height: 90px
+}
+
+.wrap_mini .followUs li.spe .fbox .ui_pic {
+    width: 90px !important;
+    padding-top: 33px
+}
+
+.wrap_mini .imgView .imgList span {
+    left: 95px;
+    width: 488px
+}
+
+.wrap_mini .ui_left .mod_line .mod_hd em {
+    display: none
+}
+
+.wrap_mini .dramaInfo .ui_left li {
+    padding-left: 0
+}
+
+.wrap_mini .dramaInfo .ui_left {
+    width: 118px
+}
+
+.wrap_mini .dramaInfo .ui_right {
+    width: 360px
+}
+
+.wrap_mini .dramaInfo .isfix {
+    margin-top: 10px
+}
+
+.wrap_mini .hotAc .mod_bd {
+    padding: 0
+}
