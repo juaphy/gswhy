@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html slick-uniqueid="1"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>我的反馈_格瓦拉生活网</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="yjfk_files/gewara.css">
+	<script type="text/javascript" src="yjfk_files/mootools.js"></script>
+	<script type="text/javascript" src="yjfk_files/gewara_002.js"></script>
+</head>
+<body>
+<!-- SUCCESS_HEAD -->
+<!--[if lt IE 7]>
+<div class="ui_warning ui_ieUpdate center">你正在使用低版本浏览器，为了您的格瓦拉账号安全和更好的产品体验，强烈建议您立即 <a class="blue" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">升级浏览器</a>。</div>
+<![endif]-->
+<div id="top_notice" class="ui_notice" style="display:none;">
+	<div class="ui_notice_in">
+							</div>
+</div>
+
+<div class="ui_nav ui__nav">
+	<div class="ui_plugs_body">
+		<a href="http://www.gewara.com/" class="logo" title="格瓦拉生活网"><img src="yjfk_files/blank.gif" alt="格瓦拉生活网" height="40" width="102"></a>
+		<div id="cityChoose" class="ui_changeCity"><b title="点击切换城市" class="ui_cityChoose">广州</b></div>
+		<div class="ui_nav_menu" lang="bgcolor">
+							<ul class="ui_inline" lang="ishover">
+					<li class="isDisabled"><a href="http://www.gewara.com/">首页</a></li>
+					<li key="movie"><a href="http://www.gewara.com/movie/">电影</a></li>					<li key="drama"><a href="http://www.gewara.com/drama/">演出</a></li>										<li key="activity"><a href="http://www.gewara.com/activity/">活动</a></li>				    <li><a href="http://www.gewara.com/wala/">社区</a></li>
+				</ul>
+					</div>
+		<div class="ui_nav_right">
+			<div class="ui_t_search">
+				<form action="/newSearchKey.xhtml" id="gForm">
+					<input value="" id="searchid" type="hidden">
+					<input name="skey" class="search_text" alt="电影、演出.." id="skey" autocomplete="off" x-webkit-speech="" accesskey="s" type="text"><label for="skey" style="line-height: 28px; height: 28px; position: absolute; cursor: text; color: rgb(221, 221, 221); width: 200px; text-indent: 6px; left: 0px; top: 11px;" class="overTxtLabel">电影、演出..</label><label class="search_button"><input class="search_button" value="&nbsp;" type="submit"></label>
+				</form>
+			</div>
+			<div class="ui_logins right" id="global_check_login"><style type="text/css">
+.ui_top_nav{position:relative; z-index:2; _position:static;}
+.ui_logins{position:relative; z-index:0; float:right;}
+.ui_cityChoose{z-index:10px;}
+.ui_warning_header{position:absolute; overflow:visible; width:200px; right:115px; height:auto; line-height:20px; top:15px; text-align:left; color:#666;}
+.ui_warning_header .inner{position:relative; padding:5px 0;}
+.ui_warning_header i{display:inline-block; font-family:'SimSun'; font-size:16px; font-style:normal; height:22px; line-height:26px; overflow:hidden; position:absolute;}
+.ui_warning_header .t{color:#FFE3BB; right:10px;top:-13px;}
+.ui_warning_header i.t i{color:#FFFFDD; left:0; top:1px;}
+.ui_warning_header a{color:#c30; padding:0;}
+.ui_warning_header a:hover{color:#c30; text-decoration:underline!important;}
+.ui_userBox{float:left} 
+.ui_getRd{float:right;}
+.systemNew ,.whenNew{padding:10px 20px; background:#f1f1f1;}
+.whenNew{margin-top:2px;}
+.whenNew a ,.systemNew a ,.systemNew a span.goto ,.whenNew a span.goto{background:url(http://static5.gewara.com/css/sns/snsIco_new.png?v=10000) no-repeat;}
+.whenNew a ,.systemNew a{display:block; padding-left:30px; height:30px; line-height:30px; font-size:18px; color:#6f6f6f;  position:relative;}
+.whenNew a:hover ,.systemNew a:hover{color:#333;}
+.systemNew a{background-position:-10px -10px;}
+.whenNew a{background-position:-10px -50px;}
+.systemNew.haveNew a em ,.whenNew.haveNew a em{width:7px; height:7px; display:block; background:#ff5d00; border-radius:7px; position:absolute; top:12px; left:105px;}
+.systemNew a span.goto ,.whenNew a span.goto{background-position:-14px -87px; float:right; width:15px; height:30px; display:inline-block;}
+.ui_myMsgDetail{box-shadow:2px 2px 0 rgba(0, 0, 0, 0.1);overflow:hidden;}
+#sysCount{float:right;font-size:14px; margin-right:10px;}
+/* tips公用 */
+.ui_tips{display:block; position:absolute; overflow:hidden; z-index:10; }
+.ui_tips .inner{display:block;  padding:0; position:relative; overflow:hidden; width:100%; height:100%;}
+.ui_tips .inner .close{position:absolute; display:block; overflow:hidden; text-indent:-9999px;cursor:pointer;}
+/* 退票tips*/
+.ui_tpTips{width:202px; height:57px;right:50px; top:35px; background:url(http://static5.gewara.com/css/movie_wide/tptips.png?v=2016070904) 0 0 no-repeat;}
+.ui_tpTips .inner .close{width:30px; height:30px; right:0px; top:18px; }
+/* 绑定账户tips*/
+.ui_bindAcTips{width:255px; height:65px;right:70px; top:35px; background:url(http://static5.gewara.com/css/sns/bindAcTips.png?v=2016070904) 0 0 no-repeat;}
+.ui_bindAcTips .inner .close{width:30px; height:30px; right:0px; top:18px;}
+</style>
+
+<div class="ui_userBox ui_userBox_logon" id="global_user_infobox">
+	<a href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" target="_blank"><img class="ui_dHead" alt="" style="display:none; background:url(http://img5.gewara.com/cw30h30/images/201607/headpic/s_112a73ad_15581a4f062_1861.gif) center center no-repeat;" src="yjfk_files/blank.gif" height="30" width="30"></a>
+	<a class="ismessge" title="心_睡" href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" target="_blank"><b> 心_睡 </b></a>
+</div>
+<!-- <a class="left msgWala" id="myMsg" href="#">消息<span>10</span></a> -->
+<a class="left" id="myMsg" href="http://www.gewara.com/activity/message/index.xhtml">消息<span id="messsageCount" class="none">0</span></a>
+<a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>
+<div class="ui_userBoxBtn" id="global_user_detail">
+	<div class="ulist">
+		<a id="global_userOrder" class="global_userOrder" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14680419152537543" target="_blank">我的订单</a>
+		<a href="http://www.gewara.com/home/charge.xhtml?tagNo=14680419152536998" target="_blank">我的账户</a>
+		<a href="javascript:logout();">退出</a>
+		<div class="cls"></div>
+	</div>
+	<div id="golbal_orderDetail" class="ui_nav_orderDetail">
+		<div id="ajaxOrderListDetail" style="background:#fff;">
+			<div class="ainner">
+				<em class="sline"></em>
+				<div class="nav_loading">加载中，请稍后...</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="myMsgDetail" class="ui_myMsgDetail">
+	<div id="message_list"></div>
+</div>
+<div class="ui_warning ui_warning_header none" id="speNotice">
+	<div class="inner">
+		<i class="t">◆<i>◆</i></i>
+		<p><b class="ico_g"></b>您的账户存在安全风险，为保障您的账户安全，请及时更改您的密码！</p>
+		<p class="tar mt5"><a class="ffst" href="http://www.gewara.com/home/acct/goUpPass.xhtml?tagNo=14680419152534181&amp;danger=true">马上更改&gt;&gt;</a></p>
+	</div>
+</div>
+<!-- <div class="ui_tips ui_tpTips" id="tuipiaoTips" style="display:none;" onclick="window.location.href='/home/myOrderManage.xhtml?tagNo=14680419152532770';closetuipiaoTips();">
+	<div class="inner"><span class="close" onclick="closetuipiaoTips();" title="关闭">关闭</span></div>
+</div> -->
+<div class="ui_tips ui_bindAcTips" id="bindAcTips" style="display:none;cursor:pointer;" onclick="window.location.href='/home/bind/bindIndex.xhtml?tagNo=14680419152531570';closebindAcTips();">
+	<div class="inner"><span class="close" id="bindClose" title="关闭">关闭</span></div>
+</div>
+
+</div>
+		</div>
+	</div>
+</div>
+<div style="position: absolute; left: 371px; top: 50px;" class="ui_city_plugs none clear" id="ui_city_plugs"><div class="inner" style="position:relative;">
+	<span class="ui_close" title="关闭"></span>
+	<div class="ui_city_cType clear">
+		<ul>
+			<li><a id="hotCitys" class="select" href="javascript:void(0);">热门</a></li>
+						<li><a id="cityT1" href="javascript:void(0);">ABCDEF</a></li>
+						<li><a id="cityT2" href="javascript:void(0);">GHIJ</a></li>
+						<li><a id="cityT3" href="javascript:void(0);">KLMN</a></li>
+						<li><a id="cityT4" href="javascript:void(0);">PQRSTV</a></li>
+						<li class="last"><a id="cityT5" href="javascript:void(0);">WXYZ</a></li>
+					</ul>
+	</div>
+	<div class="ui_city_List clear" id="hotCitys_content">
+		<div class="inner clear">
+			<ul class="clear">
+								<li><a href="http://www.gewara.com/shanghai">上海</a></li>
+								<li><a href="http://www.gewara.com/beijing">北京</a></li>
+								<li><a href="http://www.gewara.com/nanjing">南京</a></li>
+								<li><a class="select" href="http://www.gewara.com/guangzhou">广州</a></li>
+								<li><a href="http://www.gewara.com/wuhan">武汉</a></li>
+								<li><a href="http://www.gewara.com/shenzhen">深圳</a></li>
+								<li><a href="http://www.gewara.com/hangzhou">杭州</a></li>
+								<li><a href="http://www.gewara.com/chongqing">重庆</a></li>
+								<li><a href="http://www.gewara.com/chengdu">成都</a></li>
+								<li><a href="http://www.gewara.com/suzhou">苏州</a></li>
+								<li><a href="http://www.gewara.com/xian">西安</a></li>
+								<li><a href="http://www.gewara.com/ningbo">宁波</a></li>
+								<li><a href="http://www.gewara.com/shaoxing">绍兴</a></li>
+								<li><a href="http://www.gewara.com/jiaxing">嘉兴</a></li>
+								<li><a href="http://www.gewara.com/huzhou">湖州</a></li>
+								<li><a href="http://www.gewara.com/wuxi">无锡</a></li>
+								<li><a href="http://www.gewara.com/fuzhou">福州</a></li>
+								<li><a href="http://www.gewara.com/xiamen">厦门</a></li>
+								<li><a href="http://www.gewara.com/shenyang">沈阳</a></li>
+								<li><a href="http://www.gewara.com/changsha">长沙</a></li>
+							</ul>
+			<p class="tar"><a href="http://www.gewara.com/cityList.xhtml">更多城市</a></p>
+		</div>
+	</div>
+		<div class="ui_city_List none clear" id="cityT1_content">
+		<div class="inner clear">
+									<dl class="mt0">
+				<dt><span>A</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/ab">阿坝</a></li>
+												<li><a href="http://www.gewara.com/ankang">安康</a></li>
+												<li><a href="http://www.gewara.com/akesudiqu">阿克苏</a></li>
+												<li><a href="http://www.gewara.com/aletaidiqu">阿勒泰地区</a></li>
+												<li><a href="http://www.gewara.com/anqing">安庆</a></li>
+												<li><a href="http://www.gewara.com/anshan">鞍山</a></li>
+												<li><a href="http://www.gewara.com/anyang">安阳</a></li>
+												<li><a href="http://www.gewara.com/anshun">安顺</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>B</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/beijing">北京</a></li>
+												<li><a href="http://www.gewara.com/bazhong">巴中</a></li>
+												<li><a href="http://www.gewara.com/baoji">宝鸡</a></li>
+												<li><a href="http://www.gewara.com/bayinguolengmenggu">巴音郭楞</a></li>
+												<li><a href="http://www.gewara.com/boertalamengguzizhizhou">博尔塔拉蒙古自治州</a></li>
+												<li><a href="http://www.gewara.com/bengbu">蚌埠</a></li>
+												<li><a href="http://www.gewara.com/bozhou">亳州</a></li>
+												<li><a href="http://www.gewara.com/beihai">北海</a></li>
+												<li><a href="http://www.gewara.com/baise">百色</a></li>
+												<li><a href="http://www.gewara.com/benxi">本溪</a></li>
+												<li><a href="http://www.gewara.com/baoding">保定</a></li>
+												<li><a href="http://www.gewara.com/baotou">包头</a></li>
+												<li><a href="http://www.gewara.com/bayannaoershi">巴彦淖尔</a></li>
+												<li><a href="http://www.gewara.com/baishan">白山</a></li>
+												<li><a href="http://www.gewara.com/baicheng">白城</a></li>
+												<li><a href="http://www.gewara.com/binzhou">滨州</a></li>
+												<li><a href="http://www.gewara.com/bijie">毕节</a></li>
+												<li><a href="http://www.gewara.com/baoshan">保山</a></li>
+												<li><a href="http://www.gewara.com/baiyinshi">白银</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>C</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/chongqing">重庆</a></li>
+												<li><a href="http://www.gewara.com/chengdu">成都</a></li>
+												<li><a href="http://www.gewara.com/chaozhou">潮州</a></li>
+												<li><a href="http://www.gewara.com/changzhou">常州</a></li>
+												<li><a href="http://www.gewara.com/changjihuizu">昌吉</a></li>
+												<li><a href="http://www.gewara.com/changzhi">长治</a></li>
+												<li><a href="http://www.gewara.com/chongzuoshi">崇左</a></li>
+												<li><a href="http://www.gewara.com/changjianglizuzizhixian">昌江黎族自治县</a></li>
+												<li><a href="http://www.gewara.com/chuzhou">滁州</a></li>
+												<li><a href="http://www.gewara.com/chizhou">池州</a></li>
+												<li><a href="http://www.gewara.com/chaoyang">朝阳</a></li>
+												<li><a href="http://www.gewara.com/chengde">承德</a></li>
+												<li><a href="http://www.gewara.com/cangzhou">沧州</a></li>
+												<li><a href="http://www.gewara.com/changsha">长沙</a></li>
+												<li><a href="http://www.gewara.com/changde">常德</a></li>
+												<li><a href="http://www.gewara.com/chenzhou">郴州</a></li>
+												<li><a href="http://www.gewara.com/chifengshi">赤峰</a></li>
+												<li><a href="http://www.gewara.com/changchun">长春</a></li>
+												<li><a href="http://www.gewara.com/chuxiongyizu">楚雄</a></li>
+												<li><a href="http://www.gewara.com/chengmaixian">澄迈</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>D</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/dazhou">达州</a></li>
+												<li><a href="http://www.gewara.com/dongguan">东莞</a></li>
+												<li><a href="http://www.gewara.com/deyang">德阳</a></li>
+												<li><a href="http://www.gewara.com/dongfangshi">东方</a></li>
+												<li><a href="http://www.gewara.com/daxinganlingdiqu">大兴安岭</a></li>
+												<li><a href="http://www.gewara.com/dalian">大连</a></li>
+												<li><a href="http://www.gewara.com/dandong">丹东</a></li>
+												<li><a href="http://www.gewara.com/datong">大同</a></li>
+												<li><a href="http://www.gewara.com/dezhou">德州</a></li>
+												<li><a href="http://www.gewara.com/dongying">东营</a></li>
+												<li><a href="http://www.gewara.com/daqing">大庆</a></li>
+												<li><a href="http://www.gewara.com/dehong">德宏</a></li>
+												<li><a href="http://www.gewara.com/dali">大理</a></li>
+												<li><a href="http://www.gewara.com/diqing">迪庆</a></li>
+												<li><a href="http://www.gewara.com/dingxishi">定西</a></li>
+												<li><a href="http://www.gewara.com/danzhoushi">儋州</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>E</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/enshi">恩施</a></li>
+												<li><a href="http://www.gewara.com/ezhou">鄂州</a></li>
+												<li><a href="http://www.gewara.com/eerduosi">鄂尔多斯</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>F</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/foshan">佛山</a></li>
+												<li><a href="http://www.gewara.com/fuzhou">福州</a></li>
+												<li><a href="http://www.gewara.com/fuyang">阜阳</a></li>
+												<li><a href="http://www.gewara.com/fangchenggang">防城港</a></li>
+												<li><a href="http://www.gewara.com/fushun">抚顺</a></li>
+												<li><a href="http://www.gewara.com/fuxin">阜新</a></li>
+												<li><a href="http://www.gewara.com/fuzhou_jx">抚州</a></li>
+											</ul>
+				</dd>
+			</dl>
+											</div>
+	</div>
+		<div class="ui_city_List none clear" id="cityT2_content">
+		<div class="inner clear">
+									<dl class="mt0">
+				<dt><span>G</span></dt>
+				<dd>
+					<ul>
+												<li><a class="select" href="http://www.gewara.com/guangzhou">广州</a></li>
+												<li><a href="http://www.gewara.com/guangan">广安</a></li>
+												<li><a href="http://www.gewara.com/ganzi">甘孜</a></li>
+												<li><a href="http://www.gewara.com/guangyuan">广元</a></li>
+												<li><a href="http://www.gewara.com/guilin">桂林</a></li>
+												<li><a href="http://www.gewara.com/guigang">贵港</a></li>
+												<li><a href="http://www.gewara.com/ganzhou">赣州</a></li>
+												<li><a href="http://www.gewara.com/guyuan">固原</a></li>
+												<li><a href="http://www.gewara.com/guiyang">贵阳</a></li>
+												<li><a href="http://www.gewara.com/gannanzangzu">甘南</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>H</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/hanzhong">汉中</a></li>
+												<li><a href="http://www.gewara.com/hangzhou">杭州</a></li>
+												<li><a href="http://www.gewara.com/huizhou">惠州</a></li>
+												<li><a href="http://www.gewara.com/heyuan">河源</a></li>
+												<li><a href="http://www.gewara.com/huzhou">湖州</a></li>
+												<li><a href="http://www.gewara.com/huaian">淮安</a></li>
+												<li><a href="http://www.gewara.com/haidongdiqu">海东地区</a></li>
+												<li><a href="http://www.gewara.com/heiheshi">黑河</a></li>
+												<li><a href="http://www.gewara.com/hamidiqu">哈密地区</a></li>
+												<li><a href="http://www.gewara.com/huanggang">黄冈</a></li>
+												<li><a href="http://www.gewara.com/huangshi">黄石</a></li>
+												<li><a href="http://www.gewara.com/hefei">合肥</a></li>
+												<li><a href="http://www.gewara.com/huainanshi">淮南</a></li>
+												<li><a href="http://www.gewara.com/huaibei">淮北</a></li>
+												<li><a href="http://www.gewara.com/huangshan">黄山</a></li>
+												<li><a href="http://www.gewara.com/hezhou">贺州</a></li>
+												<li><a href="http://www.gewara.com/hechi">河池</a></li>
+												<li><a href="http://www.gewara.com/huludao">葫芦岛</a></li>
+												<li><a href="http://www.gewara.com/handan">邯郸</a></li>
+												<li><a href="http://www.gewara.com/hengshuishi">衡水</a></li>
+												<li><a href="http://www.gewara.com/hengyang">衡阳</a></li>
+												<li><a href="http://www.gewara.com/huaihua">怀化</a></li>
+												<li><a href="http://www.gewara.com/huhehaote">呼和浩特</a></li>
+												<li><a href="http://www.gewara.com/hulunbeier">呼伦贝尔</a></li>
+												<li><a href="http://www.gewara.com/heze">菏泽</a></li>
+												<li><a href="http://www.gewara.com/hebishi">鹤壁</a></li>
+												<li><a href="http://www.gewara.com/haerbin">哈尔滨</a></li>
+												<li><a href="http://www.gewara.com/hegang">鹤岗</a></li>
+												<li><a href="http://www.gewara.com/honghe">红河</a></li>
+												<li><a href="http://www.gewara.com/haikou">海口</a></li>
+												<li><a href="http://www.gewara.com/haiximengguzuzangzu">海西</a></li>
+											</ul>
+				</dd>
+			</dl>
+																					<dl>
+				<dt><span>J</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/jiangmen">江门</a></li>
+												<li><a href="http://www.gewara.com/jieyang">揭阳</a></li>
+												<li><a href="http://www.gewara.com/jiaxing">嘉兴</a></li>
+												<li><a href="http://www.gewara.com/jinhua">金华</a></li>
+												<li><a href="http://www.gewara.com/jingzhou">荆州</a></li>
+												<li><a href="http://www.gewara.com/jingmen">荆门</a></li>
+												<li><a href="http://www.gewara.com/jinchangshi">金昌</a></li>
+												<li><a href="http://www.gewara.com/jinzhou">锦州</a></li>
+												<li><a href="http://www.gewara.com/jincheng">晋城</a></li>
+												<li><a href="http://www.gewara.com/jinzhong">晋中</a></li>
+												<li><a href="http://www.gewara.com/jilin">吉林</a></li>
+												<li><a href="http://www.gewara.com/jiujiang">九江</a></li>
+												<li><a href="http://www.gewara.com/jian">吉安</a></li>
+												<li><a href="http://www.gewara.com/jingdezhen">景德镇</a></li>
+												<li><a href="http://www.gewara.com/jinan">济南</a></li>
+												<li><a href="http://www.gewara.com/jining">济宁</a></li>
+												<li><a href="http://www.gewara.com/jiaozuo">焦作</a></li>
+												<li><a href="http://www.gewara.com/jiyuanshi">济源</a></li>
+												<li><a href="http://www.gewara.com/jixi">鸡西</a></li>
+												<li><a href="http://www.gewara.com/jiamusi">佳木斯</a></li>
+												<li><a href="http://www.gewara.com/jiuquan">酒泉</a></li>
+												<li><a href="http://www.gewara.com/jiayuguanshi">嘉峪关</a></li>
+											</ul>
+				</dd>
+			</dl>
+											</div>
+	</div>
+		<div class="ui_city_List none clear" id="cityT3_content">
+		<div class="inner clear">
+									<dl class="mt0">
+				<dt><span>K</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/kashendiqu">喀什</a></li>
+												<li><a href="http://www.gewara.com/kelamayishi">克拉玛依</a></li>
+												<li><a href="http://www.gewara.com/kaifeng">开封</a></li>
+												<li><a href="http://www.gewara.com/kunming">昆明</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>L</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/lasashi">拉萨</a></li>
+												<li><a href="http://www.gewara.com/leshan">乐山</a></li>
+												<li><a href="http://www.gewara.com/luzhou">泸州</a></li>
+												<li><a href="http://www.gewara.com/lianyungang">连云港</a></li>
+												<li><a href="http://www.gewara.com/liangshanyizu">凉山</a></li>
+												<li><a href="http://www.gewara.com/lishui">丽水</a></li>
+												<li><a href="http://www.gewara.com/lingshuilizuzizhixian">陵水黎族自治县</a></li>
+												<li><a href="http://www.gewara.com/linxiahuizuzizhizhou">临夏回族自治州</a></li>
+												<li><a href="http://www.gewara.com/ledonglizuzizhixian">乐东黎族自治县</a></li>
+												<li><a href="http://www.gewara.com/longyan">龙岩</a></li>
+												<li><a href="http://www.gewara.com/liuan">六安</a></li>
+												<li><a href="http://www.gewara.com/liuzhou">柳州</a></li>
+												<li><a href="http://www.gewara.com/laibinshi">来宾</a></li>
+												<li><a href="http://www.gewara.com/liaoyang">辽阳</a></li>
+												<li><a href="http://www.gewara.com/langfang">廊坊</a></li>
+												<li><a href="http://www.gewara.com/loudi">娄底</a></li>
+												<li><a href="http://www.gewara.com/linfen">临汾</a></li>
+												<li><a href="http://www.gewara.com/lvliangshi">吕梁</a></li>
+												<li><a href="http://www.gewara.com/liaoyuan">辽源</a></li>
+												<li><a href="http://www.gewara.com/liaocheng">聊城</a></li>
+												<li><a href="http://www.gewara.com/linyi">临沂</a></li>
+												<li><a href="http://www.gewara.com/laiwu">莱芜</a></li>
+												<li><a href="http://www.gewara.com/luoyang">洛阳</a></li>
+												<li><a href="http://www.gewara.com/luohe">漯河</a></li>
+												<li><a href="http://www.gewara.com/liupanshui">六盘水</a></li>
+												<li><a href="http://www.gewara.com/lijiang">丽江</a></li>
+												<li><a href="http://www.gewara.com/lincang">临沧</a></li>
+												<li><a href="http://www.gewara.com/lanzhou">兰州</a></li>
+												<li><a href="http://www.gewara.com/longnanshi">陇南</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>M</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/maoming">茂名</a></li>
+												<li><a href="http://www.gewara.com/meizhou">梅州</a></li>
+												<li><a href="http://www.gewara.com/meishan">眉山</a></li>
+												<li><a href="http://www.gewara.com/mianyang">绵阳</a></li>
+												<li><a href="http://www.gewara.com/maanshan">马鞍山</a></li>
+												<li><a href="http://www.gewara.com/mudanjiang">牡丹江</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>N</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/nanjing">南京</a></li>
+												<li><a href="http://www.gewara.com/nanchong">南充</a></li>
+												<li><a href="http://www.gewara.com/ningbo">宁波</a></li>
+												<li><a href="http://www.gewara.com/neijiang">内江</a></li>
+												<li><a href="http://www.gewara.com/nantong">南通</a></li>
+												<li><a href="http://www.gewara.com/nanping">南平</a></li>
+												<li><a href="http://www.gewara.com/ningde">宁德</a></li>
+												<li><a href="http://www.gewara.com/nanning">南宁</a></li>
+												<li><a href="http://www.gewara.com/nanchang">南昌</a></li>
+												<li><a href="http://www.gewara.com/nanyang">南阳</a></li>
+											</ul>
+				</dd>
+			</dl>
+											</div>
+	</div>
+		<div class="ui_city_List none clear" id="cityT4_content">
+		<div class="inner clear">
+									<dl class="mt0">
+				<dt><span>P</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/panzhihua">攀枝花</a></li>
+												<li><a href="http://www.gewara.com/putian">莆田</a></li>
+												<li><a href="http://www.gewara.com/panjin">盘锦</a></li>
+												<li><a href="http://www.gewara.com/pingxiang">萍乡</a></li>
+												<li><a href="http://www.gewara.com/puyang">濮阳</a></li>
+												<li><a href="http://www.gewara.com/pingdingshan">平顶山</a></li>
+												<li><a href="http://www.gewara.com/puer">普洱</a></li>
+												<li><a href="http://www.gewara.com/pingliangshi">平凉</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>Q</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/qingyuan">清远</a></li>
+												<li><a href="http://www.gewara.com/quzhou">衢州</a></li>
+												<li><a href="http://www.gewara.com/qitaiheshi">七台河</a></li>
+												<li><a href="http://www.gewara.com/qianjiang">潜江</a></li>
+												<li><a href="http://www.gewara.com/quanzhou">泉州</a></li>
+												<li><a href="http://www.gewara.com/qinzhou">钦州</a></li>
+												<li><a href="http://www.gewara.com/qinhuangdao">秦皇岛</a></li>
+												<li><a href="http://www.gewara.com/qingdao">青岛</a></li>
+												<li><a href="http://www.gewara.com/qiannanzhou">黔南</a></li>
+												<li><a href="http://www.gewara.com/qianxinanbuyizumiaozu">黔西南</a></li>
+												<li><a href="http://www.gewara.com/qiandongnanmiaozudongzu">黔东南</a></li>
+												<li><a href="http://www.gewara.com/qiqihaer">齐齐哈尔</a></li>
+												<li><a href="http://www.gewara.com/qujing">曲靖</a></li>
+												<li><a href="http://www.gewara.com/qingyangshi">庆阳</a></li>
+												<li><a href="http://www.gewara.com/qionghai">琼海</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>R</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/rikazediqu">日喀则地区</a></li>
+												<li><a href="http://www.gewara.com/rizhao">日照</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>S</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/shanghai">上海</a></li>
+												<li><a href="http://www.gewara.com/shenzhen">深圳</a></li>
+												<li><a href="http://www.gewara.com/suzhou">苏州</a></li>
+												<li><a href="http://www.gewara.com/shanwei">汕尾</a></li>
+												<li><a href="http://www.gewara.com/shaoguan">韶关</a></li>
+												<li><a href="http://www.gewara.com/shantou">汕头</a></li>
+												<li><a href="http://www.gewara.com/shaoxing">绍兴</a></li>
+												<li><a href="http://www.gewara.com/suining">遂宁</a></li>
+												<li><a href="http://www.gewara.com/suqian">宿迁</a></li>
+												<li><a href="http://www.gewara.com/shiyan">十堰</a></li>
+												<li><a href="http://www.gewara.com/shihezishi">石河子</a></li>
+												<li><a href="http://www.gewara.com/shangluo">商洛</a></li>
+												<li><a href="http://www.gewara.com/shennongjialinqu">神农架</a></li>
+												<li><a href="http://www.gewara.com/sanshashi">三沙</a></li>
+												<li><a href="http://www.gewara.com/shannandiqu">山南地区</a></li>
+												<li><a href="http://www.gewara.com/suizhou">随州</a></li>
+												<li><a href="http://www.gewara.com/sanming">三明</a></li>
+												<li><a href="http://www.gewara.com/shenyang">沈阳</a></li>
+												<li><a href="http://www.gewara.com/shijiazhuang">石家庄</a></li>
+												<li><a href="http://www.gewara.com/shaoyang">邵阳</a></li>
+												<li><a href="http://www.gewara.com/shuozhoushi">朔州</a></li>
+												<li><a href="http://www.gewara.com/siping">四平</a></li>
+												<li><a href="http://www.gewara.com/songyuanshi">松原</a></li>
+												<li><a href="http://www.gewara.com/shangrao">上饶</a></li>
+												<li><a href="http://www.gewara.com/sanmenxia">三门峡</a></li>
+												<li><a href="http://www.gewara.com/shangqiu">商丘</a></li>
+												<li><a href="http://www.gewara.com/shizuishanshi">石嘴山</a></li>
+												<li><a href="http://www.gewara.com/suihua">绥化</a></li>
+												<li><a href="http://www.gewara.com/shuangyashanshi">双鸭山</a></li>
+												<li><a href="http://www.gewara.com/sanya">三亚</a></li>
+												<li><a href="http://www.gewara.com/suzhoushi">宿州</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>T</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/tianjin">天津</a></li>
+												<li><a href="http://www.gewara.com/taizhou">台州</a></li>
+												<li><a href="http://www.gewara.com/taizhou_js">泰州</a></li>
+												<li><a href="http://www.gewara.com/tongchuan">铜川</a></li>
+												<li><a href="http://www.gewara.com/tianmenshi">天门</a></li>
+												<li><a href="http://www.gewara.com/tachengdiqu">塔城</a></li>
+												<li><a href="http://www.gewara.com/tulufandiqu">吐鲁番地区</a></li>
+												<li><a href="http://www.gewara.com/tunchangxian">屯昌</a></li>
+												<li><a href="http://www.gewara.com/tongling">铜陵</a></li>
+												<li><a href="http://www.gewara.com/tieling">铁岭</a></li>
+												<li><a href="http://www.gewara.com/tangshan">唐山</a></li>
+												<li><a href="http://www.gewara.com/taiyuan">太原</a></li>
+												<li><a href="http://www.gewara.com/tongliaoshi">通辽</a></li>
+												<li><a href="http://www.gewara.com/tonghua">通化</a></li>
+												<li><a href="http://www.gewara.com/taian">泰安</a></li>
+												<li><a href="http://www.gewara.com/tongren">铜仁</a></li>
+												<li><a href="http://www.gewara.com/tianshui">天水</a></li>
+											</ul>
+				</dd>
+			</dl>
+																	</div>
+	</div>
+		<div class="ui_city_List none clear" id="cityT5_content">
+		<div class="inner clear">
+									<dl class="mt0">
+				<dt><span>W</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/wuhan">武汉</a></li>
+												<li><a href="http://www.gewara.com/wenzhou">温州</a></li>
+												<li><a href="http://www.gewara.com/wuxi">无锡</a></li>
+												<li><a href="http://www.gewara.com/weinan">渭南</a></li>
+												<li><a href="http://www.gewara.com/wujiaqushi">五家渠</a></li>
+												<li><a href="http://www.gewara.com/wulanchabushi">乌兰察布</a></li>
+												<li><a href="http://www.gewara.com/wanningshi">万宁</a></li>
+												<li><a href="http://www.gewara.com/wuzhishanshi">五指山市</a></li>
+												<li><a href="http://www.gewara.com/wenchang">文昌</a></li>
+												<li><a href="http://www.gewara.com/wuhu">芜湖</a></li>
+												<li><a href="http://www.gewara.com/wuzhou">梧州</a></li>
+												<li><a href="http://www.gewara.com/wuhai">乌海</a></li>
+												<li><a href="http://www.gewara.com/weihai">威海</a></li>
+												<li><a href="http://www.gewara.com/weifang">潍坊</a></li>
+												<li><a href="http://www.gewara.com/wuzhongshi">吴忠</a></li>
+												<li><a href="http://www.gewara.com/wenshanzhuangzumiaozu">文山</a></li>
+												<li><a href="http://www.gewara.com/wuweishi">武威</a></li>
+												<li><a href="http://www.gewara.com/wulumuqi">乌鲁木齐</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>X</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/xian">西安</a></li>
+												<li><a href="http://www.gewara.com/xuzhou">徐州</a></li>
+												<li><a href="http://www.gewara.com/xiangyang">襄阳</a></li>
+												<li><a href="http://www.gewara.com/xiantao">仙桃</a></li>
+												<li><a href="http://www.gewara.com/xianning">咸宁</a></li>
+												<li><a href="http://www.gewara.com/xianyang">咸阳</a></li>
+												<li><a href="http://www.gewara.com/xinzhoushi">忻州</a></li>
+												<li><a href="http://www.gewara.com/xiaogan">孝感</a></li>
+												<li><a href="http://www.gewara.com/xiamen">厦门</a></li>
+												<li><a href="http://www.gewara.com/xingtai">邢台</a></li>
+												<li><a href="http://www.gewara.com/xiangxit">湘西</a></li>
+												<li><a href="http://www.gewara.com/xiangtan">湘潭</a></li>
+												<li><a href="http://www.gewara.com/xilinguolemeng">锡林郭勒</a></li>
+												<li><a href="http://www.gewara.com/xinyu">新余</a></li>
+												<li><a href="http://www.gewara.com/xinxiang">新乡</a></li>
+												<li><a href="http://www.gewara.com/xuchang">许昌</a></li>
+												<li><a href="http://www.gewara.com/xinyang">信阳</a></li>
+												<li><a href="http://www.gewara.com/xishuangbanna">西双版纳</a></li>
+												<li><a href="http://www.gewara.com/xining">西宁</a></li>
+												<li><a href="http://www.gewara.com/xuanchengshi">宣城</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>Y</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/yangjiang">阳江</a></li>
+												<li><a href="http://www.gewara.com/yunfu">云浮</a></li>
+												<li><a href="http://www.gewara.com/yibin">宜宾</a></li>
+												<li><a href="http://www.gewara.com/yangzhou">扬州</a></li>
+												<li><a href="http://www.gewara.com/yancheng">盐城</a></li>
+												<li><a href="http://www.gewara.com/yaan">雅安</a></li>
+												<li><a href="http://www.gewara.com/yichang">宜昌</a></li>
+												<li><a href="http://www.gewara.com/yanan">延安</a></li>
+												<li><a href="http://www.gewara.com/yunlin_sx">榆林</a></li>
+												<li><a href="http://www.gewara.com/yilihasake">伊犁</a></li>
+												<li><a href="http://www.gewara.com/yulin">玉林</a></li>
+												<li><a href="http://www.gewara.com/yingkou">营口</a></li>
+												<li><a href="http://www.gewara.com/yueyang">岳阳</a></li>
+												<li><a href="http://www.gewara.com/yiyang">益阳</a></li>
+												<li><a href="http://www.gewara.com/yongzhou">永州</a></li>
+												<li><a href="http://www.gewara.com/yuncheng">运城</a></li>
+												<li><a href="http://www.gewara.com/yangquan">阳泉</a></li>
+												<li><a href="http://www.gewara.com/yanbian">延边</a></li>
+												<li><a href="http://www.gewara.com/yichun">宜春</a></li>
+												<li><a href="http://www.gewara.com/yingtan">鹰潭</a></li>
+												<li><a href="http://www.gewara.com/yantai">烟台</a></li>
+												<li><a href="http://www.gewara.com/yinchuan">银川</a></li>
+												<li><a href="http://www.gewara.com/yichunshi">伊春</a></li>
+												<li><a href="http://www.gewara.com/yuxi">玉溪</a></li>
+											</ul>
+				</dd>
+			</dl>
+															<dl>
+				<dt><span>Z</span></dt>
+				<dd>
+					<ul>
+												<li><a href="http://www.gewara.com/zhongshan">中山</a></li>
+												<li><a href="http://www.gewara.com/zhaoqing">肇庆</a></li>
+												<li><a href="http://www.gewara.com/zhanjiang">湛江</a></li>
+												<li><a href="http://www.gewara.com/zhuhaishi">珠海</a></li>
+												<li><a href="http://www.gewara.com/zigong">自贡</a></li>
+												<li><a href="http://www.gewara.com/ziyang">资阳</a></li>
+												<li><a href="http://www.gewara.com/zhenjiang">镇江</a></li>
+												<li><a href="http://www.gewara.com/zhoushan">舟山</a></li>
+												<li><a href="http://www.gewara.com/zhongweishi">中卫</a></li>
+												<li><a href="http://www.gewara.com/zhangzhou">漳州</a></li>
+												<li><a href="http://www.gewara.com/zhangjiakou">张家口</a></li>
+												<li><a href="http://www.gewara.com/zhuzhou">株洲</a></li>
+												<li><a href="http://www.gewara.com/zhangjiajie">张家界</a></li>
+												<li><a href="http://www.gewara.com/zaozhuang">枣庄</a></li>
+												<li><a href="http://www.gewara.com/zibo">淄博</a></li>
+												<li><a href="http://www.gewara.com/zhengzhou">郑州</a></li>
+												<li><a href="http://www.gewara.com/zhumadian">驻马店</a></li>
+												<li><a href="http://www.gewara.com/zhoukou">周口</a></li>
+												<li><a href="http://www.gewara.com/zunyi">遵义</a></li>
+												<li><a href="http://www.gewara.com/zhaotongshi">昭通</a></li>
+												<li><a href="http://www.gewara.com/zhangyeshi">张掖</a></li>
+											</ul>
+				</dd>
+			</dl>
+											</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+gewa.util.cinemaCityPy = "/movie/searchCinema.xhtml";
+</script>
+<script type="text/javascript" src="yjfk_files/gewara.js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
+
+<script type="text/javascript">
+window.addEvent('domready',function(){
+	nav.init();
+	gotoTop();
+	loadHeadCityList();
+});
+function loadHeadCityList(){
+	GewaraUtil.sendLoad("ui_city_plugs", "/ajax/common/loadHeadCity.xhtml",{}, function(result){
+	});
+}
+function gotoTop(){
+	var backToTopTxt = "返回顶部", backToTopEle = new Element("a", {
+		"class": "isGoUp",
+		title: backToTopTxt,
+		href:'javascript:void(0);'
+	}).addEvent("click", function() {
+		new Fx.Scroll($(window)).toTop();
+	}).inject($('backTopBox')), backToTopFun = function() {
+		var st = document.getScroll().y, winh = window.getSize().y;
+		if(st > 0){
+			if(backToTopEle.getStyle('opacity') != 0.9)backToTopEle.morph({
+				'opacity':[0,0.9]
+			});
+		}else{
+			backToTopEle.morph({
+				'opacity':[0.9,0]				
+			});
+		}
+		if(!window.XMLHttpRequest){
+			backToTopEle.setStyle("top", st + winh - 166);
+		}
+	};
+	window.addEvents({
+		scroll: backToTopFun,
+		domready:backToTopFun,
+		resize:backToTopFun
+	});
+}
+</script>
+
+<script type="text/javascript">
+var _gaStartTime = GewaraUtil.rtime();
+var recordPage = '';
+window.addEvent("load", function(){
+	var timegap = GewaraUtil.rtime() - _gaStartTime;
+	var pageTag = '';
+	var curPage = document.location.href;
+	if(pageTag == '') {
+		if(curPage.indexOf("/movie/") > 0) pageTag = "/movie/all";
+		else if(curPage.indexOf("/cinema/") > 0) pageTag = "/cinema/all";
+		else if(curPage.indexOf("/sport/") > 0) pageTag = "/sport/all";
+		else if(curPage.indexOf("/drama/") > 0) pageTag = "/drama/all";
+		else if(curPage.indexOf("/blog") > 0) pageTag = "/blog/all";
+		else if(curPage.indexOf("/activity/") > 0) pageTag = "/activity/all";
+		else if(curPage.indexOf("/wala/") > 0) pageTag = "/wala/all";
+		else if(curPage.indexOf("/theartr/") > 0) pageTag = "/theatre/all";
+		else if(curPage.indexOf("/news/") > 0) pageTag = "/news/all";
+		else pageTag = "/other";
+	}
+	if(timegap < 0 || timegap > 30000 || recordPage.length>0) GewaraUtil.sendRequest("/logRendError.xhtml", {"timegap":timegap, 'pageTag':pageTag, "page": curPage}, function(result){});
+});
+</script>
+
+
+	<style type="text/css">
+	.bindBanner{background:url(http://static5.gewara.com/css/sns/bindBanner.jpg?v=2016070904) 0 0 no-repeat; width:1200px; height:120px; margin:20px auto; position:relative;}
+	.bindBanner a{display:block; position:absolute; width:145px; height:55px; right:90px; top:28px;}
+	.bindBanner span{display:block; width:17px; height:17px; right:10px; top:8px; position:absolute;cursor:pointer}
+	.tpInfoBox{width:912px; height:977px; background:url(http://static5.gewara.com/css/movie_wide/tpinfo.png?v=2016070904) 0 0 no-repeat; margin-top:60px; position:relative;}
+	.tpInfoBox .close{display:block; width:200px; height:60px; position:absolute; right:145px; bottom:2px; text-indent:-9999px; overflow:hidden; cursor:pointer;}
+	.myOrderManagetableDIV{position:relative;}
+	.gbyijian{position:absolute; width:224px; height:83px; display:block; z-index:10; left:157px; top:0px; text-indent:-9999px; overflow:hidden; background:url(http://static5.gewara.com/css/movie_wide/tpjianyi.gif?v=2016070904) 0 0 no-repeat;}
+	.ui_tpHelp{border:2px solid #eb6120; border-radius:50%; width:41px; height:41px; display:block; overflow:hidden; text-indent:-9999px; background:url(http://static5.gewara.com/css/movie_wide/tpbz.png?v=2016070904) center center no-repeat;}
+	.ui_simulate .simulate_select{padding:0px; min-width:100px;}
+	</style>
+
+
+														<div class="bindBanner" id="bindBanner">
+			<a href="http://www.gewara.com/home/bind/bindIndex.xhtml" target="_blank"></a>
+			<span onclick="$('bindBanner').dissolve();"></span>
+		</div>
+		
+
+<div class="ui_layout">
+	<div class="fix_content clear">
+		<div class="ui_left">
+			<div class="ui_subNav">
+	<div class="userInfo">
+		<a class="pic" href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" title="心_睡"><img style="background:url(http://img5.gewara.com/cw60h60/images/201607/headpic/s_112a73ad_15581a4f062_1861.gif) center center no-repeat;" alt="心_睡" src="yjfk_files/blank.gif" height="60" width="60"></a>
+		<p class="ui_oneLine mt10"><a href="http://www.gewara.com/ua/u/0B9478277C0F7ED119F400435890C356" title="心_睡">心_睡</a></p>
+	</div>
+	<dl>
+		<dt>我的订单</dt>
+		<dd><a href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14680419145795264">我的订单</a></dd>
+		<dd><a href="http://www.gewara.com/home/invoice/receiveInvoice.xhtml?tagNo=14680419145792608">我的发票</a></dd>
+	</dl>
+	<dl>
+		<dt>我的钱包</dt>
+		<dd><a href="http://www.gewara.com/home/acct/cardList.xhtml?tagNo=14680419145798401">我的票券</a></dd>
+		<dd><a href="http://www.gewara.com/home/acct/pointList.xhtml?tagNo=14680419145799228">我的积分</a></dd>
+		<dd><a href="http://www.gewara.com/home/charge.xhtml?tagNo=14680419145796308">账户余额</a></dd>
+	</dl>
+	<dl>
+		<dt>我的账户</dt>
+		
+		<dd><a href="http://www.gewara.com/home/acct/safetyCenter.xhtml?tagNo=14680419145795654">安全中心</a></dd>
+		<dd><a href="http://www.gewara.com/home/memberSynchroizaInfo.xhtml?tagNo=14680419145795110">同步设置</a></dd>
+	</dl>
+	<dl>
+		<dt>反馈中心</dt>
+		<dd class="select"><a href="http://www.gewara.com/home/acct/customerQuestion.xhtml?tagNo=14680419145795302">意见反馈</a></dd>
+	</dl>
+</div>
+<script type="text/javascript">
+function selectPosition(el,element,x,trans,fn){
+	$(element).set('move',{duration: 200, transition:trans,onComplete:function(){
+		if(fn)fn();
+	}});
+	$(element).move({
+		relativeTo:$(el),
+		position:"center",
+   	offset:{x:x,y:0}
+   })
+}
+</script>		</div>
+		<div class="ui_right">
+			<div class="clear">
+				<div class="hd_title">
+					<h1>我的反馈</h1>
+					<span class="more">
+						<a class="button minBt redBt mt10" href="http://www.gewara.com/home/acct/advise.xhtml"><span>意见反馈</span></a>
+					</span>
+				</div>
+				<div class="clew">
+					<p>如果你在使用格瓦拉的过程中遇到问题，或者你希望给格瓦拉提出一些意见或建议，欢迎你在这里提交给我们。我们每天都在倾听来自用户的声音，你的支持是我们前进的动力！</p>
+				</div>
+				<div id="customerList">
+<div style="padding:50px; text-align:center; font-size:14px;" class="grayBgBox mt20">你还没有提交过任何反馈！立即<a class="m5" href="http://www.gewara.com/home/acct/advise.xhtml">反馈建议</a></div>
+
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ui_footer" id="superFooter">
+	<div class="ui_layout ui_layout_footer">
+		<div class="siteList">
+						<p><b>格瓦拉：</b><a rel="nofollow" href="http://www.gewara.com/shanghai">上海</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/beijing">北京</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/hangzhou">杭州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/ningbo">宁波</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/jiaxing">嘉兴</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/shaoxing">绍兴</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/huzhou">湖州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/taizhou">台州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/nanjing">南京</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/wuxi">无锡</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/changzhou">常州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/suzhou">苏州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/nantong">南通</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/guangzhou">广州</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/shenzhen">深圳</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/foshan">佛山</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/wuhan">武汉</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/chongqing">重庆</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/chengdu">成都</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/tianjin">天津</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/hefei">合肥</a><span>|</span><a rel="nofollow" href="http://www.gewara.com/fuzhou">福州</a><span>|</span><a href="http://www.gewara.com/cityList.xhtml">更多</a></p>
+		</div>
+		<div class="aboutGewara clear">
+			<div class="left">
+				<dl class="links">
+					<dt><span title="格瓦拉生活网" class="logo">格瓦拉生活网</span></dt>
+					<dd>
+						<a href="http://www.gewara.com/service/about.xhtml" target="_blank" rel="nofollow">关于我们</a><span>|</span>
+						<a href="http://www.gewara.com/helpCenter/index.xhtml" target="_blank" rel="nofollow">帮助中心</a><span>|</span>
+						<a href="http://www.gewara.com/service/marketing.xhtml" target="_blank" rel="nofollow">联系我们</a><span>|</span>
+						<a href="http://www.gewara.com/service/treaty.xhtml" target="_blank" rel="nofollow">服务条款</a><span>|</span>
+						<a href="http://www.gewara.com/service/law.xhtml" target="_blank" rel="nofollow">法律声明</a><br>
+						<a href="http://www.gewara.com/service/buss.xhtml" target="_blank" rel="nofollow">商家登陆</a><span>|</span>
+						<a href="http://www.gewara.com/subject/advertIndex.xhtml" target="_blank" rel="nofollow">团体购票</a><span>|</span>
+						<a href="http://www.gewara.com/service/job.xhtml" class="cF60" target="_blank" rel="nofollow">招聘英才</a><span>|</span>
+						<a href="http://www.gewara.com/link.xhtml" target="_blank">友情链接</a><span>|</span>
+						<a href="http://www.gewara.com/fromWeb.xhtml?from=http://m.gewara.com/" target="_blank">访问Wap版</a>
+					</dd>
+				</dl>
+			</div>
+			<div class="right">
+				<dl class="contact">
+					<dt></dt>
+					<dd>客服电话<br><b>1010-1068</b></dd>
+				</dl>
+				<dl class="apps">
+					<dt>手机版</dt>
+					<dd>
+												<a href="http://app.gewara.com/" title="iPhone版" target="_blank">iPhone版</a><a class="android" href="http://app.gewara.com/" title="Android版" target="_blank">Android版</a>
+											</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="ui_copyright">
+			<p>
+				<span>Copyright © 2007–2016 Gewara.</span>
+				<span>All Rights Reserved</span>
+				<span><a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备09050772号</a></span>
+				<span>ICP证：沪B2-20120044</span>
+			</p>
+			<p class="footer_tag" id="footer_tag">
+				<a href="http://online.unionpay.com/static/merchant/sgmc_9_1_1.html" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" height="44" width="146"></a>
+				<a href="https://ss.knet.cn/verifyseal.dll?sn=2011052300100008956&amp;ct=df&amp;a=1&amp;pa=0.1484418809989817" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -135px" height="44" width="115"></a>
+				<a href="http://www.ectrustprc.org.cn/certificate.id/certificateb.php?id=20098540" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -45px" height="44" width="140"></a>
+				<a href="https://www.alipay.com/aip/aip_validate_list.htm?trust_id=AIP01027377" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -90px" height="44" width="135"></a>
+				<a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120326180136168" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -180px" height="44" width="115"></a>
+				<a href="http://pinggu.zx110.org/review_url_www.gewara.com" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -225px" height="44" width="115"></a>
+				<a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1672660546" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -315px" height="44" width="144"></a>
+				<a href="http://www.zx110.org/picp/?sn=3101050317379915" target="_blank" rel="nofollow"><img src="yjfk_files/blank.gif" style="background-position:0 -360px" height="44" width="144"></a>
+				
+			</p>
+		</div>
+	</div>
+</div>
+<div id="backTopBox">
+						<a class="ui_online" href="javascript:void(0);" onclick="javascript:onlineCustomer('0')">在线客服</a>
+			<a class="ui_asq" target="_blank" href="http://www.gewara.com/home/acct/advise.xhtml">意见反馈</a>
+		<a style="visibility: hidden; opacity: 0;" href="javascript:void(0);" title="返回顶部" class="isGoUp"></a></div>
+<script type="text/javascript">
+window.addEvent('domready',function(){
+	$$(".ADPOSITION").each(function(item){
+		var a = item.getElement('a');
+		var img = a.getElement('img');
+		var pid = item.getElement("input").value;
+		if(img && pid) {
+			GewaraUtil.sendRequest("/ajax/common/getRandomAd.xhtml",{"pid":pid}, function(result){
+				if(result.success && result.adpath){
+					item.removeClass("none");
+					img.src=result.adpath;
+					img.alt=result.title;
+					a.href=result.link;
+					a.title=result.title;
+				}else{
+					item.empty();
+				}
+			}, 'get');
+		}
+	});
+	/*提示*/
+		 /*var tuipiaoTips = Cookie.read('tuipiaoTips'); */ 
+		if($('drama_isPinglun')){
+			bodyresize();
+		}
+});
+function bodyresize(){
+	if(window.getSize().x < 1300){
+		$('drama_isPinglun').addClass('soSmall');
+	}
+}
+function onlineCustomer(flag){
+	try{
+		easemobIM();
+	}catch(err){
+		if(flag=='0'){
+			var oHead = document.getElementsByTagName('head').item(0); 
+			var oScript= document.createElement("script"); 
+			oScript.type = "text/javascript"; 
+			oScript.src="//kefu.easemob.com/webim/easemob.js?tenantId=1373&hide=true"; 
+			oHead.appendChild( oScript); 
+		}
+	    try{
+		setTimeout('easemobIM()',1500);
+	    }catch(er){
+	    	setTimeout("onlineCustomer('1')",500);
+	    }
+	}
+
+}
+</script>
+
+<!-- SUCCESS_BOTTOM --><script type="text/javascript">
+window.addEvent('domready', function(){
+	gewaUtil.loadData('customerList','/home/blog/customerQList.xhtml', {}, function(result){
+		if(!result.success){
+			gewaUtil.alert(result.json.msg);
+		}
+	});
+});
+</script>
+
+
+</body></html>
