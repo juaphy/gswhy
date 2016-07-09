@@ -1,24 +1,84 @@
 <!DOCTYPE html>
-<!-- saved from url=(0070)http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679708024899167 -->
+<!-- saved from url=(0066)http://www.gewara.com/gewapay/confirmOrder.xhtml?orderId=320136097 -->
 <html slick-uniqueid="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=no">
 	
-	<title>我的订单_高地文化云</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=0.58,minimum-scale=0.58,maximum-scale=1,user-scalable=yes">
-	<link rel="stylesheet" type="text/css" href="./personInfo_resource/gewara.css">
-	<script type="text/javascript" src="./personInfo_resource/mootools.js"></script>
-	<script type="text/javascript" src="./personInfo_resource/gewara.js"></script>
+	<title>支付订单-高地文化云</title>
+	<link rel="stylesheet" type="text/css" href="./pay_files/gewara.css">
+	<script type="text/javascript" src="./pay_files/mootools.js"></script>
+	<script type="text/javascript" src="./pay_files/gewara.js"></script>
 	<style type="text/css">
-	.bindBanner{background:url(http://static5.gewara.com/css/sns/bindBanner.jpg?v=2016070618) 0 0 no-repeat; width:1200px; height:120px; margin:20px auto; position:relative;}
-	.bindBanner a{display:block; position:absolute; width:145px; height:55px; right:90px; top:28px;}
-	.bindBanner span{display:block; width:17px; height:17px; right:10px; top:8px; position:absolute;cursor:pointer}
-	
-	.myOrderManagetableDIV{position:relative;}
-		.ui_tpHelp{border:2px solid #eb6120; border-radius:50%; width:41px; height:41px; display:block; overflow:hidden; text-indent:-9999px; background:url(http://static5.gewara.com/css/movie_wide/tpbz.png?v=2016070618) center center no-repeat;}
-	.ui_simulate .simulate_select{padding:0px; min-width:100px;}
+		.payway label.icon_gsyh{background-position:30px 0;}
+		.payway label.icon_jsyh{background-position:30px -40px;}
+		.payway label.icon_zsyh{background-position:30px -80px;}
+		.payway label.icon_jtyh{background-position:30px -120px;}
+		.payway label.icon_gfyh{background-position:30px -160px;}
+		.payway label.icon_xyyh{background-position:30px -200px;}
+		.payway label.icon_nyyh{background-position:30px -240px;}
+		.payway label.icon_gdyh{background-position:30px -280px;}
+		.payway label.icon_zxyh{background-position:30px -320px;}
+		.payway label.icon_pfyh{background-position:30px -360px;}
+		.payway label.icon_zgyh{background-position:30px -400px;}
+		.payway label.icon_sfyh{background-position:30px -440px;}
+		.payway label.icon_msyh{background-position:30px -480px;}
+		.payway label.icon_payh{background-position:30px -520px;}
+		.payway label.icon_shnsyh{background-position:30px -560px;}
+		.payway label.icon_hxyh{background-position:30px -600px;}
+		.payway label.icon_njyh{background-position:30px -640px;}
+		.payway label.icon_zhsyh{background-position:30px -680px;}
+		.payway label.icon_hzyh{background-position:30px -720px;}
+		.payway label.icon_nbyh{background-position:30px -760px;}
+		.payway label.icon_direct{background-position:30px -880px;}
+		.payway label.icon_kj{background-position:30px -800px;}
+		.icon_yl{background-position:30px -840px;}
+		.payway label.icon_hf{background-position:30px -1080px;}
+		.payway label.icon_yzj{background-position:30px -1120px;}
+		.payway label.icon_yzx{background-position:30px -1165px;}
+		.payway label.icon_yz{background-position:30px -1209px;}
+		.payway label.icon_jsuyh{background-position:30px -1340px;}
+		.payway label.icon_aixin{background-position:30px -1629px;}
+		.payway label.icon_ask{background-position:30px -1784px;}
+		.payway label.icon_zft{background-position:30px -1938px;}
+		.payway label.icon_yitong{background-position:30px -1474px;}
+		.payway label.icon_edenred{background-position:30px -1578px;}
+		.payway label.icon_ybtnet{background-position:30px -2042px;}
+		.payway label.icon_yikahui{background-position:30px -1733px;}
+		.payway label.icon_yisheng{background-position:30px -1888px;}
+		.payway label.icon_shangmeng{background-position:30px -1990px;}
+		.payway label.icon_slsy{background-position:30px -1836px;}
+		.payway label.icon_dazhong{background-position:30px -1526px;}
+		.payway label.icon_jxjft{background-position:30px -1681px;}
+		.payway label.icon_zdyh{background-position:30px -2294px;}
+		.payway label.icon_bestPay{background-position:30px -2344px;}
+		.payway label.icon_bfbPay{background-position:30px -2393px;}
+		.payway label.icon_pfyhxyk{background-position:30px -2843px;}
+		.payway label.jingdong{background-position:30px -2893px;width:156px;}
+		.payway label.icon_bill99{background-position:30px -2943px;}
+		.payway label.icon_gzns{background-position:30px -2993px;}
+		.payway label.icon_fqlPay{background-position:30px -3043px;}
+		.payway label.icon_bos{background-position:30px -3093px;}
+		.payway label{width:147px;}
+		/*新版问卷调查*/
+		.asqBtn{position:fixed; z-index:11; height:24px; bottom:0; right:0; border:1px solid #aaa; border-bottom:0; border-radius:3px 3px 0 0; box-shadow:0 0 6px #808080; background:#fff; _position:absolute;_margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop);}
+		.asqBtnInner{width:70px; position:relative; height:24px; line-height:24px; line-height:26px\9; overflow:hidden; padding:0 10px;}
+		.more_c{right:6px; top:6px; position:absolute;}
+		.black{padding:15px 30px; line-height:28px;color:#333;}
+		.conitce em{font-size:14px;color:red;}
+		
+		.payBox_body_left li{font-family:'SimSun';}
+		.payBox_body_left li.ccP {position:relative;width:100%;}
+		.payBox_body_left li.ccP em{position:absolute;top:0;left:0;}
+		/*安全验证*/
+		.validation {font-size:16px;font-family:'微软雅黑';padding:10px;margin-bottom:0;}
+		.validation .mod_hd{height:40px;line-height:40px;padding-bottom:10px;border-bottom:1px solid #ddd;background:url(http://static5.gewara.com/css/movie_wide/icon_dun.gif) no-repeat 0 5px;}
+		.validation .mod_hd h2{font-size:24px;color:#000;font-weight:normal;margin-left:40px;}
+		.validation .mod_hd span:hover{background-position:-23px -142px!important;}
+		.validation .mod_bd {padding-top:30px;}
+		.validation .v_input{position:relative;margin:20px 0;padding:10px;border:1px solid #ddd;border-radius:3px;}
+		.validation .v_input input[type=text],.validation .v_input input[type=password]{border:none;height:36px;line-height:36px;float:left;width:255px;font-size:20px;text-indent:10px;}
+		.validation .v_input label{line-height:36px; height:36px; position: absolute; cursor:text; color:#ccc; width:255px; text-indent:6px; left:10px; top:10px;text-indent:10px;}
+		.sendOut,.sendOut span{background:#ccc;color:#999;cursor:no-drop;}
 	</style>
-	
 </head>
 <body>
 <!-- SUCCESS_HEAD -->
@@ -30,14 +90,14 @@
 							</div>
 </div>
 
-<div class="ui_nav ui__nav">
+<div class="ui_nav ui_drama_nav">
 	<div class="ui_plugs_body">
-		<a href="http://www.gewara.com/" class="logo" title="高地文化云"><img src="./personInfo_resource/blank.gif" alt="高地文化云" width="102" height="40"></a>
+		<a href="http://www.gewara.com/" class="logo" title="高地文化云"><img src="./pay_files/blank.gif" alt="高地文化云" width="102" height="40"></a>
 		<div id="cityChoose" class="ui_changeCity"><b class="ui_cityChoose" title="点击切换城市">广州</b></div>
 		<div class="ui_nav_menu" lang="bgcolor">
 							<ul class="ui_inline" lang="ishover">
 					<li class="isDisabled"><a href="http://www.gewara.com/">首页</a></li>
-					<li key="movie"><a href="http://www.gewara.com/movie/">电影</a></li>					<li key="drama"><a href="http://www.gewara.com/drama/">演出</a></li>										<li key="activity"><a href="http://www.gewara.com/activity/">活动</a></li>				    <li><a href="http://www.gewara.com/wala/">社区</a></li>
+					<li key="movie"><a href="http://www.gewara.com/movie/">电影</a></li>					<li key="drama"><a class="select" href="http://www.gewara.com/drama/">演出</a></li>										<li key="activity"><a href="http://www.gewara.com/activity/">活动</a></li>				    <li><a href="http://www.gewara.com/wala/">社区</a></li>
 				</ul>
 					</div>
 		<div class="ui_nav_right">
@@ -84,16 +144,16 @@
 </style>
 
 <div class="ui_userBox ui_userBox_logon" id="global_user_infobox">
-	<a href="http://www.gewara.com/ua/u/AAD3AE6AB9C21B5319F400435890C356" target="_blank"><img class="ui_dHead" width="30" height="30" alt="" style="display:none; background:url(http://img6.gewara.com/cw30h30/images/201607/headpic/s_63a7cfde_15581a55b3f_16cc.jpg) center center no-repeat;" src="./personInfo_resource/blank.gif"></a>
-	<a class="ismessge" title="." href="http://www.gewara.com/ua/u/AAD3AE6AB9C21B5319F400435890C356" target="_blank"><b> . </b></a>
+	<a href="http://www.gewara.com/ua/u/501907482024DF1319F400435890C356" target="_blank"><img class="ui_dHead" width="30" height="30" alt="" style="display:none; background:url(http://img6.gewara.com/cw30h30/img/default_head.png) center center no-repeat;" src="./pay_files/blank.gif"></a>
+	<a class="ismessge" title="185xxxx5378" href="http://www.gewara.com/ua/u/501907482024DF1319F400435890C356" target="_blank"><b> 185xxx. </b></a>
 </div>
 <!-- <a class="left msgWala" id="myMsg" href="#">消息<span>10</span></a> -->
 <a class="left" id="myMsg" href="http://www.gewara.com/activity/message/index.xhtml">消息<span id="messsageCount" class="none">0</span></a>
 <a href="http://www.gewara.com/everday/acct/mygift.xhtml" target="_blank" class="ui_getRd">领红包</a>
 <div class="ui_userBoxBtn" id="global_user_detail">
 	<div class="ulist">
-		<a id="global_userOrder" class="global_userOrder" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679708173792786" target="_blank">我的订单</a>
-		<a href="http://www.gewara.com/home/charge.xhtml?tagNo=1467970817379405" target="_blank">我的账户</a>
+		<a id="global_userOrder" class="global_userOrder" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679810068461793" target="_blank">我的订单</a>
+		<a href="http://www.gewara.com/home/charge.xhtml?tagNo=14679810068469943" target="_blank">我的账户</a>
 		<a href="javascript:logout();">退出</a>
 		<div class="cls"></div>
 	</div>
@@ -113,13 +173,13 @@
 	<div class="inner">
 		<i class="t">◆<i>◆</i></i>
 		<p><b class="ico_g"></b>您的账户存在安全风险，为保障您的账户安全，请及时更改您的密码！</p>
-		<p class="tar mt5"><a class="ffst" href="http://www.gewara.com/home/acct/goUpPass.xhtml?tagNo=14679708173797086&amp;danger=true">马上更改&gt;&gt;</a></p>
+		<p class="tar mt5"><a class="ffst" href="http://www.gewara.com/home/acct/goUpPass.xhtml?tagNo=14679810068461609&amp;danger=true">马上更改&gt;&gt;</a></p>
 	</div>
 </div>
-<!-- <div class="ui_tips ui_tpTips" id="tuipiaoTips" style="display:none;" onclick="window.location.href='/home/myOrderManage.xhtml?tagNo=14679708173798358';closetuipiaoTips();">
+<!-- <div class="ui_tips ui_tpTips" id="tuipiaoTips" style="display:none;" onclick="window.location.href='/home/myOrderManage.xhtml?tagNo=14679810068465273';closetuipiaoTips();">
 	<div class="inner"><span class="close" onclick="closetuipiaoTips();" title="关闭">关闭</span></div>
 </div> -->
-<div class="ui_tips ui_bindAcTips" id="bindAcTips" style="display:none;cursor:pointer;" onclick="window.location.href=&#39;/home/bind/bindIndex.xhtml?tagNo=14679708173792247&#39;;closebindAcTips();">
+<div class="ui_tips ui_bindAcTips" id="bindAcTips" style="display:none;cursor:pointer;" onclick="window.location.href=&#39;/home/bind/bindIndex.xhtml?tagNo=14679810068468802&#39;;closebindAcTips();">
 	<div class="inner"><span class="close" id="bindClose" title="关闭">关闭</span></div>
 </div>
 
@@ -127,7 +187,7 @@
 		</div>
 	</div>
 </div>
-<div class="ui_city_plugs none clear" id="ui_city_plugs" style="position: absolute; left: 466px; top: 50px;"><div class="inner" style="position:relative;">
+<div class="ui_city_plugs none clear" id="ui_city_plugs" style="position: absolute; left: 244px; top: 50px;"><div class="inner" style="position:relative;">
 	<span class="ui_close" title="关闭"></span>
 	<div class="ui_city_cType clear">
 		<ul>
@@ -496,6 +556,7 @@
 				<dt><span>R</span></dt>
 				<dd>
 					<ul>
+												<li><a href="http://www.gewara.com/rikazediqu">日喀则地区</a></li>
 												<li><a href="http://www.gewara.com/rizhao">日照</a></li>
 											</ul>
 				</dd>
@@ -518,6 +579,7 @@
 												<li><a href="http://www.gewara.com/shangluo">商洛</a></li>
 												<li><a href="http://www.gewara.com/shennongjialinqu">神农架</a></li>
 												<li><a href="http://www.gewara.com/sanshashi">三沙</a></li>
+												<li><a href="http://www.gewara.com/shannandiqu">山南地区</a></li>
 												<li><a href="http://www.gewara.com/suizhou">随州</a></li>
 												<li><a href="http://www.gewara.com/sanming">三明</a></li>
 												<li><a href="http://www.gewara.com/shenyang">沈阳</a></li>
@@ -577,6 +639,7 @@
 												<li><a href="http://www.gewara.com/wulanchabushi">乌兰察布</a></li>
 												<li><a href="http://www.gewara.com/wanningshi">万宁</a></li>
 												<li><a href="http://www.gewara.com/wuzhishanshi">五指山市</a></li>
+												<li><a href="http://www.gewara.com/wenchang">文昌</a></li>
 												<li><a href="http://www.gewara.com/wuhu">芜湖</a></li>
 												<li><a href="http://www.gewara.com/wuzhou">梧州</a></li>
 												<li><a href="http://www.gewara.com/wuhai">乌海</a></li>
@@ -682,7 +745,7 @@
 <script type="text/javascript">
 gewa.util.cinemaCityPy = "/movie/searchCinema.xhtml";
 </script>
-<script type="text/javascript" src="./personInfo_resource/gewara(1).js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="" issearch="" id="navigation"></script>
+<script type="text/javascript" src="./pay_files/gewara(1).js" citymap="$proMap" cookiecityname="广州" cookiecitycode="440100" head="header" issearch="" id="navigation"></script>
 
 <script type="text/javascript">
 window.addEvent('domready',function(){
@@ -745,145 +808,462 @@ window.addEvent("load", function(){
 	}
 	if(timegap < 0 || timegap > 30000 || recordPage.length>0) GewaraUtil.sendRequest("/logRendError.xhtml", {"timegap":timegap, 'pageTag':pageTag, "page": curPage}, function(result){});
 });
-</script>
-
-
-	<style type="text/css">
-	.bindBanner{background:url(http://static5.gewara.com/css/sns/bindBanner.jpg?v=2016070618) 0 0 no-repeat; width:1200px; height:120px; margin:20px auto; position:relative;}
-	.bindBanner a{display:block; position:absolute; width:145px; height:55px; right:90px; top:28px;}
-	.bindBanner span{display:block; width:17px; height:17px; right:10px; top:8px; position:absolute;cursor:pointer}
-	.tpInfoBox{width:912px; height:977px; background:url(http://static5.gewara.com/css/movie_wide/tpinfo.png?v=2016070618) 0 0 no-repeat; margin-top:60px; position:relative;}
-	.tpInfoBox .close{display:block; width:200px; height:60px; position:absolute; right:145px; bottom:2px; text-indent:-9999px; overflow:hidden; cursor:pointer;}
-	.myOrderManagetableDIV{position:relative;}
-	.gbyijian{position:absolute; width:224px; height:83px; display:block; z-index:10; left:157px; top:0px; text-indent:-9999px; overflow:hidden; background:url(http://static5.gewara.com/css/movie_wide/tpjianyi.gif?v=2016070618) 0 0 no-repeat;}
-	.ui_tpHelp{border:2px solid #eb6120; border-radius:50%; width:41px; height:41px; display:block; overflow:hidden; text-indent:-9999px; background:url(http://static5.gewara.com/css/movie_wide/tpbz.png?v=2016070618) center center no-repeat;}
-	.ui_simulate .simulate_select{padding:0px; min-width:100px;}
-	</style>
-
-
-														<div class="bindBanner" id="bindBanner">
-			<a href="http://www.gewara.com/home/bind/bindIndex.xhtml" target="_blank"></a>
-			<span onclick="$(&#39;bindBanner&#39;).dissolve();"></span>
-		</div>
-		
-
+</script><form id="payForm" action="http://www.gewara.com/gewapay/saveOrder.xhtml" method="post">
+<input type="hidden" name="orderId" value="320136097">
 <div class="ui_layout">
-	<div class="fix_content clear">
-		<div class="ui_left">
-			<div class="ui_subNav">
-	<div class="userInfo">
-		<a class="pic" href="http://www.gewara.com/ua/u/AAD3AE6AB9C21B5319F400435890C356" title=".">
-        <img width="60" height="60" style="background:url(http://img6.gewara.com/cw60h60/images/201607/headpic/s_63a7cfde_15581a55b3f_16cc.jpg) center center no-repeat;" alt="." src="./personInfo_resource/blank.gif"></a>
-		<p class="ui_oneLine mt10"><a href="http://www.gewara.com/ua/u/AAD3AE6AB9C21B5319F400435890C356" title=".">....</a></p>
+	<div class="inner">
+		<div class="payStep03">
+			<ul class="payOrderSteps clear">
+	<li class="step1">1.选择剧目场次</li>
+		<li class="step2">2.确认订单及取票方式</li>
+	<li class="step3">3.选择支付方式</li>
+	<li class="step4">4.支付成功</li>
+	</ul>		</div>
+		<div class="payBox mt20">
+			<div class="payBox_header">
+				<div class="pad">
+					<h2>确认订单信息</h2>
+				</div>
+			</div>
+			<div class="payBox_body clear">
+				<div class="payBox_body_left">
+					<dl class="ui_media">
+						<dt class="ui_pic"><img width="72" height="96" alt="《同道大叔潮爆星座嘉年华》广州站" src="./pay_files/s_28881fdb_154c8bbdaa6__5e30.jpg"></dt>
+						<dd class="ui_text">
+							<ul>
+								<li><em>剧目：</em>《同道大叔潮爆星座嘉年华》广州站</li>
+								<li><em>场馆：</em>正佳广场</li>
+							</ul>
+						</dd>
+					</dl>
+					<ol>
+						<li><em>订单号：</em>5160708202906975</li>
+						<li class="ccP" style="padding-bottom: 60px;">
+							<em>场次：</em>
+							<div style="padding-left:40px;" id="iteminfo">
+																															“<span class="cF60">
+																			通票
+																	</span>” 
+																“<span class="cF60">58元</span>” 数量：<span class="cF60">1</span>张
+																<br>
+																						</div>
+													</li>
+												<li class="changeMobile">
+							<em>订单金额：</em><span class="ui_price">¥<b>58</b></span>
+																				</li>
+					</ol>
+				</div>
+				<div class="payBox_body_right">
+					<div class="limitTimedetail inner">
+						<p><span class="fs14 cred">请在15分钟内完成付款</span>，超时系统将自动释放已选座位，支付中如遇到问题请致电：<b>1010-1068</b></p>
+						<div class="limitTime">
+							<h3 class="fs14">剩余支付时间：</h3>
+							<p class="fs22" id="CountMsg"><b id="RemainM">13</b><b>分</b><b id="RemainS">37</b><b>秒</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+																																																						
+
+
+
+
+	
+						
+
+<div class="mt20 paymenu_head" id="menu_ck">
+			<a lang="netPay" for="emptyPay1" class="select">
+		<input type="radio" value="" id="emptyPay1" name="paymethod">
+		网上支付
+	</a>
+			<a lang="china2PayCredit" for="n5" class="">
+		<input type="radio" value="unionPay" id="n5" name="paymethod">
+		信用卡支付
+	</a>
+							<a lang="scanPayDiv" for="n5" class="">
+		<input type="radio" value="" id="emptyPay6" name="paymethod">
+		扫码支付
+	</a>
 	</div>
-	<dl>
-		<dt>账户中心</dt>
-		<dd class="select"><a href="#">我的账号</a></dd>
-		<dd><a href="#">子账号</a></dd>
-	</dl>
-	<dl>
-		<dt>产品管理</dt>
-		<dd><a href="./shangjia_center/publish.html">产品发布</a></dd>
-		<dd><a href="#">产品编辑</a></dd>
-		<dd><a href="#">送货管理</a></dd>
-		<dd><a href="#">回复管理</a></dd>
-	</dl>
-	<dl>
-		<dt>优惠管理</dt>
-		<dd><a href="#">商品优惠</a></dd>
-	</dl>
-	<dl>
-		<dt>统计</dt>
-		<dd><a href="#">销售统计</a></dd>
-		<dd><a href="#">订单统计</a></dd>
-	</dl>
+<div class="payBox" style="margin-top:-1px;">
+	<div class="paymenu_body">
+			<!-- 网上支付 -->
+		<div id="netPay" tab="true" style="display: block;">
+			<div class="paymenu_body_t lineB">选择付款方式</div>			
+									<dl class="clear">							
+				<dt>快捷支付：</dt>
+				<dd class="lineB payway clear">					
+					<div class="clear">
+																				<label style="background-position:30px -800px;" for="unionPayFast_no1" class="">
+								<input type="radio" name="paymethod" value="unionPayFast" id="unionPayFast_no1">
+							</label>
+							<span style="display:inline-block;margin-left:-25px;margin-top:10px;">(该服务由银联在线支付提供，支持各大银行；支付信息经过加密保护，保障资金安全)</span>
+																		</div>					
+				</dd>
+			</dl>
+						
+						<dl class="clear">
+				<dt>支付平台支付：</dt>
+				<dd class="lineB payway clear">
+																	<div class="clear">
+																							<label style="background-position:30px -800px;" title="您仅需持有一张银联卡，无需开通网上银行，即享安全、便捷的支付体验。" class="">
+									<input type="radio" name="paymethod" value="unionPay" id="china2Pay">
+								</label>
+																						
+														
+														<label style="background-position:30px -840px;width:156px;" class="">
+								<input type="radio" name="paymethod" value="chinaPay">
+							</label>
+													</div>
+										<div class="clear">
+													<label style="background-position:30px -880px;" for="directPay_no1" class="">
+								<input type="radio" name="paymethod" value="directPay" id="directPay_no1">
+							</label>
+																																				
+												
+																								
+					</div>
+				</dd>
+			</dl>
+																																																																																																																																																																																																																																																																																																																																																																																																																																	
+								<dl class="clear">
+					<dt>银行支付：</dt>
+					<dd class="lineB payway clear">
+																					<label class="icon_jsyh" title="中国建设银行" for="icon_jsyh">
+									<input type="radio" name="paymethod" id="icon_jsyh" value="unionPay:CCB">
+								</label>
+																												<label class="icon_pfyh" title="浦发银行" for="icon_pfyh">
+									<input type="radio" name="paymethod" id="icon_pfyh" value="spdPay">
+								</label>
+																												<label class="icon_gsyh" title="中国工商银行" for="icon_gsyh">
+									<input type="radio" name="paymethod" id="icon_gsyh" value="icbcPay">
+								</label>
+																												<label class="icon_nyyh" title="中国农业银行" for="icon_nyyh">
+									<input type="radio" name="paymethod" id="icon_nyyh" value="directPay:ABC">
+								</label>
+																												<label class="icon_zgyh" title="中国银行" for="icon_zgyh">
+									<input type="radio" name="paymethod" id="icon_zgyh" value="bocPay">
+								</label>
+																												<label class="icon_yz" title="邮政储蓄银行" for="icon_yz">
+									<input type="radio" name="paymethod" id="icon_yz" value="psbcPay:psbc01">
+								</label>
+																												<label class="icon_zsyh" title="招商银行" for="icon_zsyh">
+									<input type="radio" name="paymethod" id="icon_zsyh" value="cmbPay">
+								</label>
+																												<label class="icon_xyyh" title="兴业银行" for="icon_xyyh">
+									<input type="radio" name="paymethod" id="icon_xyyh" value="directPay:CIB">
+								</label>
+																												<label class="icon_gdyh" title="中国光大银行" for="icon_gdyh">
+									<input type="radio" name="paymethod" id="icon_gdyh" value="directPay:CEB">
+								</label>
+																												<label class="icon_zxyh" title="中信银行" for="icon_zxyh">
+									<input type="radio" name="paymethod" id="icon_zxyh" value="directPay:CITIC">
+								</label>
+																												<label class="icon_sfyh" title="深圳发展银行" for="icon_sfyh">
+									<input type="radio" name="paymethod" id="icon_sfyh" value="directPay:SDB">
+								</label>
+																												<label class="icon_msyh" title="中国民生银行" for="icon_msyh">
+									<input type="radio" name="paymethod" id="icon_msyh" value="directPay:CMBC">
+								</label>
+																												<label class="icon_payh" title="平安银行" for="icon_payh">
+									<input type="radio" name="paymethod" id="icon_payh" value="directPay:PINGAN">
+								</label>
+																												<label class="icon_hxyh" title="华夏银行" for="icon_hxyh">
+									<input type="radio" name="paymethod" id="icon_hxyh" value="unionPay:HXB">
+								</label>
+																												<label class="icon_nbyh" title="宁波银行" for="icon_nbyh">
+									<input type="radio" name="paymethod" id="icon_nbyh" value="directPay:NBBANK">
+								</label>
+																												<label class="icon_shnsyh" title="上海农商银行" for="icon_shnsyh">
+									<input type="radio" name="paymethod" id="icon_shnsyh" value="chinaPay:SRCB">
+								</label>
+																												<label class="icon_gzns" title="广州农商银行" for="icon_gzns">
+									<input type="radio" name="paymethod" id="icon_gzns" value="gzrcbPay">
+								</label>
+																												<label class="icon_bos" title="上海银行" for="icon_bos">
+									<input type="radio" name="paymethod" id="icon_bos" value="bosPay">
+								</label>
+																		</dd>
+				</dl>
+												</div>
+				<!-- 信用卡支付 -->
+		<div id="china2PayCredit" tab="true" style="display:none;">
+			<div class="paymenu_body_t">&nbsp;</div>
+			<div style="left:48px;*top:20px;_left:12px;" class="paytips">
+				<img src="./pay_files/picdow.gif">
+				信用卡支付无需开通网银，只要拥有以下银行的信用卡即可支付。
+			</div>
+			<dl class="clear mt10">
+				<dt>信用卡支付：</dt>
+				<dd class="lineB payway clear">
+										<label style="background-position:30px -800px;" title="您仅需持有一张银联卡，无需开通网上银行，即享安全、便捷的支付体验。" class="">
+						<input type="radio" name="paymethod" value="unionPay" id="chinaUnion">
+					</label>
+															<label class="icon_pfyhxyk">
+						<input type="radio" name="paymethod" value="spdcccB2cPay" id="spdcccB2cPay">
+					</label>
+															<label style="background-position:30px -240px;" class="">
+						<input type="radio" name="paymethod" value="abcPayFast" id="abcPayFast">
+					</label>
+									</dd>
+			</dl>
+						<dl>
+				<dd><img width="762" height="148" src="./pay_files/ico_ipsPay.png"></dd>
+			</dl>
+					</div>
+								<!-- 电信话费支付 -->
+		<div id="telecomPay" tab="true" style="display:none">
+						<div class="paymenu_body_t">&nbsp;</div>
+			<dl style="margin-top:36px" class="clear">
+				<dt>支付方式：</dt>
+				<dd class="lineB payway clear">
+					<label for="telecomMobilePay_for" style="background-position: 30px -1253px;width:150px" title="电信天翼手机支付" class="">
+						<input type="radio" name="paymethod" value="telecomMobilePay" id="telecomMobilePay_for" onclick="choiceTelecomPay(this)">
+					</label>
+					<label for="telecomPay_for" style="background-position: 30px -1297px;width:150px" title="电信固定电话支付" class="">
+						<input type="radio" name="paymethod" value="telecomPay" id="telecomPay_for" onclick="choiceTelecomPay(this)">
+					</label>
+				</dd>
+			</dl>
+			<dl>
+				<dd class="umPay">
+					实付总额：<span class="ui_price">¥<b>58</b></span>
+					<span class="none" id="telecomPayFeeInfo">
+						<b style="font-size:2em" class="yellow">&nbsp;+ &nbsp;23</b>元(话费支付服务费)
+						<b style="font-size:2em" class="yellow">&nbsp;=&nbsp;81</b>元
+					</span>
+				</dd>
+			</dl>
+			<div style="_left:24px;width:610px;height:38px;background-position:-274px -226px" class="paytips">
+				<img src="./pay_files/picdow.gif">
+				上海电信的用户可选择通过上海电信固定电话支付和上海电信天翼手机支付，同时需要额外支付话费支付服务费。<br>
+				电信后付费为次月电信帐单出帐，预付费用户在支付成功以后即扣费。
+			</div>
+		</div>
+						
+				<!-- 扫码支付 -->
+		<div id="scanPayDiv" tab="true" style="display:none">
+			<dl class="clear">
+				<dt>扫码支付： </dt>
+				<dd class="lineB payway clear">
+											<label style="background-position:30px -2543px;" for="aliScanPay_no1" title="支付宝扫码支付" class="">
+							<input type="radio" name="paymethod" value="aliScanPay" id="aliScanPay_no1">
+						</label>
+																<label style="background-position:30px -2743px;" for="wxScanTenPay_no1" title="微信扫码支付" class="">
+							<input type="radio" name="paymethod" value="wxScanTenPay" id="wxScanTenPay_no1">
+						</label>					
+															<label for="fqlPay_no1" title="分斯乐支付" class="icon_fqlPay">
+						<input type="radio" name="paymethod" value="fqlPay" id="fqlPay_no1">
+					</label>					
+														</dd>
+			</dl>
+		</div>
+									<!--服务条例-->
+		<dl class="clear">
+			<dd>
+				<div class="isConfirm" id="isConfirmDiv">
+					<label for="isConfirm" class="fs14"><input type="checkbox" style="margin-top:-3px;" id="isConfirm">
+						<b class="ml5">服务条款</b>（重要提示：请仔细阅读服务条款，同意并勾选后付款）
+					</label><br>
+												1、请仔细核对您的购票信息，票品一旦售出，将不予退换； <br>
+							2、部分演出场次因预售或锁定座位不成功等原因，请允许格瓦拉帮您调换座位或退款；<br>
+							3、因演出票务特殊性，票品递送会存在一定延时，一旦出票我们即会安排快递以保证您的正常观看，请耐心等待。
+									</div>
+			</dd>
+		</dl>
+		<dl class="clear">
+			<dd>
+				<span id="submitSpan"><label for="subBt" class="button maxBt redBt" style="vertical-align: middle;"><input type="submit" id="subBt" value="确认无误，支付"></label></span>
+								<a class="ml20 ffsf" href="http://www.gewara.com/gewapay/order.xhtml?orderId=320136097&amp;topos=payMoney&amp;dateTimes=1467981006471">返回重新选择优惠方式&gt;&gt;</a>
+							</dd>
+		</dl>
+	</div>
 </div>
 <script type="text/javascript">
-function selectPosition(el,element,x,trans,fn){
-	$(element).set('move',{duration: 200, transition:trans,onComplete:function(){
-		if(fn)fn();
-	}});
-	$(element).move({
-		relativeTo:$(el),
-		position:"center",
-   	offset:{x:x,y:0}
-   })
+var needChoose = false;
+function setChoosePay(vchoose){
+	needChoose = vchoose;
 }
-</script>		</div>
-		<div class="ui_right" style="position:relative;">
-						<div id="myOrderManagetableDIV"><div class="hd_title">
-	<h1>我的订单</h1>
-	<div class="more">
-		<div class="ui_simulate left mr10" style="margin-top:-5px; width:260px;">
-		<select class="simulate_select select_value" name="queryDateYear" id="queryDateYear">
-																		<option value="2007">2007年</option>
-																			<option value="2008">2008年</option>
-																			<option value="2009">2009年</option>
-																			<option value="2010">2010年</option>
-																			<option value="2011">2011年</option>
-																			<option value="2012">2012年</option>
-																			<option value="2013">2013年</option>
-																			<option value="2014">2014年</option>
-																			<option value="2015">2015年</option>
-																			<option value="2016" selected="">2016年</option>
-										</select>
-		<select id="queryDateMonth" class="simulate_select" onchange="" name="queryDateMonth">
-																				<option value="01">1月</option>
-																											<option value="02">2月</option>
-																											<option value="03">3月</option>
-																											<option value="04">4月</option>
-																											<option value="05">5月</option>
-																											<option value="06">6月</option>
-																											<option value="07" selected="">7月</option>
-																											<option value="08">8月</option>
-																											<option value="09">9月</option>
-																											<option value="10">10月</option>
-																											<option value="11">11月</option>
-																											<option value="12">12月</option>
-														</select>
-		</div>
-		<a class="button whiteBt bigWhiteBt" href="javascript:queryOrderByDate();"><span>查询</span></a>
+</script>
+<!-- 加入 弹出框 dlgpaypwd.vm -->
+<div id="updatePaypwdDV" style="display:none">
+</div>
+<script>
+	// 忘记密码
+	chargePayPass = function(){
+		var url = '/home/acct/changePayPass.xhtml';
+		GewaraUtil.sendRequest(url, {}, function(result){
+			if(result.success){
+				gewaUtil.alert("邮件已发送到您绑定的邮箱中，请接收邮件完成修改支付密码!");
+			}else{
+				gewaUtil.alert(result.msg);
+			}
+		})
+	}
+	bindPaypwd = function(){
+		gewa.util.issure('','updatePaypwdDV','支付密码设置',470,'updatePaypwdDV',function(){
+			submitFrm();
+		})
+	}	
+	function submitFrm(){
+		if(!GewaraUtil.baseValidForm('updatePaypwdDV'))return false;
+		var url = '/home/saveAccountPwd.xhtml';
+		var values = GewaraUtil.getValues('updatePaypwdDV');
+		GewaraUtil.mask();
+		GewaraUtil.sendRequest(url, values, function(result){
+			GewaraUtil.unmask();
+			if(result.success){
+				gewaUtil.alert('设置成功!', refreshPage);
+			}else{
+				gewaUtil.alert(result.msg);
+			}
+		})
+	}
+</script><script type="text/javascript">
+window.addEvent('domready',function(){
+	var hasBanlance = true;
+	/*  */
+	$$('.payway label').addEvents({
+		'mouseenter':function(){if(this.getElement('input'))this.addClass('select')},
+		'mouseleave':function(){$$('.payway label').each(function(item){
+				if(item.getElement('input') && !item.getElement('input').checked)item.removeClass('select');
+			});
+		}
+	});
+	$('menu_ck').getElements('a').each(function(item,i){
+		item.addEvent('click',function(){
+			if (item.get("lang") == "gewaPay" && hasBanlance == false){
+				$("submitSpan").hide();
+				$("isConfirmDiv").hide();
+			}else{
+				$("submitSpan").show();
+				$("isConfirmDiv").show();
+			}
+			$('menu_ck').getElements('a').removeClass('select');
+			document.getElements('*[tab=true]').hide();
+			if(!this.hasClass('select')){
+				this.addClass('select');
+				if(this.getElements('input')){
+					this.getElement('input').checked = 'checked';
+				}
+				setChoosePay(this.get('lang') == 'umPay'?true:false);
+				$(this.get('lang')).show();
+			}
+			if($('umPayFeeInfo')&&!$('umPayFeeInfo').hasClass('none')){
+				$('umPayFeeInfo').addClass('none');
+			}
+			if($('telecomPayFeeInfo')&&!$('telecomPayFeeInfo').hasClass('none')){
+				$('telecomPayFeeInfo').addClass('none');
+			}
+		});
+		if(i==0){
+			item.fireEvent('click');
+		}
+	});
+	});
+function replaceStr(el){
+	$(el).value = $(el).value.replace(/[^\d]/g,'');
+}
+function relaceOther(el){
+	$(el).value = $(el).value.replace(/[\W]/g,'');
+}
+function chechF(){
+	return $('menu_ck').getElements('input').every(function(item){
+		if(item.checked && item.value == 'ipsPay'){
+			var i=0;
+			while(i<inputs.length){
+				if(!$chk(inputs[i].value)){
+					gewaUtil.alert(inputs[i].getNext('.thisMe').get('text'));
+					return false;
+				}
+				i++;
+			}
+			return true;
+		}else{
+			return true;
+		}
+	});
+}
+var curCard =  'onetownPay';
+function setOtherPay(){
+	$(curCard).checked=true;
+}
+function choiceUmPay(e){
+	needChoose = false;
+	if($('umPayFeeInfo')){
+		$('umPayFeeInfo').removeClass('none');
+	}
+}
+function choiceTelecomPay(e){
+	needChoose = false;
+	if($('telecomPayFeeInfo')){
+		$('telecomPayFeeInfo').removeClass('none');
+	}
+}
+</script>
 	</div>
 </div>
-<div>
-	<table width="100%" cellspacing="0" cellpadding="0" border="0" class="orderTable">
-		<thead>
-			<tr>
-				<th width="40%">订单信息</th>
-				<th width="10%">数量</th>
-				<th width="10%">总价</th>
-				<th width="14%">订单状态</th>
-				<th width="26%" style="padding-left:85px;">操作</th>
-			</tr>
-		</thead>
-		<tbody>
-					</tbody>
-	</table>
-	<div class="clear"></div>
-	<div id="qryWindow" style="display:none">
-	<form name="qryForm" id="qryForm" action="javascript:qryPass()">
-	<dl class="dl-80 clear">
-		<dt>支付密码：</dt>
-		<dd class="left"><input type="password" name="paypass" class="text" id="paypass"><font class="ml10 fc_b">*</font></dd>		
-	</dl>
-	</form>
-</div>  
-<span id="qryResult" class="brown"></span>
-
-	<div id="repeatSendOrderSMSWindow" style="display: none;"></div>  
-<span id="qryResult" class="brown"></span>
-
-	<div id="hiddenData" style="display:none"></div>
-	<div class="tips_ModifyText" id="tips_ModifyOrderText" style="display:none;"></div>
-</div>
-
-
-
-
-		</div>
-		</div>
+</form>
+<!-- 问卷调查 -->
+<div class="asqBtn" id="asqBtn">
+	<div class="asqBtnInner">
+		<a title="反馈你遇到的问题" href="javascript:userResponse();">遇到问题</a>
+		<img style="cursor:pointer;" onclick="cutClose()" title="关闭" alt="关闭" class="more_c" src="./pay_files/close.gif">
 	</div>
 </div>
+		<div id="validation2" style="display:none;">
+		<div class="mod_kong validation">
+			<div class="mod_hd"><h2>安全验证</h2><span onclick="closebatch()" style="position:absolute;top:0;right:0;cursor:pointer;display:block;height:23px;width:23px;background:url(http://static5.gewara.com/css/global/pub_icon.png) 0px -142px no-repeat;"></span></div>
+			<div class="mod_bd">
+				<p>向绑定的手机号<span class="cF60">18575655378</span>发送验证短信</p>
+				<div class="clear v_input">
+					<input type="text" name="v2_checkpass" id="v2_checkpass" onfocus="inputFocus(this)" onblur="inputBlur(this);">
+					<label for="v2_checkpass" class="cardpass">输入获取的验证码</label>
+					<a onclick="" id="getSvCodeBtn" class="button maxBt redBt right " href="javascript:sendSvCode(&#39;getSvCodeBtn&#39;);"><span>获取验证码</span></a>
+				</div>
+				<div class="clear center">
+					<a href="javascript:checkVertifyCode();" class="button maxBt redBt"><span>&nbsp;确&nbsp;定&nbsp;</span></a><br>
+					<a href="javascript:void(0);" style="display:none;" onclick="verificationType(&#39;validation3&#39;,&#39;validation2&#39;)">使用支付密码验证</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="userResponse" style="display:none" id="userResponse">
+	<p class="clear"><span class="logo left"></span><b class="left">欢迎向Gewara反馈你遇到的问题和建议</b></p>
+	<p class="mt10">请描述你遇到的问题或建议：</p>
+	<p class="mt5"><textarea id="mark"></textarea></p>
+	<p class="mt5">
+		验证码：<input type="hidden" name="captchaId" id="surveyCaptcha">
+		<input type="text" class="text captcha" id="surveyCaptchaInput" name="captcha" alt="点击获取" autocomplete="off" onfocus="GewaraUtil.refreshCaptcha(&#39;surveyCaptcha&#39;,&#39;&#39;,&#39;https://www.gewara.com/&#39;)" style="width:90px">
+		<img id="surveyCaptchaImg" width="80" height="30" class="ml10 mt5" src="./pay_files/blank.gif" style="cursor: pointer;" onclick="GewaraUtil.refreshCaptcha(&#39;surveyCaptcha&#39;,&#39;&#39;,&#39;https://www.gewara.com/&#39;)" title="看不清楚，请点击换一张图片">
+	</p>
+	<p class="mt10"><a class="button bigBt redBt" href="javascript:sendSurvey();"><span>提交</span></a></p>
+</div>
+<script type="text/javascript">
+	function userResponse(){
+		checkLogin(true,function(){
+			gewa.util.maskContent('','userResponse','瓦友反馈',525,'notTitle');//第一个参数可传绑定在某一个元素上显示的id,为了避免混淆最后一个参数最好传上(为动态标识)
+		});
+	}
+	function sendSurvey(){
+		if($('mark').value=='' || $('mark').value.length <= 5){
+			gewaUtil.alert("请详细描述你的反馈或建议(不少于5个字)",'','',400);
+			return;
+		}
+		//59615177
+		var values = {"surveyId":'54925153',"tag":"Y","mark":$('mark').value,"captchaId":$("surveyCaptcha").value,"captcha":$("surveyCaptchaInput").value,"url":document.URL+'; 浏览器：'+Browser.name +'; 浏览器版本：'+Browser.version};
+		GewaraUtil.sendRequest('/ajax/trade/updateSurvey.xhtml', values, function(result){
+			if(result.success){
+				gewa.util.container['notTitle'].dispose('notTitle');
+				gewaUtil.alert("反馈成功！感谢对格瓦拉的支持！");
+			}else{
+				gewaUtil.alert(result.msg);
+				GewaraUtil.refreshCaptcha('surveyCaptcha','','https://www.gewara.com/');
+			}
+		});
+	}
+</script>
 <div class="ui_footer" id="superFooter">
 	<div class="ui_layout ui_layout_footer">
 		<div class="siteList">
@@ -891,7 +1271,7 @@ function selectPosition(el,element,x,trans,fn){
 		<div class="aboutGewara clear">
 			<div class="left">
 				<dl class="links">
-					<dt><span title="广州文化平台" class="logo">广州文化平台</span></dt>
+					<dt><span title="高地文化云" class="logo">高地文化云</span></dt>
 					<dd>
 						<a href="http://www.gewara.com/service/about.xhtml" target="_blank" rel="nofollow">关于我们</a><span>|</span>
 						<a href="http://www.gewara.com/helpCenter/index.xhtml" target="_blank" rel="nofollow">帮助中心</a><span>|</span>
@@ -941,10 +1321,9 @@ function selectPosition(el,element,x,trans,fn){
 	</div>
 </div>
 <div id="backTopBox">
-		<a href="http://www.gewara.com/helpCenter/index.xhtml?diaryId=5575271&amp;dkey=helpcenter1414553227032" class="ui_tpHelp" target="_blank" title="退款帮助">退款帮助</a>
 						<a class="ui_online" href="javascript:void(0);" onclick="javascript:onlineCustomer(&#39;0&#39;)">在线客服</a>
 			<a class="ui_asq" target="_blank" href="http://www.gewara.com/home/acct/advise.xhtml">意见反馈</a>
-		<a class="isGoUp" title="返回顶部" href="javascript:void(0);" style="visibility: visible; zoom: 1; opacity: 0.74759;"></a></div>
+		<a class="isGoUp" title="返回顶部" href="javascript:void(0);" style="visibility: hidden; zoom: 1; opacity: 0;"></a></div>
 <script type="text/javascript">
 window.addEvent('domready',function(){
 	$$(".ADPOSITION").each(function(item){
@@ -997,43 +1376,262 @@ function onlineCustomer(flag){
 }
 </script>
 
-<!-- SUCCESS_BOTTOM --><script type="text/javascript">
-var myOrderId='';
-window.addEvent('domready',function(){
-
-	var url = '/home/myOrderManageQueryDateTableDefault.xhtml?tagNo=14679708170882424';
-	var values = {};
-	gewaUtil.loadData('myOrderManagetableDIV', url, "");
-	
+<!-- SUCCESS_BOTTOM --><!-- 加入 弹出框 dlgpaypwd.vm -->
+<div id="updatePaypwdDV" style="display:none">
+</div>
+<script>
+	// 忘记密码
+	chargePayPass = function(){
+		var url = '/home/acct/changePayPass.xhtml';
+		GewaraUtil.sendRequest(url, {}, function(result){
+			if(result.success){
+				gewaUtil.alert("邮件已发送到您绑定的邮箱中，请接收邮件完成修改支付密码!");
+			}else{
+				gewaUtil.alert(result.msg);
+			}
+		})
+	}
+	bindPaypwd = function(){
+		gewa.util.issure('','updatePaypwdDV','支付密码设置',470,'updatePaypwdDV',function(){
+			submitFrm();
+		})
+	}	
+	function submitFrm(){
+		if(!GewaraUtil.baseValidForm('updatePaypwdDV'))return false;
+		var url = '/home/saveAccountPwd.xhtml';
+		var values = GewaraUtil.getValues('updatePaypwdDV');
+		GewaraUtil.mask();
+		GewaraUtil.sendRequest(url, values, function(result){
+			GewaraUtil.unmask();
+			if(result.success){
+				gewaUtil.alert('设置成功!', refreshPage);
+			}else{
+				gewaUtil.alert(result.msg);
+			}
+		})
+	}
+</script><script type="text/javascript">
+javascript:window.history.forward(1);
+var remain, pfun;
+var hasVerify = "";
+var hasBindMobile= true;
+//提交数据
+window.addEvent('domready', function(){
+	$('payForm').addEvent('submit', function(e) {
+		e.stop();
+		if(!$('isConfirm').checked){
+			$('isConfirm').focus();
+			$('isConfirm').getParent().toggleClass('yellow');
+			return false;
+		}
+		if(!chechF()) return false;		var showTip = '<div class="conitce"><span class="tips"></span><div class="line"><em>请再次仔细核对你的订单信息！</em></br>';
+		showTip += '<span>该场次不支持退票服务，一旦售出概不退换</span>。';
+		showTip += '</div><div class="mt10"><span class="gray">项目：</span>同道大展-广州站<br/><span class="gray">场馆：</span>[天河区]正佳广场';
+		showTip += '<br/><div class="ui_media"><div class="ui_pic mr0 gray">场次：</div><div class="ui_text ffst">'+ $('iteminfo').get('html') +'</div></div></div>';
+		var values = GewaraUtil.getValues('payForm');
+		if(needChoose) {
+			gewaUtil.alert("请选择支付方式！");
+			return;
+		}
+		var paymethod = values.paymethod;
+		if(paymethod == "gewaPay" && !hasVerify){// 进行安全验证
+			usePayVertify();
+			return false;
+		}
+		gewa.util.issure('','<div class="black">'+ showTip +'</div>','格瓦拉支付提示：',520,'pay',function(){
+			gewa.util.container['pay'].dispose('pay');
+			GewaraUtil.mask('subBt');
+			var url = '/gewapay/saveOrder.xhtml';
+			GewaraUtil.sendRequest(url, values, function(result){
+				gewa.util.clearMask();
+				if(result.success){
+					document.location.href = result.url;
+					
+				}else{
+					gewaUtil.alert(result.msg, function(){
+						gewa.util.clearMask();
+					});
+				}
+			},'post');
+		})
+	});
+	data();
 });
-
-function queryOrderByDate(){
-	var url = '/home/myOrderManageQueryDateTable.xhtml?tagNo=14679708170884611';
-	var queryDateYear=$('queryDateYear');
-	var queryDateMonth=$('queryDateMonth');
-	var values = {'queryDateYear':queryDateYear.value,'queryDateMonth':queryDateMonth.value};
-	gewaUtil.loadData('myOrderManagetableDIV', url, values);
+function getRTime(){
+	var nM = Math.floor(remain/(1000*60)) % 60;
+	var nS = Math.floor(remain/1000) % 60;
+	$("RemainM").innerHTML = (nM < 10 ? "0" : "") + nM;
+	$("RemainS").innerHTML = (nS < 10 ? "0" : "") + nS;
+	remain -= 1000;
+	if(((remain/1000).toInt()*1000)%60000==0){
+		$clear(pfun);
+		data();
+	}
+	if(remain<=0){
+		if(pfun) $clear(pfun);
+		data();
+		return;
+	}
+};
+function data(){
+	var random = GewaraUtil.rtime();
+	var pastTitle = '<div class="conitce"><span class="tips"></span><em>对不起，订单已超时！</em><div class="mt10">座位已被系统自动释放，请返回重新选座。<br/>如有疑问请联系客服。</div></div>';
+	new Request({
+		url: '/order/cinema/time.xhtml?tid=320136097&v='+random,
+		method:'get',
+		onSuccess: function(responseText) {
+			remain = responseText * 1;
+			if(remain <= 0){
+				$("CountMsg").empty();
+				$("CountMsg").innerHTML = "订单已超时";
+				if(gewa.util.container['pay'])gewa.util.container['pay'].dispose('pay');
+				gewa.util.issure('','<div class="black">'+ pastTitle +'</div>','格瓦拉支付提示：',400,'orderPast',function(){
+					gewa.util.container['orderPast'].dispose('orderPast');
+					document.location.href = '/drama/306332485';
+				});
+			}else{
+				pfun = getRTime.periodical(1000);
+			}
+		}
+	}).send();
 }
-function showQry(orderid){
-	myOrderId = orderid;
-	$('paypass').value = '';
-	$('qryResult').set('html','');
-	gewa.util.issure('','qryWindow','查看取票密码',380,'qryWindow',function(){
-		$('qryForm').submit();
-	})
+
+if($('ipsPay')) var inputs = $('ipsPay').getElements('input');
+function addCredibleCard(){
+	if($('ipsPay')) {
+		var inputs = $('ipsPay').getElements('input');
+		inputs.addEvent('blur',function(){
+			if(!$chk(this.value)){
+				this.getNext('.thisMe').addClass('yellow');
+			}else{
+				this.getNext('.thisMe').removeClass('yellow');
+			}
+			if(this == inputs[1]){
+				if(inputs[1].value.length > 0 && inputs[1].value.length != 15  && inputs[1].value.length != 18){gewaUtil.alert('您填写的身份证号码有误，请重新填写！');}
+			}else if(this == inputs[2]){
+				if(inputs[2].value.length > 0 && inputs[2].value.length != 11){gewaUtil.alert('您填写的手机号码有误，请重新填写！');}
+			}
+		})
+	}
+}
+function cutClose(){
+	$('asqBtn').dissolve();
+}
+function usePayVertify(){
+	if(!hasVerify){
+		divmaskname = "validation1";
+		if(hasBindMobile){
+			divmaskname = "validation2";
+		}
+		gewaUtil.maskContent('',divmaskname,"",480,divmaskname);
+	}
+}
+/*文本输入域提示文字*/
+function inputFocus(obj){
+	var obj=$(obj);
+	obj.getParent().getElement('.cardpass').hide();
+}
+function inputBlur(obj){
+	var obj=$(obj);
+	if(obj.value == '')
+		obj.getParent().getElement('.cardpass').show();
+}
+//获取安全验证码
+var isRepeat=true;
+function sendSvCode(obj){
+	if(isRepeat){
+		sixtyCountdown(obj)
+		GewaraUtil.sendRequest('/home/ajax/getSecurityVerifyCode.xhtml', {}, function(result){
+			if(!result.success){
+				alert(result.msg);
+			}
+		});
+	}
+}
+//60秒倒计时
+function sixtyCountdown(obj){
+	var count = 60,_span = $(obj).getElement('span');
+	$(obj).addClass('sendOut');
+	var addCount = (function(){
+		if(count==0){
+			$(obj).removeClass('sendOut');
+			_span.innerHTML='获取验证码';
+			clearInterval(addCount);
+			isRepeat=true
+			return;
+		}
+		_span.innerHTML='('+count+')后重新获取';
+		count--;
+	}).periodical(1000);
+	isRepeat=false;
+}
+//获取绑定手机验证码
+function sendBindMobileCode(obj){
+	var mobileTtxt = $('v1_mobile').value;
+	if(mobileTtxt == ''){
+		gewaUtil.alert('手机号码不能为空');
+		return;
+	}
+	var values = {"mobile":mobileTtxt};
+	if(isRepeat){
+		sixtyCountdown(obj)
+		GewaraUtil.sendRequest('/home/ajax/getSecurityVerifyCode4Mobile.xhtml', values, function(result){
+			if(!result.success){
+				alert(result.msg);
+			}
+		});
+	}
 }
 
-function deleteOrder(orderId){
-	var img = gewara.util.basePath + 'css/home/logo_warning.png';
-	gewa.util.issure('','<div style="background:url('+ img +') 30px 0px no-repeat; padding:0 0 0 100px;line-height:25px; margin:30px 0;"><b style="font-size:14px; font-weight:bold;">确定删除该订单？</b><br/>删除后该订单将从订单列表消失，不能恢复。</div>','提示',450,'keys',function(){
-		gewa.util.container['keys'].dispose('keys');
-		//删除操作
-	},'删除');
+function checkVertifyCode(){
+	var v2_checkpass = $('v2_checkpass').value;
+	if(v2_checkpass == ''){
+		gewaUtil.alert('手机验证码不能为空');
+		return;
+	}
+	var values = {"checkpass":v2_checkpass};
+	GewaraUtil.sendRequest('/home/ajax/checkSecurityVerify.xhtml', values, function(result){
+		if(result.success){
+			hasVerify = true;
+			hasBindMobile = true;
+			gewa.util.container[divmaskname].dispose(divmaskname);
+			gewaUtil.alert('验证通过');
+		}else{
+			gewaUtil.alert(result.msg);
+		}
+	});
 }
-
-
+function checkBindMobileCode(){
+	var v1_checkpass = $('v1_checkpass').value;
+	var mobile_txt = $('v1_mobile').value;
+	if(mobile_txt == ''){
+		gewaUtil.alert('手机号码不能为空');
+		return;
+	}
+	if(v1_checkpass == ''){
+		gewaUtil.alert('手机验证码不能为空');
+		return;
+	}
+	var values = {"checkpass":v1_checkpass,"mobile":mobile_txt};
+	GewaraUtil.sendRequest('/home/ajax/checkSecurityVerify4Mobile.xhtml', values, function(result){
+		if(result.success){
+			hasVerify = true;
+			hasBindMobile = true;
+			gewa.util.container[divmaskname].dispose(divmaskname);
+			gewaUtil.alert('验证通过');
+		}else{
+			gewaUtil.alert(result.msg);
+		}
+	});
+}
+function verificationType(obj,el){
+	divmaskname = obj;
+	gewa.util.container[el].dispose(el);
+	gewaUtil.maskContent('',obj,"",480,obj);
+}
+function closebatch(){
+	gewa.util.container[divmaskname].dispose(divmaskname);
+}
 </script>
 
-<div id="lbOverlay" style="display: none; visibility: hidden; zoom: 1; opacity: 0;"></div>
-<div id="lbCenter" style="display: none;">
-<div id="lbImage"><a id="lbPrevLink" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679708024899167#"></a><a id="lbNextLink" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679708024899167#"></a></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="http://www.gewara.com/home/myOrderManage.xhtml?tagNo=14679708024899167#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div></body></html>
+</body></html>

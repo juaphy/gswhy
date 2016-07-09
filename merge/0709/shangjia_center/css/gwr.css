@@ -120,11 +120,11 @@ em {
 }
 
 .ico_g {
-    background: url(/css/global/ico_g.png) no-repeat
+    background: url(ico_g.png) no-repeat
 }
 
 .ui_slide {
-    background: url(/css/global/loading.gif) no-repeat center center
+    background: url(loading.gif) no-repeat center center
 }
 
 .ui_warning_header {
@@ -673,7 +673,7 @@ em {
 }
 
 .ui_grades {
-    background: url(/css/global/ui_star.png) no-repeat;
+    background: url(ui_star.png) no-repeat;
     display: inline-block;
     width: 97px;
     height: 12px;
@@ -1109,7 +1109,7 @@ sup.min {
     width: 22px;
     height: 27px;
     border-left: 1px solid #c3c3c3;
-    background: url(/css/global/selectBar_arrow.png) no-repeat center center
+    background: url(selectBar_arrow.png) no-repeat center center
 }
 
 .ui_simulate .simulate_options {
@@ -1157,8 +1157,8 @@ sup.min {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/css/global/type_tabs.png) no-repeat;
-    _background: url(/css/global/type_tabs2.png) no-repeat
+    background: url(type_tabs.png) no-repeat;
+    _background: url(type_tabs2.png) no-repeat
 }
 
 .ui_movieType span {
@@ -1888,7 +1888,7 @@ sup.min {
     *line-height: 38px;
     overflow: hidden;
     padding: 0 15px 0 10px;
-    background: url(/css/global/ico_arrow.gif) no-repeat right 17px
+    background: url(ico_arrow.gif) no-repeat right 17px
 }
 
 .ui_cityChoice {
@@ -2082,7 +2082,7 @@ sup.min {
 }
 
 .ui_plugs_body {
-    width: 1190px;
+    width: 1390px;
     height: 100%;
     position: relative;
     z-index: 0;
@@ -2107,16 +2107,16 @@ sup.min {
 .ui_plugs_body .logo img, .userBanner .userHeadLogo img {
     width: 102;
     height: 286px;
-    background: url(/css/global/logos_white.png?v=0001) no-repeat;
+    background: url(logos_white.png?v=0001) no-repeat;
     _background-image: none;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/css/global/logos_white.png?v=0001',
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='logos_white.png?v=0001',
         sizingMethod='crop');
     border: 0;
     float: left
 }
 
 .jointly img {
-    background: url(/css/global/jointlyLogo.jpg) no-repeat;
+    background: url(jointlyLogo.jpg) no-repeat;
     vertical-align: -3px
 }
 
@@ -2370,8 +2370,7 @@ sup.min {
 }
 
 .ErrorInfo {
-    background: #eee url(/css/global/standard_msg_error.gif) 5px center
-        no-repeat;
+    background: #eee url(standard_msg_error.gif) 5px center no-repeat;
     color: #000;
     border: #ccc 1px solid;
     padding: 0 5px 0 25px;
@@ -2588,15 +2587,14 @@ to {
 }
 
 #global_user_infobox {
-    background-image: url(/css/global/ico_arrow.gif);
+    background-image: url(ico_arrow.gif);
     background-repeat: no-repeat;
     background-position: 130px 24px
 }
 
 .ui_userBox.hover {
     cursor: pointer;
-    background: url(/css/global/ico_arrow.gif) no-repeat 130px -8px
-        !important;
+    background: url(ico_arrow.gif) no-repeat 130px -8px !important;
     background-color: rgba(255, 255, 255, 0.1) !important;
     -ms-filter:
         "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#20ffffff,endColorstr=#20ffffff)"
@@ -3145,7 +3143,7 @@ to {
 }
 
 .aboutGewara .logo, .aboutGewara .contact dt, .aboutGewara .apps dd a {
-    background: url(/css/global/footer_logo.png) no-repeat;
+    background: url(footer_logo.png) no-repeat;
     display: block;
     text-indent: -9999px;
     overflow: hidden
@@ -3223,7 +3221,7 @@ to {
 }
 
 .footer_tag img {
-    background: url(/css/global/footer_tag_new.gif?v=20151214) no-repeat
+    background: url(footer_tag_new.gif?v=20151214) no-repeat
 }
 
 #backTopBox {
@@ -3240,7 +3238,7 @@ to {
 }
 
 .ui_online, .ui_asq, .isGoUp, .ui_goback {
-    background: url(/css/global/ico_flag.gif?v=564601) no-repeat #ccc;
+    background: url(ico_flag.gif?v=564601) no-repeat #ccc;
     text-indent: -9999px;
     overflow: hidden;
     margin-top: 5px;
@@ -3614,7 +3612,7 @@ to {
     line-height: 17px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url(/css/global/ico_2013.gif) 0 0 no-repeat
+    background: url(ico_2013.gif) 0 0 no-repeat
 }
 
 .zt_my2013_c {
@@ -3624,7 +3622,7 @@ to {
     line-height: 17px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url(/css/global/ico_2013_c.gif) 0 0 no-repeat
+    background: url(ico_2013_c.gif) 0 0 no-repeat
 }
 
 .ui_nav_right .zt_my2013 {
@@ -3638,1707 +3636,966 @@ to {
     z-index: 1100
 }
 
-.step1, .step2, .step3, .limitTime, .freeTag1, .delcredits, .addcredits,
-    .unselect2, .paytips, .wabiQa, .oAddPhone, .oDelPhone, .s_noSales .innerBox,
-    .s_noSales .ui_close, .s_noSales .arrow {
-    background: url(/css/movie_wide/steps.png?v=201412021738) no-repeat
-}
-
-.payBox_body_left em, .changeMobile {
-    color: #999
-}
-
-a, a:hover {
-    text-decoration: none
-}
-
-.c333 {
-    color: #333
-}
-
-.c999, .gray {
-    color: #999
-}
-
-.cf60, .yellow {
-    color: #f60 !important
-}
-
-.cred {
-    color: red
-}
-
-.c07f {
-    color: #07f
-}
-
-.fs16 {
-    font-size: 16px
-}
-
-.fs22 {
-    font-size: 22px
-}
-
-.bold {
-    font-weight: bold
-}
-
-.ffsf {
-    font-family: '宋体'
-}
-
-.ffyh {
-    font-family: verdana, '微软雅黑', '宋体'
-}
-
-.lineth {
-    text-decoration: line-through
-}
-
-.cardpass {
-    color: #999;
-    left: 6px;
-    position: absolute;
-    top: 4px;
-    cursor: auto
-}
-
-.unselect2 {
-    height: 16px;
-    width: 16px;
-    background-position: -14px -201px;
-    margin: 0 2px;
-    display: inline-block;
-    vertical-align: -3px;
-    cursor: pointer
-}
-
-a.wabiQa {
-    background-position: -40px -202px;
-    margin-left: 5px;
-    width: 15px;
-    display: inline-block;
-    height: 15px;
-    vertical-align: middle
-}
-
-.oAddPhone, .oDelPhone {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 3px;
-    cursor: pointer
-}
-
-.oAddPhone {
-    background-position: 0 -224px
-}
-
-.oDelPhone {
-    background-position: 0 -251px
-}
-
-.pd20 {
-    padding: 20px
-}
-
-p em {
-    color: #999
-}
-
-.h5Bt {
-    display: inline-block;
-    font-family: verdana, '微软雅黑', '宋体';
-    cursor: pointer;
-    text-align: center;
-    border-radius: 3px;
-    text-decoration: none !important;
-    border: 0
-}
-
-.h5MinBt {
-    font-size: 14px;
-    padding: 0 20px;
-    height: 24px;
-    line-height: 24px
-}
-
-.h5BigBt {
-    font-size: 18px;
-    padding: 0 30px;
-    height: 40px;
-    line-height: 40px
-}
-
-.h5MaxBt {
-    font-size: 20px;
-    padding: 0 36px;
-    height: 50px;
-    line-height: 50px
-}
-
-.h5RedBt {
-    background: #eb6120;
-    color: #fff
-}
-
-.h5RedBt:hover {
-    color: #fff;
-    background: #eb8020
-}
-
-.h5WhiteBt {
-    color: #fff;
-    background: #ddd
-}
-
-.h5WhiteBt:hover {
-    color: #fff;
-    background: #eee
-}
-
-.h5RedBt.h5BigBt {
-    border-bottom: 3px solid #c40
-}
-
-.h5WhiteBt.h5BigBt {
-    border-bottom: 3px solid #ccc
-}
-
-.h5RedBt.h5BigBt:hover {
-    border-bottom-color: #e75626
-}
-
-.h5WhiteBt.h5BigBt:hover {
-    border-bottom-color: #ddd
-}
-
-.h5RedBt.h5MaxBt {
-    border-bottom: 4px solid #c40
-}
-
-.h5WhiteBt.h5MaxBt {
-    border-bottom: 4px solid #ccc
-}
-
-.h5RedBt.h5MaxBt:hover {
-    border-bottom-color: #e75626
-}
-
-.h5WhiteBt.h5MaxBt:hover {
-    border-bottom-color: #ddd
-}
-
-.m1, .m2 {
-    font-size: 1px;
-    height: 1px;
-    overflow: hidden;
-    display: block;
-    border-style: solid;
-    border-width: 0 1px
-}
-
-.m1 {
-    margin: 0 3px
-}
-
-.m2 {
-    margin: 0 2px
-}
-
-.m {
-    margin: 0 1px;
-    border-style: solid;
-    border-width: 0 1px;
-    overflow: hidden
-}
-
-.step1, .step2, .step3, .step4 {
-    text-indent: -8px
-}
-
-.payOrderSteps {
-    width: 100%;
-    background: #eee;
-    border-radius: 2px;
-    overflow: hidden
-}
-
-.payOrderSteps li {
-    width: 25%;
-    color: #999;
-    height: 34px;
-    line-height: 34px;
-    text-align: center;
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-    background-position: right -68px
-}
-
-.payStep02 .step1, .payStep03 .step2, .payStep04 .step3 {
-    background-position: right 0
-}
-
-.payStep01 .step1, .payStep02 .step2, .payStep03 .step3, .payStep04 .step4
-    {
-    background-color: #f96;
-    background-position: right -34px;
-    color: #fff
-}
-
-.payStep02 .step3, .payStep03 .step1, .payStep04 .step1, .payStep04 .step2
-    {
-    background-position: right -68px
-}
-
-.ui_sport .payStep02 .step1, .ui_sport .payStep03 .step2, .ui_sport .payStep04 .step3
-    {
-    background-position: right -280px
-}
-
-.ui_sport .payStep01 .step1, .ui_sport .payStep02 .step2, .ui_sport .payStep03 .step3,
-    .ui_sport .payStep04 .step4 {
-    background-color: #6eb957;
-    background-position: right -314px
-}
-
-.ui_sport .button, .ui_sport .button span, .ui_sport .button input {
-    background-image: url(/css/sport_wide/btn_sport.gif?v=20141202)
-}
-
-.isPinglun {
-    background: url("/css/sport/new/isPinglun.png");
-    _background: url("/css/sport/new/isPinglun.gif");
-    width: 57px;
-    height: 84px;
-    display: block;
-    overflow: hidden;
-    text-indent: -999px;
-    margin-left: -16px
-}
-
-.payBox {
-    border: 1px solid #ebebeb
-}
-
-.payBox_header {
-    height: 35px;
-    border-bottom: 1px solid #ebebeb
-}
-
-.payBox_header .pad, .paymenu_head a {
-    background: #f2f2f2;
-    background: -moz-linear-gradient(center top, #fff 0, #e3e3e3 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff),
-        color-stop(100%, #e3e3e3));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',
-        endColorstr='#e3e3e3', GradientType=0)
-}
-
-.payBox_header .pad {
-    color: #333;
-    border: 1px solid #fff;
-    padding: 0 15px;
-    height: 34px;
-    line-height: 34px
-}
-
-.payBox_header h2 {
-    font-size: 14px;
-    font-weight: bold;
-    width: auto;
-    overflow: hidden;
-    font-family: '微软雅黑', '宋体'
-}
-
-.payBox_body {
-    overflow: hidden
-}
-
-.payBox_body dl.ui_media {
-    padding: 15px 15px 50px;
-    width: 279px;
-    border-right: 1px solid #eee;
-    float: left;
-    margin-bottom: -30000px;
-    padding-bottom: 30000px
-}
-
-.payBox_body_left {
-    float: left;
-    width: 857px;
-    min-height: 230px;
-    _height: 230px;
-    position: relative;
-    overflow: hidden
-}
-
-.payBox_body_right {
-    float: right;
-    width: 310px;
-    margin-bottom: -30000px;
-    padding-bottom: 30000px;
-    border-left: 1px solid #eee;
-    padding-left: 10px
-}
-
-.payBox_body_left .ui_pic {
-    margin-right: 15px;
-    margin-top: 5px
-}
-
-.payBox_body_left li {
-    line-height: 28px
-}
-
-.payBox_body_left ol {
-    padding: 15px 20px 0;
-    list-style: none;
-    float: left;
-    width: 507px
-}
-
-.limitTimedetail {
-    background-color: #fff6ee;
-    margin-bottom: -30000px;
-    padding-bottom: 30000px
-}
-
-.limitTime {
-    font-family: '微软雅黑', '宋体', Verdana;
-    padding-left: 100px;
-    margin-top: 50px;
-    height: 76px;
-    background-position: -218px -120px;
-    _background-position: -218px -113px
-}
-
-.limitTime p {
-    color: #cd3300;
-    line-height: 65px
-}
-
-#RemainM, #RemainS {
-    font-size: 45px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.payBox_body_left li.changeMobile {
-    background: #f3f3f3;
-    line-height: 22px;
-    padding: 10px 20px;
-    position: absolute;
-    bottom: 0;
-    left: 310px;
-    width: 507px
-}
-
-.paymentTerm {
-    margin: 10px 30px 30px
-}
-
-.paymentTerm dt {
-    height: 35px;
-    line-height: 35px;
-    background-color: #f6f6f6;
-    font-size: 14px;
-    overflow: hidden;
-    cursor: pointer;
-    font-family: '微软雅黑', '宋体'
-}
-
-.paymentTerm dt b {
-    padding-left: 38px;
-    background-position: 10px -103px;
-    font-weight: normal;
-    height: 18px;
-    line-height: 18px;
-    margin: 8px 0;
-    display: inline-block
-}
-
-.paymentTerm dt.select {
-    background-color: #fff1e3
-}
-
-.paymentTerm dt.select b {
-    background-position: 10px -121px
-}
-
-.paymentTerm dd {
-    padding: 15px 90px 40px
-}
-
-.delcredits, .addcredits {
-    width: 18px;
-    height: 18px;
-    display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
-    margin: 0 3px;
-    overflow: hidden
-}
-
-.delcredits {
-    background-position: 0 -144px
-}
-
-.addcredits {
-    background-position: 0 -162px
-}
-
-.orderTable {
-    border: 1px solid #ddd;
-    position: relative;
-    overflow: hidden;
-    color: #666;
-    padding-bottom: 46px
-}
-
-.orderTable table th {
-    background: #f2f2f2;
-    padding: 4px 7px;
-    text-align: left;
-    font-weight: normal
-}
-
-.orderTable table td {
-    padding: 6px 7px 5px;
-    border-bottom: 1px solid #e8e8e8
-}
-
-.orderTable table tr.select td {
-    background: #fff6ec;
-    border-top: 1px solid #ffcfa4;
-    border-bottom: 1px solid #ffcfa4
-}
-
-.paymentTerm dd.officialActivities {
-    padding: 0
-}
-
-.plugP {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-    height: 46px;
-    width: 100%;
-    z-index: 9;
-    border-top: 1px solid #eee
-}
-
-.plugS {
-    width: 120px;
-    height: 24px;
-    text-align: center;
-    line-height: 24px;
-    position: absolute;
-    left: 44%;
-    top: -1px;
-    background: url(/css/buss/steps.gif) 0 -650px;
-    cursor: pointer;
+a {
     color: #666
 }
 
-.rCoop {
-    width: 545px;
-    float: left;
-    margin-top: 20px;
+a:hover {
+    text-decoration: none;
+    color: #f60
+}
+
+.topBorder {
+    border-top: 1px solid #ccc;
+    padding-top: 20px
+}
+
+.ui_warning {
+    background-color: #fff6ee;
+    border-color: #fb9;
+    padding: 8px 15px;
+    margin: 0
+}
+
+.ui_warning.spe {
+    background: #f6f6f6;
+    border-color: #e3e3e3;
+    height: auto !important
+}
+
+p em, .gray {
+    color: #999
+}
+
+label {
+    cursor: pointer
+}
+
+.iText {
+    height: 26px;
+    line-height: 26px;
     border: 1px solid #bbb;
-    padding: 1px;
-    position: relative;
-    cursor: pointer
+    padding: 4px 3px;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #fff;
+    outline: 0;
+    width: 270px;
+    box-shadow: 1px 1px 2px #d6d6d6 inset
 }
 
-.rCoop input {
-    position: absolute;
-    top: 30px;
-    left: 10px;
-    *top: 25px;
-    *left: 6px
+.text {
+    height: 15px;
+    line-height: 15px
 }
 
-.rCoop label, .rCoop div.box {
-    display: block;
-    height: 30px;
-    line-height: 15px;
-    margin: 10px 10px 10px 20px;
-    color: #333;
-    cursor: pointer
-}
-
-.rCoopDis {
-    background: #f4f4f4;
-    filter: alpha(opacity = 50);
-    opacity: .5
-}
-
-.rCoopDis label {
-    color: #888;
-    cursor: not-allowed
-}
-
-.rCoopDis label .note {
-    color: #ccc
-}
-
-.note span {
-    max-width: 400px;
-    _width: 390px;
-    height: 22px;
-    overflow: hidden;
-    display: inline-block;
-    line-height: 22px;
-    float: left
-}
-
-.note .freeTag1 {
-    width: 11px;
-    height: 22px;
-    *height: 18px;
-    display: inline-block;
-    overflow: hidden;
-    background-position: 0 -185px;
-    float: left
-}
-
-.peyments {
-    padding: 20px 30px;
-    background-color: #f8f8f8
-}
-
-.officialActivities .select, .officialActivities .ishover {
-    border: 2px solid #f96;
-    padding: 0
-}
-
-.officialActivities .select span.xz, .rec {
-    background-position: -225px -200px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    _right: -1px;
-    width: 38px;
-    height: 31px;
-    display: block;
-    overflow: hidden
-}
-
-.rec {
-    background-position: right -200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 31px;
-    height: 31px
-}
-
-.rCoop {
-    width: 511px;
-    float: left;
-    margin-top: 20px;
+.iSelect {
+    min-width: 120px;
+    height: 34px;
+    line-height: 34px;
+    padding: 8px 5px;
     border: 1px solid #bbb;
-    padding: 1px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 1px 1px 2px #d6d6d6 inset
+}
+
+.grayBgBox {
+    padding: 20px;
+    background: #f6f6f6
+}
+
+.ui_kpf {
+    padding-right: 18px;
+    background: url(/css/home/kpf.jpg) right center no-repeat
+}
+
+.mod_title {
+    margin-bottom: 30px
+}
+
+.mod_title .mod_hd {
     position: relative;
-    cursor: pointer
+    z-index: 1;
+    height: 40px;
+    line-height: 40px;
+    background: #f6f6f6;
+    padding: 0 20px
 }
 
-.rCoop input {
-    position: absolute;
-    top: 30px;
-    left: 10px;
-    *top: 25px;
-    *left: 6px
+.mod_title .mod_hd h2 {
+    font-size: 14px;
+    font-weight: bold
 }
 
-.rCoop label, .rCoop div.box {
-    display: block;
-    height: 30px;
-    line-height: 15px;
-    margin: 30px 10px 30px 20px;
-    color: #333;
-    cursor: pointer
+.mod_title .mod_hd h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666
 }
 
-.rCoopDis {
-    background-color: #f9f9f9;
-    filter: alpha(opacity = 50);
-    opacity: .5;
-    cursor: no-drop
+.mod_title .mod_bd {
+    padding: 20px 0 0
 }
 
-.rCoopDis * {
-    cursor: no-drop
+.title {
+    position: relative
 }
 
-.rCoopDis label {
-    color: #888;
-    cursor: not-allowed
+.ui_simulate {
+    width: auto
 }
 
-.rCoopDis label .note {
-    color: #ccc
+.dTitle {
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+    padding: 0 20px
 }
 
-.note span {
-    max-width: 400px;
-    _width: 390px;
-    height: 22px;
-    overflow: hidden;
-    display: inline-block;
-    line-height: 22px;
-    float: left
+.dTitle h3 {
+    font-size: 12px;
+    font-weight: bold
 }
 
-.note .freeTag1 {
-    width: 11px;
-    height: 22px;
-    *height: 18px;
-    display: inline-block;
-    overflow: hidden;
-    background-position: 0 -185px;
-    float: left
+.ui_simulate .simulate_select {
+    padding: 0 0 8px 0
 }
 
-.peyments {
-    padding: 20px 30px;
-    background-color: #f8f8f8
-}
-
-#tabsAc_content .select, #tabsAc_content .ishover {
-    border: 1px solid #30ad03
-}
-
-#tabsAc_content .select span.xz, #tabsPq_content .select span.xz, .rec {
-    background-position: -218px -199px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    _right: -1px;
-    width: 46px;
-    height: 37px;
-    display: block;
-    overflow: hidden
-}
-
-.rec {
-    background-position: right -200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 34px;
-    height: 34px
-}
-
-.pCoop {
-    width: 511px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    border-left: 0;
-    position: relative;
-    cursor: pointer
-}
-
-.pCoop .flag, #tabsPq_content .select .flag, #tabsPq_content .ishover .flag
+.ui_subNav dd a, .deleteOrder, .cancelHelpBox dt, .tips_ModifyText .modifyBox .search_button
     {
-    background: url(/css/movie_wide/arror_pq.gif) no-repeat
+    background-image: url(/css/home/ico.gif);
+    background-repeat: no-repeat
 }
 
-.pCoop .flag {
-    display: block;
-    width: 6px;
-    height: 90px;
-    font-size: 0;
-    overflow: hidden;
-    background-position: 0 0;
-    position: absolute;
-    left: 0;
-    top: -1px;
-    z-index: 2
+.fix_content {
+    overflow: hidden
 }
 
-.pCoop div.box {
-    display: block;
-    height: 88px;
-    margin: 0 10px;
-    color: #333;
-    cursor: pointer
+.fix_content .ui_left {
+    width: 150px;
+    float: left;
+    margin-bottom: -30000px;
+    padding-bottom: 30000px;
+    background: #f2f2f2
 }
 
-.pCoop .ui_pic {
-    width: 80px;
-    height: 60px;
-    padding: 14px 0;
-    color: #eb6120;
-    border-right: 1px solid #ddd
+.fix_content .ui_right {
+    width: 990px;
+    float: left;
+    padding: 20px 30px 40px
 }
 
-.pCoop .ui_pic em, .pCoop .ui_pic span {
-    display: block;
+.fix_content .ui_center {
+    width: 505px;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 20px
+}
+
+.fix_content .ui_full_right {
+    padding: 0 10px 20px;
+    float: right;
+    width: 260px
+}
+
+.ui_subNav {
+    background: #e9e9e9;
+    font-size: 14px
+}
+
+.ui_subNav .userInfo {
+    padding: 20px;
     text-align: center
 }
 
-.pCoop .ui_pic em {
-    height: 24px;
-    line-height: 24px
+.ui_subNav .userInfo .pic img {
+    border-radius: 35px
 }
 
-.pCoop .ui_pic span {
-    height: 36px;
-    line-height: 36px;
-    font-size: 14px
+.ui_subNav dl {
+    border-top: 1px solid #fff
 }
 
-.pCoop .ui_pic span b {
-    font-size: 26px;
-    font-weight: normal
-}
-
-.pCoop .ui_text {
-    height: 30px;
-    line-height: 30px;
-    padding: 29px 10px;
-    position: relative
-}
-
-.pCoop .ui_text span {
-    height: 30px;
-    line-height: 30px;
-    width: 250px;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis
-}
-
-.pCoop .ui_text em {
-    height: 30px;
-    line-height: 30px;
-    display: inline-block;
-    color: #999;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    margin-top: -15px
-}
-
-#tabsPq_content .select, #tabsPq_content .ishover {
-    border: 1px solid #30ad03;
-    border-left: 0
-}
-
-#tabsPq_content .select .flag, #tabsPq_content .ishover .flag {
-    background-position: 0 -90px
-}
-
-#tabsPq_content .select .ui_pic, #tabsPq_content .ishover .ui_pic {
-    border-right: 1px solid #30ad03
-}
-
-.jfBox {
-    border: 1px solid #ddd;
-    padding: 60px 250px;
-    font-size: 14px
-}
-
-.paymenu_head {
-    border-bottom: 2px solid #eb6120;
-    position: relative;
-    z-index: 2
-}
-
-.paymenu_head a {
-    display: inline-block;
-    padding: 6px 24px;
-    border: 1px solid #ccc;
-    border-bottom: 0;
-    font-size: 14px;
-    color: #333;
+.ui_subNav dt, .ui_subNav dt a {
     font-weight: bold;
-    cursor: pointer;
-    _margin-right: 5px
-}
-
-.paymenu_head a:hover, .paymenu_head a.select {
-    border-color: #eb6120;
-    background: #eb6120;
-    color: #fff;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb6120',
-        endColorstr='#eb6120', GradientType=0)
-}
-
-.paymenu_head a input {
-    position: absolute;
-    left: -999px;
-    top: -99px
-}
-
-.paymenu_body {
-    width: 940px;
-    margin: 0 auto;
-    padding: 40px 0;
-    position: relative
-}
-
-.lineB {
-    border-bottom: 1px solid #eee
-}
-
-.paymenu_body_t {
-    height: 28px;
-    line-height: 28px;
-    font-size: 14px;
-    font-weight: bold
-}
-
-.paymenu_body dl {
-    padding-left: 90px;
-    height: 100%;
-    overflow: hidden;
-    margin-top: 20px
-}
-
-.paymenu_body dt {
-    margin-left: -90px;
-    _margin-left: -45px;
-    text-align: right;
-    margin-top: 10px;
-    width: 90px;
-    float: left
-}
-
-.paymenu_body dd {
-    padding-bottom: 10px
-}
-
-.payway label {
-    display: inline-block;
+    display: block;
     height: 40px;
+    line-height: 40px;
+    color: #333
+}
+
+.ui_subNav dt {
+    text-indent: 30px
+}
+
+.ui_subNav dd a {
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 43px;
+    background-position: 28px 20px
+}
+
+.ui_subNav dd a:hover {
+    background-color: #fff
+}
+
+.ui_subNav dd.select a {
+    background: #fff;
+    color: #eb6120;
+    border-left: 6px solid #eb6120;
+    padding-left: 37px;
+    background-image: none
+}
+
+.hd_title {
+    height: 40px;
+    line-height: 40px;
     position: relative;
+    margin-bottom: 20px
+}
+
+.hd_title h1 {
+    font-family: verdana, '微软雅黑', '宋体';
+    font-weight: normal;
+    font-size: 28px;
     float: left;
-    width: 136px;
-    overflow: hidden;
-    background: url(/css/buss/icon_pay.png?v=20160224) no-repeat;
-    border: 1px solid #fff;
-    cursor: pointer;
-    margin: 0 20px 10px 0
+    margin-right: 15px
 }
 
-.payway label.select {
-    border-color: #fc9e6c
-}
-
-.payway label input {
-    position: absolute;
-    top: 14px;
-    left: 8px;
-    *top: 10px
-}
-
-.ipsPay dt {
-    margin-top: 0
-}
-
-.umPay {
-    font-size: 14px;
-    font-weight: bold
-}
-
-.paytips {
-    position: absolute;
-    width: 430px;
+.hd_title span.link {
     height: 22px;
     line-height: 22px;
-    padding: 5px 10px 5px 30px;
-    left: 60px;
-    top: 40px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    background-position: -274px -234px;
-    color: #ff6200
+    float: left;
+    margin-top: 18px
 }
 
-.paytips img {
-    position: absolute;
-    left: 16px;
-    bottom: -7px
+.tdHover, .tdSelect {
+    background: #fffaf7;
+    height: 100%
 }
 
-.chooseGewaPay {
-    padding: 15px;
-    border: 1px solid #ffe3bb;
-    background: #ffd;
-    width: 500px
+.tdHover td, .tdSelect td {
+    border-bottom: 1px solid #fff0e2
 }
 
-.chooseGewaPay p {
-    padding-top: 6px
+.orderTable a, .table a {
+    color: #eb6120
 }
 
-.isConfirm {
-    border: 1px solid #eee;
-    padding: 10px;
-    border: 2px solid #ccc
-}
-
-.bankWabi {
-    border: 1px solid #bdcbee;
-    background: #f6f7fc;
-    padding: 10px
-}
-
-.bankWabi dl {
-    margin-top: 10px
-}
-
-.changeScreenArea {
-    width: 460px;
-    visibility: hidden;
-    background: #fff;
-    position: absolute;
-    z-index: 99;
-    border: 1px solid #ddd;
-    top: 0;
-    left: 0
-}
-
-.screenList a {
-    display: block;
-    height: 36px;
-    line-height: 36px;
-    margin: 0;
-    color: #333;
-    border-top: 1px solid #e4e4e4;
-    width: 430px;
+.orderTable {
+    width: 100%;
     overflow: hidden
 }
 
-.screenList a:hover {
-    background: #fff4ee
+.orderTable p {
+    height: 28px;
+    line-height: 28px
 }
 
-.screenList a.select {
-    background: #f84
+.orderTable td {
+    padding: 15px 20px
 }
 
-.screenList span {
-    display: inline-block;
-    cursor: pointer;
-    float: left
+.orderTable thead tr th {
+    height: 44px;
+    font-weight: normal;
+    background: #f2f2f2;
+    padding: 0 20px;
+    color: #666;
+    text-align: left;
+    overflow: hidden
 }
 
-.screenList span.time {
-    font-size: 16px;
-    font-weight: bold;
-    width: 80px;
-    padding-left: 20px
+.orderTable td {
+    height: 48px;
+    border-bottom: 1px solid #ececec;
+    line-height: 24px;
+    vertical-align: top
 }
 
-.screenList span.edition {
-    width: 100px
+.orderInfo .ui_text {
+    padding: 4px 0
 }
 
-.screenList span.room {
-    width: 140px
-}
-
-.screenList span.price {
-    width: 86px
-}
-
-.screenList span.price .yellow {
-    color: #f60;
-    font-size: 16px;
-    font-weight: bold;
-    vertical-align: -2px
-}
-
-.screenList span.edition b {
+.orderTable .bigBt span {
+    font-size: 12px;
     font-weight: normal
 }
 
-.screenList span.edition b.d3 {
-    font-family: 'Arial';
-    color: #c30;
-    float: left
-}
-
-.screenList a img.imax {
-    width: 30px;
-    height: 10px;
-    background-position: right -556px;
-    margin: 14px 0 0 3px;
-    float: left
-}
-
-.screenList a.select img.imax, .screenList a:hover img.imax {
-    background-position: right -589px
-}
-
-.screenList a img.seatPic {
-    width: 15px;
-    height: 15px;
-    background-position: 0 -408px;
-    border: 0;
-    cursor: pointer;
-    margin: 0 0 0 3px
-}
-
-.changeScreenArea .inner {
-    padding-bottom: 40px;
-    overflow: hidden
-}
-
-.changeScreenArea .visb {
-    width: 100%;
-    height: 100%;
-    overflow: hidden
-}
-
-.screenList a.select .gray, .screenList a.select .c999, .screenList a.select .yellow,
-    .screenList a.select span.edition b.d3, .screenList a.select {
-    color: #fff
-}
-
-.viewSeatPanel .seatlist dl {
-    height: 5px
-}
-
-.viewSeatPanel .seatlist dd {
-    width: 6px;
-    height: 5px;
-    overflow: hidden
-}
-
-.viewSeatPanel .hasSeat, .viewSeatPanel .sellSeat, .viewSeatPanel .checkSeat
-    {
-    width: 3px;
-    height: 3px;
-    margin-top: 2px;
-    overflow: hidden;
-    margin: 0 auto;
-    cursor: default
-}
-
-.viewSeatPanel .hasSeat {
-    background: #aaa
-}
-
-.viewSeatPanel .sellSeat {
-    background: red
-}
-
-.viewSeatPanel .checkSeat {
-    background: green
-}
-
-.sales_type {
-    position: relative
-}
-
-.sales_type em {
-    float: left
-}
-
-.sales_type .typeBox {
-    display: inline-block;
-    float: left;
-    max-width: 300px;
-    margin: 6px 0;
-    border: 1px solid #89c163;
-    height: 16px;
-    line-height: 16px;
-    font-weight: normal;
-    color: #89c163;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    padding-right: 3px
-}
-
-.sales_type .typeBox em {
-    background: #89c163;
-    color: #fff;
-    float: left;
-    display: block;
-    width: 16px;
-    height: 16px;
-    overflow: hidden;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    text-align: center;
-    margin-right: 3px
-}
-
-.s_noSales {
-    position: absolute;
-    left: 0;
-    top: 33px;
-    z-index: 10
-}
-
-.s_noSales .innerBox {
-    border: 1px solid #f96;
+.orderTable .modfilyOrder {
     position: relative;
-    background-color: #fff;
-    padding: 16px 30px 16px 60px;
-    background-position: -242px -458px
+    padding-right: 50px
 }
 
-.s_noSales .ui_close {
-    background-position: 3px -368px;
-    text-indent: -9999px;
-    overflow: hidden;
-    width: 20px;
-    height: 20px;
-    top: 5px;
-    right: 5px
-}
-
-.s_noSales .arrow {
-    display: block;
-    width: 13px;
-    height: 10px;
-    background-position: -1px -397px;
+.orderTable .modfilyOrder .deleteOrder {
     position: absolute;
-    left: 36px;
-    top: -9px
-}
-
-.mod_payBox {
-    margin-bottom: 50px
-}
-
-.mod_payBox .mod_hd {
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 5px;
-    position: relative
-}
-
-.mod_payBox .speLine {
-    border-bottom: 2px solid #dedede
-}
-
-.mod_payBox h2 {
-    font-family: verdana, '微软雅黑', '宋体';
-    font-size: 24px;
-    font-weight: normal
-}
-
-.mod_payBoxBody {
-    width: 1050px;
-    padding: 30px 55px
-}
-
-.ui_editionType {
-    padding-top: 4px;
-    display: inline-block;
-    float: left
-}
-
-.ui_editionType em {
-    height: 17px;
-    overflow: hidden;
-    display: inline-block;
-    float: left;
-    background: url(/css/movie_wide/edition.png?v=45) no-repeat
-}
-
-.ui_editionType .ui_imax2d {
-    background-position: 6px 0;
-    width: 82px
-}
-
-.ui_editionType .ui_imax3d {
-    background-position: 6px -21px;
-    width: 82px
-}
-
-.ui_editionType .ui_3d {
-    background-position: 6px -43px;
-    width: 28px
-}
-
-.ui_editionType .ui_d3d {
-    background-position: 6px -64px;
-    width: 54px
-}
-
-.ui_editionType .ui_jm2d {
-    background-position: 6px -86px;
-    width: 53px
-}
-
-.ui_editionType .ui_jm3d {
-    background-position: 6px -108px;
-    width: 53px
-}
-
-.ui_editionType .ui_4d {
-    background-position: 6px -129px;
-    width: 28px
-}
-
-.ticketInfo {
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 2px #ddd;
-    height: 240px;
-    position: relative
-}
-
-.ticketInfo .ui_media {
-    width: 730px;
-    float: left
-}
-
-.ticketInfo .ui_media .ui_text {
-    padding: 20px;
-    height: 200px
-}
-
-.ticketInfo .bgLine {
-    position: absolute;
-    left: 740px;
-    overflow: hidden;
-    top: -1px;
-    background: url(/css/movie_wide/line_ticket.jpg) 0 0 no-repeat;
-    width: 9px;
-    height: 242px;
-    z-index: 5;
-    box-shadow: 0 1px 2px #fff
-}
-
-.ticketInfo .textInfo {
-    height: 200px;
-    position: relative
-}
-
-.ticketInfo .textInfo h2 {
-    font-size: 18px;
-    font-weight: normal;
-    height: 40px;
-    line-height: 40px
-}
-
-.ticketInfo .textInfo p, .reOrderInfo p {
-    margin-top: 5px
-}
-
-.reOrderInfo p {
-    color: #999
-}
-
-.ticketInfo .textInfo p.spe {
-    position: absolute;
-    left: 0;
-    bottom: 0
-}
-
-.reOrderInfo {
-    border-top: 1px dashed #ddd;
-    border-bottom: 1px dashed #ddd;
-    padding: 10px 5px 20px
-}
-
-.reOrderInfo h2 {
-    font-size: 24px;
-    font-weight: normal;
-    height: 40px;
-    line-height: 40px;
-    font-family: verdana, '微软雅黑', '宋体';
-    display: block
-}
-
-.reOrderInfo .spe {
-    margin-top: 15px
-}
-
-.reOrderInfo .spe b {
-    font-weight: normal;
-    color: #333;
-    font-family: verdana;
-    margin-right: 15px;
-    font-size: 18px
-}
-
-.ticketPhoneBox {
-    width: 320px;
-    float: right;
-    color: #999;
-    position: absolute;
-    height: 80px;
-    right: 40px;
-    top: 50%;
-    margin-top: -34px
-}
-
-.ticketPhoneBox label {
-    height: 40px;
-    display: block;
-    line-height: 40px
-}
-
-.pText {
-    border: 1px solid #b2b2b2;
-    border-radius: 5px;
-    padding: 2px 4px;
-    font-size: 22px;
-    font-weight: normal;
-    color: #333;
-    width: 170px;
-    font-family: verdana
-}
-
-.tabs_yhType {
-    position: absolute;
-    left: 260px;
+    right: 0;
     top: 0;
-    height: 52px;
-    line-height: 52px;
+    color: #ccc;
+    padding-left: 16px;
+    background-position: 0 -31px;
+    display: none
+}
+
+.table {
+    width: 100%;
+    border-left: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0
+}
+
+.table td, .table th {
+    padding: 8px 15px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e0e0e0;
+    vertical-align: top
+}
+
+.table thead tr th {
+    height: 38px;
+    font-weight: normal;
+    background: #fff;
+    text-align: center;
+    color: #333;
+    vertical-align: middle;
+    padding: 0 15px;
     overflow: hidden
 }
 
-.tabs_yhType li {
-    float: left;
-    font-size: 16px;
-    font-family: verdana, '微软雅黑', '宋体';
+.table td {
+    height: 22px;
+    border-bottom: 1px solid #ececec
+}
+
+.tablePic td {
+    padding: 15px
+}
+
+.order_wl .mod_bd {
+    padding: 20px 20px 0
+}
+
+.order_wl .mod_bd p {
+    line-height: 30px
+}
+
+.cancelStatus {
+    width: 500px;
+    margin: 50px auto
+}
+
+.cancelStatus dd p {
+    color: #999;
+    margin: 10px 0
+}
+
+.cancelStatus dd p span, .cancelStatus dd p span b {
+    font-size: 21px;
+    font-weight: normal;
+    font-family: verdana, '微软雅黑', '宋体'
+}
+
+.cancelStatus dd p span {
+    color: #333
+}
+
+.cancelStatus dd .ser_per em, .cancelStatus dd .ser_per span {
+    float: left
+}
+
+.cancelStatus dd .ser_per span {
+    font-size: 12px;
     cursor: pointer;
-    font-weight: bold;
-    width: 270px;
-    text-align: center;
-    height: 52px;
-    line-height: 52px;
-    background: url(/css/movie_wide/line_pay.gif) right 12px no-repeat
+    margin-left: 10px;
+    color: #eb6120;
+    padding: 3px 5px 3px 32px;
+    border: 1px solid #eb6120;
+    border-radius: 4px;
+    background: url(/css/home/serp.jpg) 5px 4px no-repeat
 }
 
-.tabs_yhType li span {
-    display: inline-block;
-    height: 40px;
-    margin: 5px 0;
-    line-height: 40px;
-    padding-left: 50px;
-    background: url(/css/movie_wide/ico_pay_nav.gif) no-repeat
+.topBorder .spe .moreOrder {
+    border-top: 1px solid #e3e3e3;
+    color: #333;
+    margin: 10px 0 0;
+    padding: 10px 0 0 125px
 }
 
-.tabs_yhType li span.activity {
-    background-position: 0 -400px
+.topBorder .spe a {
+    padding: 0 10px 0 0;
+    background: url(/css/home/mors.png) 0 0 no-repeat
 }
 
-.tabs_yhType li span.ticket {
-    background-position: 0 -235px
+.topBorder .spe a.off {
+    background-position: right 7px;
+    _background-position: right 5px
 }
 
-.tabs_yhType li span.point {
-    background-position: 0 -317px
+.topBorder .spe a.on {
+    background-position: right -16px;
+    _background-position: right -18px
 }
 
-.tabs_yhType li span.wabiPay {
-    background-position: 0 -481px
+.speTextInfo {
+    margin-top: 40px
 }
 
-.tabs_yhType li span.netPay {
-    background-position: 0 -574px
+.speTextInfo dl {
+    margin-bottom: 20px
 }
 
-.tabs_yhType li span.cardPay {
-    background-position: 0 -666px
+.speTextInfo dt {
+    font-size: 14px;
+    font-weight: bold
 }
 
-.tabs_yhType li span.maPay {
-    background-position: 0 -759px
+.speTextInfo dd {
+    padding-left: 2em;
+    line-height: 24px;
+    padding-top: 10px
 }
 
-.tabs_zfType li {
-    width: 200px
+.spe_media .ui_pic {
+    width: 100px;
+    text-align: right;
+    margin-right: 0
 }
 
-.tabs_zfType input {
-    position: absolute;
-    top: -100px;
-    left: 0
+.grayBgBox .spe_media {
+    line-height: 30px
 }
 
-.tabs_yhType li.select span.activity, .tabs_yhType li:hover span.activity
-    {
-    background-position: 0 -158px
+.grayBgBox .spe_media .ui_pic {
+    width: 80px
 }
 
-.tabs_yhType li.select span.ticket, .tabs_yhType li:hover span.ticket {
-    background-position: 0 7px
+.applyCancelOrder {
+    overflow: hidden
 }
 
-.tabs_yhType li.select span.point, .tabs_yhType li:hover span.point {
-    background-position: 0 -75px
+.applyCancelOrder .ui_left {
+    width: 650px;
+    background: #fff
 }
 
-.tabs_yhType li.select span.wabiPay, .tabs_yhType li:hover span.wabiPay
-    {
-    background-position: 0 -852px
+.applyCancelOrder .ui_right {
+    width: 290px;
+    margin-left: 30px;
+    padding: 0
 }
 
-.tabs_yhType li.select span.netPay, .tabs_yhType li:hover span.netPay {
-    background-position: 0 -945px
+.cancelLists li {
+    margin-bottom: 20px
 }
 
-.tabs_yhType li.select span.cardPay, .tabs_yhType li:hover span.cardPay
-    {
-    background-position: 0 -1037px
-}
-
-.tabs_yhType li.select span.maPay, .tabs_yhType li:hover span.maPay {
-    background-position: 0 -1130px
-}
-
-.tabs_yhType li em {
-    font-size: 13px;
-    font-weight: normal;
-    color: #999;
-    margin-left: 6px
-}
-
-.tabs_yhType li.select {
-    height: 50px;
-    border-bottom: 2px solid #ec6526
-}
-
-.tabs_yhType li.select span, .tabs_yhType li.select span em,
-    .tabs_yhType li:hover span, .tabs_yhType li:hover span em {
-    color: #ec6120
-}
-
-.tabs_yhType li.last {
-    background: 0
-}
-
-.fixNav {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    z-index: 100;
-    border-top: 1px solid #ddd;
-    background: #eee;
-    width: 100%;
-    _box-shadow: 0 -2px 2px #ddd
-}
-
-.fixNav .inner {
-    _width: 1200px;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 54px;
-    padding: 15px 0
-}
-
-.fixNav .remineTime {
-    width: 200px
-}
-
-.fixNav .remineTime b {
-    font-weight: normal
-}
-
-.fixNav .remineTime span, .fixNav .remineTime em {
-    display: block
-}
-
-.fixNav .remineTime span {
-    font-size: 24px;
-    font-weight: normal;
-    font-family: verdana, '微软雅黑', '宋体';
-    height: 34px;
-    line-height: 34px
-}
-
-.fixNav .remineTime em {
-    color: #999;
-    line-height: 20px
-}
-
-.fixNav .right span {
-    float: left;
-    height: 54px;
-    line-height: 54px;
-    margin-right: 20px;
-    line-height: 40px;
-    padding-top: 14px;
-    font-size: 14px
-}
-
-.fixNav .right span em {
+.cancelLists li em {
     color: #999
 }
 
-.fixNav .right span .ui_price {
-    font-size: 30px;
-    font-weight: normal
-}
-
-.reOrder {
-    background: url(/css/movie_wide/reOrder.png) 0 0 no-repeat;
-    width: 520px;
-    height: 534px;
-    position: relative
-}
-
-.reOrder .close {
-    position: absolute;
-    display: block;
-    width: 30px;
-    height: 30px;
-    right: 39px;
-    top: 42px;
-    cursor: pointer
-}
-
-.reOrder .inner {
-    width: 420px;
-    height: 420px;
-    padding: 87px 50px 27px
-}
-
-.reOrder .errorTitle {
-    text-align: center;
-    padding-bottom: 15px
-}
-
-.reOrder .errorTitle h2 {
-    display: block;
-    text-align: center;
-    font-size: 24px;
-    font-weight: normal;
-    height: 36px;
-    line-height: 36px;
-    color: #c30
-}
-
-.reOrder .errorTitle h3 {
-    display: block;
-    font-size: 14px;
-    font-weight: normal;
-    color: #666
-}
-
-.reOrder .priceInfo {
-    font-size: 18px;
+.cancelLists span {
+    display: inline-block;
+    width: 100px;
     text-align: right
 }
 
-.reOrder .priceInfo span {
-    color: #eb611e;
-    font-size: 40px;
-    vertical-align: -5px;
-    margin-left: 10px
-}
-
-.reOrder .priceInfo span em {
-    color: #eb611e;
-    font-size: 20px;
-    vertical-align: 12px;
-    margin-right: 5px
-}
-
-.reOrder .priceInfo .spe {
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 5px
-}
-
-.addNewPq {
-    height: 40px;
+.applyInvoiceLists {
+    font-size: 14px;
+    margin: 20px 0 0;
     line-height: 40px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 18px;
-    color: #ccc
+    min-height: 40px
 }
 
-.addNewPq.isHover {
-    border-color: #30ad03
+.applyInvoiceLists li {
+    margin-bottom: 15px
 }
 
-.addNewPq span, .addNewPq input {
+.applyInvoiceLists li span.txt {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 15px
+}
+
+.chooseWay {
+    margin-bottom: 15px
+}
+
+.chooseWay b {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 5px
+}
+
+.chooseWay p {
+    color: #999;
+    margin-top: 5px
+}
+
+.cancelReasonBox li {
+    width: 250px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     float: left
 }
 
-.addNewPq input {
+.cancelHelpBox {
+    border: 1px solid #dedede;
+    padding: 20px
+}
+
+.cancelHelpBox dl {
+    margin-top: 15px
+}
+
+.cancelHelpBox dt {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    background-position: 0 -74px
+}
+
+.cancelHelpBox dd {
+    line-height: 24px;
+    padding-left: 20px;
+    color: #999
+}
+
+.uiTag, .noAriimg, .hottopNo, .say_submit, .wlSearchLogo, .wlSearchBt,
+    .c .button img, .say_face .waTag img, .sureBt, .tab_menu li a,
+    .tab_menu li a span, .minTab .navs, .minTab .navs em, .minTab .select,
+    .minTab .select span, .menus, .menus a.select, .inIco, .search_Bt,
+    .dates, .moduleLogo .area span, .searchToolBt, .freeTag, .navigation a.select,
+    .navigation a:hover, .ratings li, .ui_big_ratings li, .initRating span,
+    .attentionBt, .blueBt, .videoMove, .evolve, .searchBt, .Wb,
+    .even_phone, .even_myAccount, .botton_count_on, .botton_count_off,
+    .film_review_text .uiPt {
+    display: inline-block;
     border: 0;
-    outline: 0;
-    background: 0;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    height: 40px;
-    line-height: 40px;
-    width: 500px;
-    margin: 0 30px;
-    font-family: Lucida Console, Microsoft YaHei, Tahoma, Trebuchet MS
+    text-decoration: none !important;
+    width: auto;
+    background: url(/css/home/main.png?v=100101);
+    _background: url(/css/home/main.gif?v=100101);
+    background-repeat: no-repeat;
+    vertical-align: middle
 }
 
-.paybox_even_box {
+.tab_menu {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
     position: relative;
-    width: 900px;
-    height: 52px
+    border-bottom: 1px solid #b7b7b7
 }
 
-.paybox_even_box .even_left, .paybox_even_box .even_right {
-    display: block;
-    width: 18px;
-    height: 40px;
+.tab_menu ul {
     position: absolute;
-    top: 6px
-}
-
-.paybox_even_box .even_left {
-    left: 0
-}
-
-.paybox_even_box .even_right {
-    right: 0
-}
-
-.paybox_even_box .even_left b, .paybox_even_box .even_right b {
-    display: block;
-    width: 18px;
-    height: 40px;
-    cursor: pointer;
-    background: url("/css/movie_wide/arror.png?v=1010") no-repeat;
-    _background: url("/css/movie_wide/arror_8.png?v=1010") no-repeat;
+    width: 94%;
+    left: 0;
+    bottom: -2px;
+    *bottom: -1px;
+    heiht: 28px;
     overflow: hidden
 }
 
-.paybox_even_box .even_right b {
-    background-position: -30px 0
+.tab_menu li {
+    float: left;
+    width: auto;
+    margin-right: 3px;
+    display: inline-block
 }
 
-.paybox_even_box .even_center {
-    width: 800px;
-    height: 52px;
+.tab_menu li a {
+    padding-left: 12px;
+    background-position: 0 -1215px
+}
+
+.tab_menu li a span {
+    padding-right: 12px;
+    background-position: right -1244px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer
+}
+
+.tab_menu li a.select, .tab_menu li a:hover {
+    background-position: 0 -1153px
+}
+
+.tab_menu li a.select span, .tab_menu li a:hover span {
+    background-position: right -1182px
+}
+
+.minTab, .minTab div {
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
     position: relative;
-    overflow: hidden;
-    margin: 0 auto
+    margin-top: 16px
 }
 
-.paybox_even_box .even_center ul {
+.minTab div {
+    margin-top: 0;
+    z-index: 2
+}
+
+.minTab a, .minTab span {
+    float: left;
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none !important;
+    cursor: pointer
+}
+
+.minTab .navs, .minTab .select {
+    height: 20px;
+    background-position: 0 -472px;
+    width: 50px;
     position: absolute;
-    left: 0;
+    padding-left: 10px;
+    opacity: .7;
     top: 0
 }
 
-.paybox_even_box .even_left .disable {
-    background-position: 0 -59px !important
+.minTab .select {
+    width: auto;
+    padding-left: 10px;
+    position: inherit
 }
 
-.paybox_even_box .even_right .disable {
-    background-position: -30px -59px !important
+.minTab .navs em, .minTab .select span {
+    background-position: right -492px;
+    height: 20px;
+    width: 50px;
+    float: left
+}
+
+.minTab .select span {
+    width: auto;
+    margin: 0;
+    padding-right: 10px;
+    color: #fff
+}
+
+.minTab .seleced {
+    color: #fff
+}
+
+.gewa_act ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd
+}
+
+.gewa_act ul li h2, .gewa_act ul li h2 a {
+    color: #c30;
+    font-size: 14px
+}
+
+.gewa_act ul li a {
+    color: #c30
+}
+
+.outside-box {
+    background: #eee;
+    margin: 10px -2px 0 2px
+}
+
+.outside-box .inside-box {
+    position: relative;
+    left: -2px;
+    top: -2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding-bottom: 20px;
+    height: 100%;
+    overflow: hidden
+}
+
+.outside-box .auto-outside-box {
+    width: 100%;
+    margin-top: 0
+}
+
+.outside-box .inside-box .auto-inside-box {
+    width: auto;
+    padding: 5px 10px
+}
+
+.ul-150 {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.ul-150 li, .ul-150 dl, .ul-cont {
+    padding: 12px 0 0 150px
+}
+
+.ul-150 .left_150, .ul-150 dt {
+    margin-left: -150px;
+    text-align: right;
+    width: 150px;
+    float: left;
+    _margin-left: -75px;
+    display: block
+}
+
+.interest {
+    width: 590px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    margin: 30px auto 0;
+    position: relative
+}
+
+.interest span {
+    font-size: 12px;
+    background-color: #fff;
+    color: #c03b0c;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 3px 4px 3px 0;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.interest span:hover {
+    background-color: #c03b0c;
+    color: #fff
+}
+
+.selections {
+    border: 1px solid #ccc;
+    padding: 0 3px 0 2px;
+    background: #fff;
+    text-indent: 0;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    margin: 10px 3px 0
+}
+
+.selections span {
+    background: url(/css/home/close.gif) right center no-repeat;
+    color: #999;
+    text-decoration: none;
+    padding: 0 20px 0 5px;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.apendInterest {
+    padding: 5px 20px;
+    background: #fff;
+    width: 550px;
+    margin: 0 auto
+}
+
+.favtag {
+    padding: 0 8px;
+    margin-right: 8px;
+    background: #fbece2;
+    color: #c03b0c;
+    display: inline-block
+}
+
+.clew {
+    padding: 5px 10px;
+    border: 1px solid #fae2b9;
+    background: #ffffe3
+}
+
+.partBg {
+    padding: 10px;
+    border: 1px solid #efefef;
+    background: #fbece2
+}
+
+.siteIsAllow, .siteIsAllow li {
+    padding: 0 16px
+}
+
+.siteIsAllow li {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    font-size: 14px
+}
+
+.siteIsAllow .more {
+    top: 8px
+}
+
+.ul-80 li, .dl-80 {
+    padding-left: 80px;
+    height: 100%;
+    clear: both;
+    margin-top: 8px;
+    color: gray
+}
+
+.ul-80Inner, .dl-80 dt {
+    width: 80px;
+    float: left;
+    text-align: right;
+    margin-left: -80px;
+    _margin-left: -40px
+}
+
+.tongbu-box1 {
+    width: 170px;
+    float: left
+}
+
+.orderSpeInfo {
+    margin-bottom: 10px
+}
+
+.orderSpeInfo span {
+    margin-right: 50px;
+    display: inline-block;
+    float: left
+}
+
+.orderSpeInfo span.last {
+    margin-right: 0
+}
+
+.tips_sendOrderPWD {
+    width: 600px;
+    height: 240px;
+    background: url(/css/home/bg_qpcode.jpg?=1246545) 0 0 no-repeat;
+    margin: 30px auto;
+    position: relative
+}
+
+.tips_sendOrderPWD .orderTicketCode {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    padding: 10px;
+    height: 120px;
+    width: 222px;
+    line-height: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: 32px;
+    top: 63px
+}
+
+.tips_sendOrderPWD .sendToPhone {
+    position: absolute;
+    left: 90px;
+    top: 220px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    color: #eb6120;
+    border: 1px solid #eb6120;
+    text-align: center;
+    padding: 0 20px
+}
+
+.tips_sendOrderPWD .sendToPhone:hover {
+    background-color: #eb6120;
+    color: #fff
+}
+
+.tips_sendOrderPWD .btn_iphone, .tips_sendOrderPWD .btn_android {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100px;
+    text-align: center
+}
+
+.tips_sendOrderPWD .btn_android {
+    top: 120px
+}
+
+.tips_sendOrderPWD .btn_iphone:hover, .tips_sendOrderPWD .btn_android:hover
+    {
+    background-color: #ccc;
+    color: #fff
+}
+
+.tips_ModifyText {
+    position: relative
+}
+
+.tips_ModifyText h2 {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    line-height: 44px;
+    color: #333;
+    font-weight: normal;
+    font-family: '微软雅黑', vertical;
+    padding-top: 15px
+}
+
+.tips_ModifyText .innerBox {
+    background: url(/css/home/bg_ticket.jpg) 0 0 no-repeat;
+    width: 523px;
+    height: 340px;
+    margin: 20px 40px;
+    position: relative
+}
+
+.tips_ModifyText .modifyBox {
+    position: absolute;
+    left: 70px;
+    top: 284px
+}
+
+.tips_ModifyText .modifyBox .iText {
+    width: 236px;
+    margin-left: 14px;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    border: 0;
+    box-shadow: none
+}
+
+.tips_ModifyText .modifyBox .search_button {
+    width: 30px;
+    height: 32px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    background-position: 5px -118px;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer
+}
+
+.tips_ModifyText .modifyBox .search_button:hover {
+    background-position: 5px -168px
+}
+
+.insure {
+    background: url(http://static5.gewara.com/css/movie_wide/insure.gif)
+        no-repeat 0 0;
+    background-position: 0 -40px;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    vertical-align: -2px;
+    cursor: pointer
 }
